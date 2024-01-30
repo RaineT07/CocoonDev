@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "What do you believe is the purpose of life?",
+            "answers": [
+                "Seeking happiness",
+                "Finding meaning",
+                "Making a difference",
+                "Embracing uncertainty"
+            ]
+        },
+        {
+            "question": "How do you typically handle adversity?",
+            "answers": [
+                "Seeking support from others",
+                "Reflecting and self-analyzing",
+                "Taking action immediately",
+                "Embracing the challenge with optimism"
+            ]
+        },
+        {
+            "question": "What motivates you the most?",
+            "answers": [
+                "Personal growth and development",
+                "Making loved ones proud",
+                "Achieving success and recognition",
+                "Contributing to a greater cause"
+            ]
+        },
+        {
+            "question": "How do you define success?",
+            "answers": [
+                "Wealth and material possessions",
+                "Inner peace and contentment",
+                "Accomplishing goals and ambitions",
+                "Making a positive impact on others"
+            ]
+        },
+        {
+            "question": "What role does spirituality play in your life?",
+            "answers": [
+                "Central and guiding",
+                "Minimal but present",
+                "Open to exploration",
+                "Not significant"
+            ]
+        },
+        {
+            "question": "How do you cope with failure?",
+            "answers": [
+                "Analyzing mistakes and learning from them",
+                "Seeking comfort from loved ones",
+                "Trying again with renewed determination",
+                "Accepting it as a natural part of life"
+            ]
+        },
+        {
+            "question": "What does love mean to you?",
+            "answers": [
+                "Unconditional acceptance and support",
+                "Emotional connection and intimacy",
+                "Sacrifice and compromise",
+                "A combination of friendship and passion"
+            ]
+        },
+        {
+            "question": "How do you find peace in times of turmoil?",
+            "answers": [
+                "Meditation and mindfulness practices",
+                "Seeking solace in nature",
+                "Engaging in creative outlets",
+                "Surrounding myself with loved ones"
+            ]
+        },
+        {
+            "question": "What gives your life meaning?",
+            "answers": [
+                "Personal relationships and connections",
+                "Pursuit of knowledge and wisdom",
+                "Serving others and making a difference",
+                "Exploring new experiences and adventures"
+            ]
+        },
+        {
+            "question": "How do you handle uncertainty about the future?",
+            "answers": [
+                "Planning and preparation",
+                "Embracing the unknown with optimism",
+                "Seeking advice from mentors or trusted individuals",
+                "Taking each day as it comes, living in the moment"
+            ]
+        }
+    ]
+}

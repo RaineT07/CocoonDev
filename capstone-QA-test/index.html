@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type='module' src="qa.js"></script>
+    <title>Capstone QA</title>
+
+
+    <style>
+        .container {
+            position: relative;
+            width: 800px;
+            height: 500px;
+        }
+
+        .myCanvas {
+            position: relative;
+            border: 1px solid #404040;
+            width: 100%;
+            height: 100%;
+        }
+
+        .overlay {
+            background-color: transparent;
+            position: absolute;
+            z-index: 10;
+            pointer-events: none;
+            width: 25px;
+            font-size: 18px;
+        }
+
+        .answer1 {
+            left: 10px;
+            top: 10px;
+        }
+
+        .answer2 {
+            right: 50px;
+            top: 10px;
+        }
+
+        .answer3 {
+            left: 10px;
+            bottom: 10px;
+        }
+
+        .answer4 {
+            right: 50px;
+            bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="siteTitle">Capstone QA</h1>
+    </header>
+    <main>
+        <div id="question">
+            <p id="question-text">What is this?</p>
+        </div>
+
+        <div class="container" style="position: relative">
+
+            <canvas class="myCanvas">Canvas is not supported</canvas>
+
+            <div class="overlay answer1">
+                <div>top left</div>
+            </div>
+
+            <div class="overlay answer2">
+                <div>top right</div>
+            </div>
+
+            <div class="overlay answer3">
+                <div>bottom left</div>
+            </div>
+
+            <div class="overlay answer4">
+                bottom right
+            </div>
+        </div>
+
+        <div id="progress">
+            <button id="next-button">next question</button>
+        </div>
+    </main>
+    <footer></footer>
+
+
+</body>
+
+</html>
