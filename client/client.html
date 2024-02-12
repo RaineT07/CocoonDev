@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Our simple HTTP server</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  
+  <script>
+
+    const handleResponse = (response) =>{
+
+
+      response.text().then((responseText) =>{
+        let content = document.querySelector('#content');
+        // console.log(response);
+
+        let contentType = response.headers.get('Content-Type');
+
+        
+        switch(response.status){
+          case 200:
+            content.innerHTML = `<b>Success</b>`
+            break;
+          case 400: 
+            content.innerHTML = `<b>Bad Request</b>`;
+            break;
+          case 401: 
+            content.innerHTML = `<b>Unauthorized</b>`;
+            break;
+          case 403: 
+            content.innerHTML = `<b>Forbidden</b>`;
+            break;  
+          case 500:
+            content.innerHTML = `<b>Internal Server Error</b>`;
+            break;
+          case 501: 
+            content.innerHTML = `<b>Not Implemented</b>`;
+            break;
+          default:
+            content.innerHTML = `<b>Resource Not Found<b>`;
+            break;
+        }
+        let htmlMessage = document.createElement('p');
+        content.appendChild(htmlMessage);
+        let parsedResponse = '';
+        if(contentType == 'application/json'){
+          parsedResponse = JSON.parse(responseText);
+          console.log(parsedResponse);
+          parsedResponse = parsedResponse.message;
+        }else if(contentType=='text/xml'){
+          console.log(responseText);
+          parsedResponse = new window.DOMParser().parseFromString(responseText, 'text/xml');
+          let parsedMessage = parsedResponse.querySelector('message');
+          // console.log(parsedResponse);
+          parsedResponse = parsedMessage.innerHTML;
+        }
+        htmlMessage.innerHTML = `Message: ${parsedResponse}`;
+      });
+    };
+
+
+    const sendFetchRequest = async () =>{
+      let url = document.querySelector('#page').value;
+      let type = document.querySelector('#type').value;
+      console.log(type);
+      let options = {
+        method:'GET',
+        headers: {'Accept':type}
+      }
+      
+      const fetchPromise = fetch(url, options);
+
+      fetchPromise.then((response) =>{ handleResponse(response)});
+    };
+
+    const init = () =>{
+      let submitButton = document.querySelector('#send');
+      let dataTypeSelector = document.querySelector('#type');
+      let pageSelector = document.querySelector('#page');
+
+      let url = ''
+      let contentType = 'application/json';
+
+      submitButton.onclick = (e) =>{
+        e.preventDefault();
+        sendFetchRequest();
+        return false;
+      }
+    };
+
+    window.onload = init;
+  </script>
+</head>
+<body>
+  <section id="top">
+    <h3>Status Code Tests</h3>
+    <select id="page">
+      <option value="/success">Success</option>
+      <option value="/badRequest">Bad Request</option>
+      <option value="/unauthorized">Unauthorized</option>
+      <option value="/forbidden">Forbidden</option>
+      <option value="/internal">Internal</option>
+      <option value="/notImplemented">Not Implemented</option>
+      <option value="/notFound">Not Found</option>
+    </select>
+    <select id="type">
+      <option value="application/json">JSON</option>
+      <option value="text/xml">XML</option>
+    </select>
+    <button id="send">Send</button>
+  </section>
+  <section id="content">
+  </section>
+</body>
+</html>

@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#top {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#top h1 {
+  font-size: 2em;
+}
+
+#content {
+  margin-top: 100px;
+  font-size: 2em;
+  text-align: center;
+}
