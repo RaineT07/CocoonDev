@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Our simple HTTP server</title>
   <link rel="stylesheet" type="text/css" href="/style.css">
-  
-  <script>
-
-    const handleResponse = (response) =>{
+  <script src="/socket.io/socket.io.js"></script>
 
 
-      response.text().then((responseText) =>{
+  <script type="module">
+
+    const handleResponse = (response) => {
+
+
+      response.text().then((responseText) => {
         let content = document.querySelector('#content');
         // console.log(response);
 
         let contentType = response.headers.get('Content-Type');
 
-        
-        switch(response.status){
+
+        switch (response.status) {
           case 200:
             content.innerHTML = `<b>Success</b>`
             break;
-          case 400: 
+          case 400:
             content.innerHTML = `<b>Bad Request</b>`;
             break;
-          case 401: 
+          case 401:
             content.innerHTML = `<b>Unauthorized</b>`;
             break;
-          case 403: 
+          case 403:
             content.innerHTML = `<b>Forbidden</b>`;
-            break;  
+            break;
           case 500:
             content.innerHTML = `<b>Internal Server Error</b>`;
             break;
-          case 501: 
+          case 501:
             content.innerHTML = `<b>Not Implemented</b>`;
             break;
           default:
@@ -42,11 +45,11 @@
         let htmlMessage = document.createElement('p');
         content.appendChild(htmlMessage);
         let parsedResponse = '';
-        if(contentType == 'application/json'){
+        if (contentType == 'application/json') {
           parsedResponse = JSON.parse(responseText);
           console.log(parsedResponse);
           parsedResponse = parsedResponse.message;
-        }else if(contentType=='text/xml'){
+        } else if (contentType == 'text/xml') {
           console.log(responseText);
           parsedResponse = new window.DOMParser().parseFromString(responseText, 'text/xml');
           let parsedMessage = parsedResponse.querySelector('message');
@@ -58,21 +61,21 @@
     };
 
 
-    const sendFetchRequest = async () =>{
+    const sendFetchRequest = async () => {
       let url = document.querySelector('#page').value;
       let type = document.querySelector('#type').value;
       console.log(type);
       let options = {
-        method:'GET',
-        headers: {'Accept':type}
+        method: 'GET',
+        headers: { 'Accept': type }
       }
-      
+
       const fetchPromise = fetch(url, options);
 
-      fetchPromise.then((response) =>{ handleResponse(response)});
+      fetchPromise.then((response) => { handleResponse(response) });
     };
 
-    const init = () =>{
+    const init = () => {
       let submitButton = document.querySelector('#send');
       let dataTypeSelector = document.querySelector('#type');
       let pageSelector = document.querySelector('#page');
@@ -80,16 +83,24 @@
       let url = ''
       let contentType = 'application/json';
 
-      submitButton.onclick = (e) =>{
+      submitButton.onclick = (e) => {
         e.preventDefault();
         sendFetchRequest();
         return false;
       }
+
+      // Arduino Code:
+      let socket = io();
+      socket.on('data', function (data) {
+        console.log(data);
+        document.getElementById('sample').innerHTML = data;
+      });
     };
 
     window.onload = init;
   </script>
 </head>
+
 <body>
   <section id="top">
     <h3>Status Code Tests</h3>
@@ -110,5 +121,10 @@
   </section>
   <section id="content">
   </section>
+  <div>
+    <h1>Connecting an Arduino to this web page</h1>
+    <div id="sample"></div>
+  </div>
 </body>
+
 </html>
