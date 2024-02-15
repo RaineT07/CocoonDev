@@ -8,7 +8,7 @@ const parser = new ReadlineParser({
 });
 
 const port = new SerialPort({
-    path: '/dev/cu.usbmodem101',
+    path: '/dev/cu.usbmodem1101',
     baudRate: 9600,
     dataBits: 8,
     parity: 'none',
