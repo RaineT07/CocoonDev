@@ -28,7 +28,7 @@ mongoose.connect(dbURI).catch((err)=>{
   }
 });
 
-//get an express nvc server object
+//get an express mvc server object
 const app = express();
 
 //app.use tells texpress to use options, which says to use /assets in a url path as a static mirror to our client folder
@@ -36,7 +36,7 @@ const app = express();
 app.use('/assets', express.static(path.resolve(`${__dirname}/../client/`)));
 
 //use compression and tell app how to use it
-app.use(conpression());
+app.use(compression());
 
 //parse form post requests as application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({extended: false}));
@@ -58,78 +58,45 @@ app.set('view engine', 'handlebars');
 app.set('views', `${__dirname}/../views`);
 
 //get favicon
-app.use(favicon`${__dirname}/../client/img/favicon.png`);
+app.use(favicon(`${__dirname}/../client/img/favicon.png`));
 
 //pass the app to the router to map the routes
 router(app);
 
 
 
-// const urlStruct = {
-  // '/': htmlHandler.getIndex,
-  // '/style.css': htmlHandler.getCSS,
-  // '/success': responseHandler.getSuccess,
-  // '/badRequest': responseHandler.getBadRequest,
-  // '/unauthorized': responseHandler.getUnauthorized,
-  // '/forbidden': responseHandler.getForbidden,
-  // '/internal': responseHandler.getInternal,
-  // '/notImplemented': responseHandler.getNotImplemented,
-  // notFound: responseHandler.getNotFound,
-// };
-// 
-// const onRequest = (request, response) => {
-  // const parsedUrl = url.parse(request.url);
-// 
-  // const acceptedTypes = request.headers.accept.split(',');
-// 
-  // const handler = urlStruct[parsedUrl.pathname];
-  // if (handler) {
-    // if (handler === responseHandler.getUnauthorized || handler === responseHandler.getBadRequest) {
-      // handler(request, response, acceptedTypes, parsedUrl.query);
-    // } else {
-      // handler(request, response, acceptedTypes);
-    // }
-  // } else {
-    // urlStruct.notFound(request, response, acceptedTypes);
-  // }
-// };
-// 
-// http.createServer(onRequest).listen(port, () => {
-  // console.log(`Listening on 127.0.0.1:${port}`);
-// });
-
 
 // Arduino Code:
 // const httpServer = http.createServer(onRequest); // create server
-const io = require("socket.io")(app); // connect socket.io to server
-
-const { SerialPort } = require('serialport');
-const { ReadlineParser } = require('@serialport/parser-readline');
-
-const parser = new ReadlineParser({
-  delimiter: '\r\n'
-});
-
-const arduinoPort = new SerialPort({
-  path: '/dev/cu.usbmodem101',
-  baudRate: 9600,
-  dataBits: 8,
-  parity: 'none',
-  stopBits: 1,
-  flowControl: false
-});
-
-arduinoPort.pipe(parser); // parse data from arduino
-
-io.on('connection', function (data) { // when a client connects
-  console.log("Node.js is listening");
-});
-
-parser.on('data', function (data) { // when data is received from arduino
-  console.log('Data:', data);
-
-  io.emit('data', data);
-});
+// const io = require("socket.io")(app); // connect socket.io to server
+// 
+// const { SerialPort } = require('serialport');
+// const { ReadlineParser } = require('@serialport/parser-readline');
+// 
+// const parser = new ReadlineParser({
+  // delimiter: '\r\n'
+// });
+// 
+// const arduinoPort = new SerialPort({
+  // path: '/dev/cu.usbmodem101',
+  // baudRate: 9600,
+  // dataBits: 8,
+  // parity: 'none',
+  // stopBits: 1,
+  // flowControl: false
+// });
+// 
+// arduinoPort.pipe(parser); // parse data from arduino
+// 
+// io.on('connection', function (data) { // when a client connects
+  // console.log("Node.js is listening");
+// });
+// 
+// parser.on('data', function (data) { // when data is received from arduino
+  // console.log('Data:', data);
+// 
+  // io.emit('data', data);
+// });
 
 app.listen(port, (err) => { // start server
   if(err) throw err;

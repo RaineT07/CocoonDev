@@ -1,0 +1,35 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <h2>Welcome to page 2</h2>
+
+        <a href="/">Home</a>
+        <a href="/page1">Page 1</a>
+        <a href="/page3">Page 3</a>
+
+        <form action="/setPhoto" method="POST">
+            <label for="photoId">Set the photo id: </label>
+            <input type="text" id="photoId" name="photoId">
+            <label for="last">Set the last: </label>
+            <input type="text" id="last" name="last">
+            <input type="submit" value="Submit">
+        </form>
+
+        <br/>
+
+        <form action="/updateLast" method="POST">
+            <input type="submit" value="Update Last Photo">
+        </form>
+
+        <br/>
+
+        <form action="/getById" method="GET">
+            <label for="id">Get photo by id: </label>
+            <input type="text" id="id" name="id">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+{{!-- basic handlebar page --}}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <h2>welcome to page1!</h2>
+
+
+        <a href="/">Home</a>
+        <a href="/page2">Page 2</a>
+        <a href="/page3">Page 3</a>
+        <a href="/getName">Show id</a>
+
+        {{#if cats}}
+        <ul>
+            {{#each cats}}
+            <li>{{this.id}} has {{this.last}} photos</li>
+            {{/each}}
+        </ul>
+        {{/if}}
+    </body>
+</html>
+    

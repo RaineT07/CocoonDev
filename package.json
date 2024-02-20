@@ -3,32 +3,28 @@
     "version": "0.0.0",
     "description": "A simple API mockup",
     "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/app.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\"",
+        "nodemon": "nodemon --watch ./src ./src/app.js",
+        "arduino": "node ./src/arduino_app.js"
+    },
     "devDependencies": {
         "eslint": "^8.56.0",
         "eslint-config-airbnb": "^19.0.4",
-        "eslint-plugin-import": "^2.29.1"
-    },
-    "scripts": {
-        "start": "node ./src/server.js",
-        "pretest": "eslint ./src --fix",
-        "test": "echo \"Tests complete\"",
-        "arduino": "node ./src/app.js"
-    },
-    "devDependencies":{
-        "eslint":"^8.56.0",
-        "eslint-config-airbnb":"^19.0.4",
         "eslint-plugin-import": "^2.29.1",
-        "nodemon":"^3.0.3"
-
+        "nodemon": "^3.0.3"
     },
     "dependencies": {
-        "body-parser": "^2.20.2",
-        "compression":"^1.7.4",
-        "express":"^4.18.2",
-        "express-handlebars":"^7.1.2",
-        "mongoose":"^8.1.2",
-        "serve-favicon": "2.5.0",
+        "body-parser": "^1.20.2",
+        "compression": "^1.7.4",
+        "express": "^4.18.2",
+        "express-handlebars": "^7.1.2",
+        "mongodb": "^6.3.0",
+        "mongoose": "^8.1.2",
         "serialport": "^12.0.0",
+        "serve-favicon": "2.5.0",
         "socket.io": "^4.7.4"
     }
 }

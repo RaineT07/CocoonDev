@@ -1,0 +1,16 @@
+{{!-- very basic html landing page that shows the latest photo and has links to the 3 pages --}}
+{{!-- any  variables in the double curly braces are passed into the handlebars, through res.render --}}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h2>welcome to the {{pageName}}</h2>
+
+    <p>The latest photo is {{id}}</p>
+    <a href="/page1">Page 1</a>
+    <a href="/page2">Page 2</a>
+    <a href="/page3">Page 3</a>
+</body>
+</html>
