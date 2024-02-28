@@ -5,8 +5,9 @@ using UnityEngine;
 public class MyListener : MonoBehaviour
 {
     public GameObject CameraModifier;
-    float oldData;
+    float oldData = 0;
     float newData;
+    bool cameraForward = false;
 
     // Use this for initialization
     void Start()
@@ -20,12 +21,29 @@ public class MyListener : MonoBehaviour
     // Invoked when a line of data is received from the serial device.
     void OnMessageArrived(string msg)
     {
-        Debug.Log("Arduino Data: " + msg);
+        //Debug.Log("Arduino Data: " + msg);
         newData = float.Parse(msg);
-        //oldData = newData;
-        float changeHeight = 50 - newData;
+        float cameraPos = 0;
 
-        CameraModifier.transform.position += new Vector3(0,0,Time.deltaTime * changeHeight);
+
+        if (newData != oldData && (Mathf.Abs(oldData - newData) > 3))
+        {
+            //Debug.Log("upadated Old " + oldData);
+            cameraForward = oldData > newData;
+            //changeHeight = oldData - newData;
+            oldData = newData;
+            cameraPos = Mathf.Abs(50 - newData);
+            if (!cameraForward)
+            {
+                cameraPos = (cameraPos * -1.00f);
+            }
+
+
+        }
+
+        //Debug.Log("cameraForward " + cameraForward);
+        Debug.Log("cameraPos " + cameraPos);
+        CameraModifier.transform.position += new Vector3(0, 0, cameraPos * 0.5f);
 
 
 
