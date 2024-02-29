@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32509 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 24508 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+E:\unity\2022.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/Profiles/srt1849/CocoonDev/Cocoon
+F:/sneaky school bs/capstone/CocoonDevUnity/CocoonDev/Cocoon
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60735
-Successfully changed project path to: D:/Profiles/srt1849/CocoonDev/Cocoon
-D:/Profiles/srt1849/CocoonDev/Cocoon
+61232
+Successfully changed project path to: F:/sneaky school bs/capstone/CocoonDevUnity/CocoonDev/Cocoon
+F:/sneaky school bs/capstone/CocoonDevUnity/CocoonDev/Cocoon
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,72 +49,64 @@ D:/Profiles/srt1849/CocoonDev/Cocoon
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13616] Host "[IP] 129.21.197.9 [Port] 0 [Flags] 2 [Guid] 3115337845 [EditorId] 3115337845 [Version] 1048832 [Id] WindowsEditor(7,MSS2175-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13876] Host "[IP] 192.168.50.190 [Port] 0 [Flags] 2 [Guid] 1109890890 [EditorId] 1109890890 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-64GPO2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13616] Host "[IP] 129.21.197.9 [Port] 0 [Flags] 2 [Guid] 3115337845 [EditorId] 3115337845 [Version] 1048832 [Id] WindowsEditor(7,MSS2175-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13876] Host "[IP] 192.168.50.190 [Port] 0 [Flags] 2 [Guid] 1109890890 [EditorId] 1109890890 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-64GPO2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 9.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Profiles/srt1849/CocoonDev/Cocoon/Assets
+[Subsystems] Discovering subsystems at path E:/unity/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/sneaky school bs/capstone/CocoonDevUnity/CocoonDev/Cocoon/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
-    Vendor:   NVIDIA
-    VRAM:     12129 MB
-    Driver:   31.0.15.3640
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4039 MB
+    Driver:   31.0.21905.1001
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Mono path[0] = 'E:/unity/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007755 seconds.
-- Loaded All Assemblies, in  0.310 seconds
+Register platform support module: E:/unity/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011545 seconds.
+- Loaded All Assemblies, in  0.413 seconds
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.318 seconds
-Domain Reload Profiling: 627ms
-	BeginReloadAssembly (75ms)
+- Finished resetting the current domain, in  0.399 seconds
+Domain Reload Profiling: 812ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (137ms)
-		LoadAssemblies (74ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (102ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (121ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (147ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (318ms)
+	FinalizeReload (400ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (263ms)
+		SetupLoadedEditorAssemblies (323ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (107ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,654 +114,141 @@ Domain Reload Profiling: 627ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Profiles\srt1849\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Profiles\srt1849\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.699 seconds
-Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.254 seconds
+Refreshing native plugins compatible for Editor in 6.78 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.639 seconds
-Domain Reload Profiling: 1336ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.810 seconds
+Domain Reload Profiling: 2057ms
+	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (521ms)
-		LoadAssemblies (251ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (309ms)
-			TypeCache.Refresh (282ms)
-				TypeCache.ScanAssembly (268ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (640ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (501ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (262ms)
-			ProcessInitializeOnLoadMethodAttributes (134ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Failed to load shader (instanceID 25104, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 25106, GUID 493b79ea9c9be44ed8b702014d3ac49c)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (72.2 KB). Loaded Objects now: 1635.
-Memory consumption went from 94.9 MB to 94.9 MB.
-Total: 4.137900 ms (FindLiveObjects: 0.072100 ms CreateObjectMapping: 0.017200 ms MarkObjects: 3.962800 ms  DeleteObjects: 0.085000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 8880.968427 seconds.
-  path: Assets/Sprites/ground/Oasis_v4_Foreground.png
-  artifactKey: Guid(4fc18b7d58450be419b3f67dac2976c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/ground/Oasis_v4_Foreground.png using Guid(4fc18b7d58450be419b3f67dac2976c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad13feca3f000c209bb91d19f3aa41d') in 0.072341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 818.960792 seconds.
-  path: Assets/Animations/burning_loop_4_0.controller
-  artifactKey: Guid(d033e624e0de9014dbd269f6e9e7ad9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animations/burning_loop_4_0.controller using Guid(d033e624e0de9014dbd269f6e9e7ad9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1a3cdc2b4fde053ce454840e8ae552be') in 0.090401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/ground/Materials/Oasis_v4_Middleground.mat
-  artifactKey: Guid(3ff63afe35970054a99297bffe9bec08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/ground/Materials/Oasis_v4_Middleground.mat using Guid(3ff63afe35970054a99297bffe9bec08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e8374b638e0f6e59e6bc6654d56e8e8a') in 0.021925 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/purple/start/burning_start_4.png
-  artifactKey: Guid(86c13ff913191834487c81beb4c0b237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/purple/start/burning_start_4.png using Guid(86c13ff913191834487c81beb4c0b237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dd6c380eb6700fb7e437487fbb3411bd') in 0.047048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/white/end/burning_end_5.png
-  artifactKey: Guid(bd5fdfcf0841b094ab04f91c5d268685) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/white/end/burning_end_5.png using Guid(bd5fdfcf0841b094ab04f91c5d268685) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4c8a94b7994f4da1e560601b03bfbfb8') in 0.017724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/white/start/burning_start_1.png
-  artifactKey: Guid(72cde31726c040841b7adc49fcef9cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/white/start/burning_start_1.png using Guid(72cde31726c040841b7adc49fcef9cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3a2a6f1efe69364484ee16f656720df6') in 0.017054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/green/start/burning_start_2.png
-  artifactKey: Guid(ce91f7aea9ef17747add63cc4e433e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/green/start/burning_start_2.png using Guid(ce91f7aea9ef17747add63cc4e433e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f2cdc9e2e1e26db74291fddf282ac7bc') in 0.017721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/green/start/burning_start_3.png
-  artifactKey: Guid(2c36c9f36e953d74a96554c10baad858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/green/start/burning_start_3.png using Guid(2c36c9f36e953d74a96554c10baad858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '332496cbb69d43d0e78795bc813e2b8b') in 0.018230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_1.png
-  artifactKey: Guid(e67d060575cb9e246bbcb1ee39c3563e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_1.png using Guid(e67d060575cb9e246bbcb1ee39c3563e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '52e074afeb5c7dbd1e0446f4290c43ae') in 0.017438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/ground/Oasis_v4_Middleground.png
-  artifactKey: Guid(25094ee9ac7a91943926a9caa880cea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/ground/Oasis_v4_Middleground.png using Guid(25094ee9ac7a91943926a9caa880cea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b9dbbd31f78791797e67a022b2935402') in 0.018631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/loops/burning_loop_4.png
-  artifactKey: Guid(8e38aad0d7254fb479d5e1857d107392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/loops/burning_loop_4.png using Guid(8e38aad0d7254fb479d5e1857d107392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '893e0bd3242e237be312066e85fe702e') in 0.019672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/green/loops/burning_loop_3.png
-  artifactKey: Guid(d0448880f7433c7418f1b813d4155577) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/green/loops/burning_loop_3.png using Guid(d0448880f7433c7418f1b813d4155577) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '539d8498c4de877a92b3baa2148f815c') in 0.017451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/orange/end/burning_end_1.png
-  artifactKey: Guid(3feb718ff95a9ef438038b2ff7d3dbd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/orange/end/burning_end_1.png using Guid(3feb718ff95a9ef438038b2ff7d3dbd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7fd2f7fb2fc7664c3c16fdbe85421fa4') in 0.017913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_5.png
-  artifactKey: Guid(9b2776b8c13a4134da225af482f0b9e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_5.png using Guid(9b2776b8c13a4134da225af482f0b9e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9646f24157954d661c83c5f1e03a8a9f') in 0.018712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/white/start/burning_start_5.png
-  artifactKey: Guid(93261f3bf3cd1f94fbcc65410c590f20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/white/start/burning_start_5.png using Guid(93261f3bf3cd1f94fbcc65410c590f20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '743638f85b04e65b2f09cde041063908') in 0.018604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/purple/start/burning_start_5.png
-  artifactKey: Guid(f287540817eb8814e9c90862802682af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/purple/start/burning_start_5.png using Guid(f287540817eb8814e9c90862802682af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a68c24e1e601c4d0a237b4f7c6ece4e5') in 0.018909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_3.png
-  artifactKey: Guid(d52b745fe9c55e04d97a306bd899b897) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_3.png using Guid(d52b745fe9c55e04d97a306bd899b897) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a1c27437f6dd775b1c0e272f9f844115') in 0.017596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_2.png
-  artifactKey: Guid(7588409d10142ec47975d29cd033e107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_2.png using Guid(7588409d10142ec47975d29cd033e107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3d77c328f6c7e75d187c6bb81db04cb8') in 0.018729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/green/end/burning_end_4.png
-  artifactKey: Guid(35dea5452c5c9114ab31ac01290e9806) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/green/end/burning_end_4.png using Guid(35dea5452c5c9114ab31ac01290e9806) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '67a49ced983f3ebe549709a140480bee') in 0.017461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_2.png
-  artifactKey: Guid(b613875cc77a3b046ae2a5755406a8ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_2.png using Guid(b613875cc77a3b046ae2a5755406a8ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e749f36ca7b24a9efc2a1836749b7945') in 0.018328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Scenes/SpriteSheets.unity
-  artifactKey: Guid(16dc995fd9078804a8a30a2bfe5936e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SpriteSheets.unity using Guid(16dc995fd9078804a8a30a2bfe5936e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b3c3f57f54855a3b77f101ad6c41e768') in 0.007663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/green/start/burning_start_1.png
-  artifactKey: Guid(8f96998c6441b8d4a996041bec0d1137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/green/start/burning_start_1.png using Guid(8f96998c6441b8d4a996041bec0d1137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '757895e789bbf9a3716b1beb66fea6ab') in 0.018986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/green/start/burning_start_5.png
-  artifactKey: Guid(d07b49e9035325a48b915a1002513c7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/green/start/burning_start_5.png using Guid(d07b49e9035325a48b915a1002513c7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '79f2404c6c4d045cb999d6f983424aa1') in 0.021660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/loops/burning_loop_3.png
-  artifactKey: Guid(a357fa1543efd9c4790d0e1ba0d2e3f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/loops/burning_loop_3.png using Guid(a357fa1543efd9c4790d0e1ba0d2e3f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0d3ea02b59845afb80c611b3e49094c6') in 0.018301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/green/start/burning_start_4.png
-  artifactKey: Guid(3b8626e26f08c434c96aaad38bb982aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/green/start/burning_start_4.png using Guid(3b8626e26f08c434c96aaad38bb982aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8372468c942dfb57718587a9583e2ce0') in 0.017681 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/green/loops/burning_loop_5.png
-  artifactKey: Guid(4773d7cc18926a94bb6fa283a111c7bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/green/loops/burning_loop_5.png using Guid(4773d7cc18926a94bb6fa283a111c7bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '522c369db4b9f025229c3d3f18187088') in 0.018650 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/white/loops/burning_loop_3.png
-  artifactKey: Guid(dc8468f5cce62344abdd9b61bc65c018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/white/loops/burning_loop_3.png using Guid(dc8468f5cce62344abdd9b61bc65c018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7fea8d6e2ed95f3cc84f93bd24ce5087') in 0.018082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/orange/start/burning_start_3.png
-  artifactKey: Guid(8af089fd950cd8e448da3eee83c38fdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/orange/start/burning_start_3.png using Guid(8af089fd950cd8e448da3eee83c38fdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '68c83df9efd402ba5d6ea9d826b73c4a') in 0.017589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/white/end/burning_end_3.png
-  artifactKey: Guid(1f705ca33a6f99e47910a0ffecaa26ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/white/end/burning_end_3.png using Guid(1f705ca33a6f99e47910a0ffecaa26ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '259adb631739c23fd7a26b070cc062a6') in 0.017733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Animations/fireTest.anim
-  artifactKey: Guid(dcaaf30acac49db4795ed3bcf4d2a5c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animations/fireTest.anim using Guid(dcaaf30acac49db4795ed3bcf4d2a5c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1dc57c328e28d1a0a82f53e330973bac') in 0.011932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_3.png
-  artifactKey: Guid(198f1cfab904c01489f26c75ab1c299d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_3.png using Guid(198f1cfab904c01489f26c75ab1c299d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fef6d8091d819522daa39a2396a46fd6') in 0.019010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/orange/end/burning_end_2.png
-  artifactKey: Guid(143876c1811b4684684f6d1c51c7a14d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/orange/end/burning_end_2.png using Guid(143876c1811b4684684f6d1c51c7a14d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '347b060c9beccf06645084d49995d458') in 0.018315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/orange/loops/burning_loop_2.png
-  artifactKey: Guid(4c09d36b36bfc564ab299baedc29bebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/orange/loops/burning_loop_2.png using Guid(4c09d36b36bfc564ab299baedc29bebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9e9616edd7c3fe855f8cfd4d78e4e6dd') in 0.017108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/purple/end/burning_end_2.png
-  artifactKey: Guid(267fd1b2d0bfaca47b5af8d670643662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/purple/end/burning_end_2.png using Guid(267fd1b2d0bfaca47b5af8d670643662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '351c32b1eb6c6f1bc92700fdc5625e1f') in 0.018716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_1.png
-  artifactKey: Guid(cbb5cf3350101f44f873b9f9bd513716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_1.png using Guid(cbb5cf3350101f44f873b9f9bd513716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '19db61cf97d8d0932ac607a983269cbf') in 0.018672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/orange/loops/burning_loop_5.png
-  artifactKey: Guid(162f673e287ee5b49ba694230f48b9e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/orange/loops/burning_loop_5.png using Guid(162f673e287ee5b49ba694230f48b9e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '15f1df11fc3a1d0da6e4943b83aeb015') in 0.020751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/orange/end/burning_end_4.png
-  artifactKey: Guid(d8fdcc257541dc641a22b31d30cbf8dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/orange/end/burning_end_4.png using Guid(d8fdcc257541dc641a22b31d30cbf8dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0b812eb936683ad756823bbca131cf3a') in 0.018228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/ground/Oasis_v4_Foreground.svg
-  artifactKey: Guid(8eb458ae61739f64c97a5f2c776ac555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/ground/Oasis_v4_Foreground.svg using Guid(8eb458ae61739f64c97a5f2c776ac555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8e6a8784e995fc7874788b95d4a6f2e9') in 0.008406 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/purple/end/burning_end_5.png
-  artifactKey: Guid(25d85ec552bb5f848a4a171a9815b835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/purple/end/burning_end_5.png using Guid(25d85ec552bb5f848a4a171a9815b835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0b972dbc26dc750937c24a8f3367368d') in 0.017922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/loops/burning_loop_2.png
-  artifactKey: Guid(04a947d53cad8214ca4faaa3e46807f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/loops/burning_loop_2.png using Guid(04a947d53cad8214ca4faaa3e46807f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '063926648dbf8abc426eb4b5d95c26f4') in 0.018211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_4.png
-  artifactKey: Guid(55521eaf2e518c94e97c98ea3d03d0da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_4.png using Guid(55521eaf2e518c94e97c98ea3d03d0da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1dc27ecf7da46e3da0b396bb73977318') in 0.019240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_3.png
-  artifactKey: Guid(f6dce9ce17491044bae8edd0b51554f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_3.png using Guid(f6dce9ce17491044bae8edd0b51554f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '930074f815b764fe652598f43e2dd3c7') in 0.018249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_1.png
-  artifactKey: Guid(271bb53c78a552a4587f003b57c60e49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_1.png using Guid(271bb53c78a552a4587f003b57c60e49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '26ee41e693227490627fcc2d261ff61e') in 0.018800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/orange/start/burning_start_2.png
-  artifactKey: Guid(a137c1d332c1afa4fa16e1c3cfb9dcb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/orange/start/burning_start_2.png using Guid(a137c1d332c1afa4fa16e1c3cfb9dcb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c1902136fba516ac83e0341fc22ff176') in 0.019245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_5.png
-  artifactKey: Guid(a9d2018c556805444b9485e448355156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_5.png using Guid(a9d2018c556805444b9485e448355156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9a0e54f1044bc2fbaf203daa2e9d75a6') in 0.018516 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/white/start/burning_start_2.png
-  artifactKey: Guid(bb43fec89dc013343ae4f9c3d6c1568c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/white/start/burning_start_2.png using Guid(bb43fec89dc013343ae4f9c3d6c1568c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b22283df47884f0faac16ff10d3aaaa8') in 0.016953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_5.png
-  artifactKey: Guid(853b9250211abb34089cd6c95281542e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_5.png using Guid(853b9250211abb34089cd6c95281542e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ede6d18484ed7145d10c7e60b09b1747') in 0.018747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 25104, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 25106, GUID 493b79ea9c9be44ed8b702014d3ac49c)
-Refreshing native plugins compatible for Editor in 6.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (26.7 KB). Loaded Objects now: 1638.
-Memory consumption went from 74.7 MB to 74.7 MB.
-Total: 9.084000 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.051000 ms MarkObjects: 8.629200 ms  DeleteObjects: 0.070100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Profiles\srt1849\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Profiles\srt1849\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.754 seconds
-Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.670 seconds
-Domain Reload Profiling: 1422ms
-	BeginReloadAssembly (136ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (544ms)
-		LoadAssemblies (295ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (308ms)
-			TypeCache.Refresh (283ms)
-				TypeCache.ScanAssembly (268ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (671ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (490ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (237ms)
-			ProcessInitializeOnLoadMethodAttributes (147ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Failed to load shader (instanceID 25104, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 25106, GUID 493b79ea9c9be44ed8b702014d3ac49c)
-Refreshing native plugins compatible for Editor in 5.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1186 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (46.6 KB). Loaded Objects now: 1641.
-Memory consumption went from 93.4 MB to 93.3 MB.
-Total: 5.487300 ms (FindLiveObjects: 0.165800 ms CreateObjectMapping: 0.032800 ms MarkObjects: 5.233700 ms  DeleteObjects: 0.054000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Profiles\srt1849\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Profiles\srt1849\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.712 seconds
-Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.714 seconds
-Domain Reload Profiling: 1425ms
-	BeginReloadAssembly (127ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
+		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (512ms)
-		LoadAssemblies (280ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (1051ms)
+		LoadAssemblies (783ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (284ms)
-			TypeCache.Refresh (276ms)
-				TypeCache.ScanAssembly (263ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
+		AnalyzeDomain (329ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (285ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (715ms)
+	FinalizeReload (810ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (520ms)
+		SetupLoadedEditorAssemblies (684ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (251ms)
-			ProcessInitializeOnLoadMethodAttributes (158ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Failed to load shader (instanceID 25104, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 25106, GUID 493b79ea9c9be44ed8b702014d3ac49c)
-Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Failed to load shader (instanceID 10064, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 10066, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 12.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1187 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (46.6 KB). Loaded Objects now: 1645.
-Memory consumption went from 93.4 MB to 93.4 MB.
-Total: 5.828000 ms (FindLiveObjects: 0.162700 ms CreateObjectMapping: 0.037900 ms MarkObjects: 5.573100 ms  DeleteObjects: 0.053300 ms)
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (72.3 KB). Loaded Objects now: 1633.
+Memory consumption went from 88.4 MB to 88.3 MB.
+Total: 5.887400 ms (FindLiveObjects: 0.106600 ms CreateObjectMapping: 0.036400 ms MarkObjects: 5.637900 ms  DeleteObjects: 0.105700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+IOException: Sharing violation on path F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in .\Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <da771086bc2e4cfc9ad0a72e083a7f98>:0 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.350 seconds
+Refreshing native plugins compatible for Editor in 75.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.014 seconds
+Domain Reload Profiling: 2351ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (1090ms)
+		LoadAssemblies (850ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (285ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1014ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (807ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (281ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Failed to load shader (instanceID 10064, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 10066, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 20.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1188 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (46.7 KB). Loaded Objects now: 1637.
+Memory consumption went from 87.7 MB to 87.6 MB.
+Total: 5.473800 ms (FindLiveObjects: 0.106100 ms CreateObjectMapping: 0.040100 ms MarkObjects: 5.268700 ms  DeleteObjects: 0.058200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -780,11 +259,574 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33002.820300 seconds.
+  path: Assets/scripts/SceneManager.cs
+  artifactKey: Guid(28819b31d1757874692393b0f7acb257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/SceneManager.cs using Guid(28819b31d1757874692393b0f7acb257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0420c07800aebff0a63212fbdffa564') in 0.002226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 270.005539 seconds.
+  path: Assets/Sprites/ground/Oasis_v4_Foreground.png
+  artifactKey: Guid(4fc18b7d58450be419b3f67dac2976c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ground/Oasis_v4_Foreground.png using Guid(4fc18b7d58450be419b3f67dac2976c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dba4c8e63a48c16af56044005324581') in 0.132018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.312 seconds
+Refreshing native plugins compatible for Editor in 13.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.857 seconds
+Domain Reload Profiling: 2157ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (1070ms)
+		LoadAssemblies (835ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (275ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (858ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (269ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Failed to load shader (instanceID 10064, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 10066, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 8.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1187 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (46.6 KB). Loaded Objects now: 1643.
+Memory consumption went from 87.5 MB to 87.4 MB.
+Total: 5.538800 ms (FindLiveObjects: 0.127300 ms CreateObjectMapping: 0.055000 ms MarkObjects: 5.289900 ms  DeleteObjects: 0.065800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.300 seconds
+Refreshing native plugins compatible for Editor in 8.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.868 seconds
+Domain Reload Profiling: 2155ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (1048ms)
+		LoadAssemblies (824ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (267ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Failed to load shader (instanceID 10064, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 10066, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 7.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1188 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (46.7 KB). Loaded Objects now: 1646.
+Memory consumption went from 87.7 MB to 87.7 MB.
+Total: 5.710600 ms (FindLiveObjects: 0.105600 ms CreateObjectMapping: 0.038800 ms MarkObjects: 5.506200 ms  DeleteObjects: 0.058900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.299 seconds
+Refreshing native plugins compatible for Editor in 10.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.914 seconds
+Domain Reload Profiling: 2200ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (1050ms)
+		LoadAssemblies (821ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (289ms)
+				TypeCache.ScanAssembly (274ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (915ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (715ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Failed to load shader (instanceID 10064, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 10066, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 7.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1189 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (46.7 KB). Loaded Objects now: 1650.
+Memory consumption went from 87.7 MB to 87.7 MB.
+Total: 6.605100 ms (FindLiveObjects: 0.110400 ms CreateObjectMapping: 0.040900 ms MarkObjects: 6.387900 ms  DeleteObjects: 0.065200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\sneaky school bs\capstone\CocoonDevUnity\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.276 seconds
+Refreshing native plugins compatible for Editor in 8.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 2136ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (1031ms)
+		LoadAssemblies (824ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (270ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (251ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (677ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Failed to load shader (instanceID 10064, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 10066, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 12.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1189 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (46.7 KB). Loaded Objects now: 1653.
+Memory consumption went from 87.8 MB to 87.7 MB.
+Total: 5.755700 ms (FindLiveObjects: 0.112200 ms CreateObjectMapping: 0.042300 ms MarkObjects: 5.534500 ms  DeleteObjects: 0.065800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 341.267332 seconds.
+  path: Assets/scripts/SceneSet.cs
+  artifactKey: Guid(5eb48c17084d5be4b964406b81506a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/SceneSet.cs using Guid(5eb48c17084d5be4b964406b81506a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8ec1a1b5a1fa464e10ce7c0080a5ba') in 0.001564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 171.511942 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/orange/start/burning_start_2.png
+  artifactKey: Guid(a137c1d332c1afa4fa16e1c3cfb9dcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/orange/start/burning_start_2.png using Guid(a137c1d332c1afa4fa16e1c3cfb9dcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e9c718eea9cebaa79145979db61bc6') in 0.064299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/white/start/burning_start_2.png
+  artifactKey: Guid(bb43fec89dc013343ae4f9c3d6c1568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/white/start/burning_start_2.png using Guid(bb43fec89dc013343ae4f9c3d6c1568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc96257953f5812ac626cb33609bcbc') in 0.031357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_2.png
+  artifactKey: Guid(7588409d10142ec47975d29cd033e107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_2.png using Guid(7588409d10142ec47975d29cd033e107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c12b319084e5a3975dcf1f660bbf8d7') in 0.041783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/green/start/burning_start_3.png
+  artifactKey: Guid(2c36c9f36e953d74a96554c10baad858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/green/start/burning_start_3.png using Guid(2c36c9f36e953d74a96554c10baad858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56963a45e849e558911c2af7aa6dd27') in 0.029516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/purple/start/burning_start_3.png
+  artifactKey: Guid(8a410a9967786024aa7eeafc2587fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/purple/start/burning_start_3.png using Guid(8a410a9967786024aa7eeafc2587fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ccc8ba74bd6587dbe60f3a933a7981') in 0.041064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/white/start/burning_start_4.png
+  artifactKey: Guid(7b46bb51a39317847b4b9e353c51f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/white/start/burning_start_4.png using Guid(7b46bb51a39317847b4b9e353c51f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfc7d84d44f1862b492a1582d1ca69c') in 0.055337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_4.png
+  artifactKey: Guid(2f4fb018d0699a341bb9bd224e9d3e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_4.png using Guid(2f4fb018d0699a341bb9bd224e9d3e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4968573bab024fd1be435bbed9b329') in 0.046444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/orange/start/burning_start_4.png
+  artifactKey: Guid(c54b64f288441c9469f57663d1c73fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/orange/start/burning_start_4.png using Guid(c54b64f288441c9469f57663d1c73fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fa6b54cec842da09370319b78bee11') in 0.047471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_5.png
+  artifactKey: Guid(853b9250211abb34089cd6c95281542e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/blue/start/burning_start_5.png using Guid(853b9250211abb34089cd6c95281542e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfba705d2ec701a6e994e8b026f602bd') in 0.041529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/purple/start/burning_start_5.png
+  artifactKey: Guid(f287540817eb8814e9c90862802682af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/purple/start/burning_start_5.png using Guid(f287540817eb8814e9c90862802682af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc84465f67128366413886258b6caaca') in 0.046581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkBlack.png
+  artifactKey: Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkBlack.png using Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff4ce3b6825b03db9dc1900fbda9e07') in 0.031880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkWhite.png
+  artifactKey: Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkWhite.png using Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a7034874c5ae0a20b91150e6e77c83') in 0.022296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.035414 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/green/end/burning_end_1.png
+  artifactKey: Guid(ada03701532d94249986467b737772b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/green/end/burning_end_1.png using Guid(ada03701532d94249986467b737772b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec05007de2afdbc70ac83ea2d7cd9e49') in 0.079216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/white/end/burning_end_1.png
+  artifactKey: Guid(95d4b736d55bcce43bb878e6b87f9d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/white/end/burning_end_1.png using Guid(95d4b736d55bcce43bb878e6b87f9d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112573be79178585c38a83f12f4fb4dc') in 0.032285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/white/end/burning_end_2.png
+  artifactKey: Guid(026f62c257ebcff4e8b3ba2cfde69ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/white/end/burning_end_2.png using Guid(026f62c257ebcff4e8b3ba2cfde69ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f1809d61f24159c2902788e2567cc9') in 0.022918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/green/end/burning_end_2.png
+  artifactKey: Guid(e426d667360d5354c95e1c361281c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/green/end/burning_end_2.png using Guid(e426d667360d5354c95e1c361281c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd481ef13bd07e7dff7336386ab763b17') in 0.026472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_2.png
+  artifactKey: Guid(5b8a8f9bf4bb5754592d8bb5ca49a033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_2.png using Guid(5b8a8f9bf4bb5754592d8bb5ca49a033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31948c0ac8fd6d3fa3b09118c575bcab') in 0.037838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007076 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_3.png
+  artifactKey: Guid(198f1cfab904c01489f26c75ab1c299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_3.png using Guid(198f1cfab904c01489f26c75ab1c299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94f8351895cb4768bbe3d1c52350105') in 0.030934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/green/end/burning_end_3.png
+  artifactKey: Guid(588727ea8203fb1498a5b890f7cbdbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/green/end/burning_end_3.png using Guid(588727ea8203fb1498a5b890f7cbdbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425099b29f360e6c3b4a6f023e560861') in 0.041855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/purple/end/burning_end_4.png
+  artifactKey: Guid(50b967a0f17c4024082b0b9bddfdb858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/purple/end/burning_end_4.png using Guid(50b967a0f17c4024082b0b9bddfdb858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e29f9d30c891a9007ea9b419795e3ef') in 0.033107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_4.png
+  artifactKey: Guid(55521eaf2e518c94e97c98ea3d03d0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/blue/end/burning_end_4.png using Guid(55521eaf2e518c94e97c98ea3d03d0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e85c60406412cac3bc676addd581c8b') in 0.056611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/white/end/burning_end_4.png
+  artifactKey: Guid(ae158acbfe8a7fe479d6f1b6200b3a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/white/end/burning_end_4.png using Guid(ae158acbfe8a7fe479d6f1b6200b3a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8827b6bbef331f8a56f3a2e64eb7c36a') in 0.032046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/purple/end/burning_end_5.png
+  artifactKey: Guid(25d85ec552bb5f848a4a171a9815b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/purple/end/burning_end_5.png using Guid(25d85ec552bb5f848a4a171a9815b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887fb5592fb61b45cb74ef9b66c7604b') in 0.038930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/green/end/burning_end_5.png
+  artifactKey: Guid(86899170ce381d84183f945d44bf3311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/green/end/burning_end_5.png using Guid(86899170ce381d84183f945d44bf3311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395b184f8bfc3a61b8d7ba5d51519a5d') in 0.056939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/orange/loops/burning_loop_1.png
+  artifactKey: Guid(786cdd1b3ef821648a9a408364bee14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/orange/loops/burning_loop_1.png using Guid(786cdd1b3ef821648a9a408364bee14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a00e20048975921fe2a513bcee0bcff') in 0.040072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/blue/loops/burning_loop_1.png
+  artifactKey: Guid(2d33a0c3634fd8d44b10fc2382b7e9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/blue/loops/burning_loop_1.png using Guid(2d33a0c3634fd8d44b10fc2382b7e9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d4b15dc36716019420e4a99049e38e') in 0.033978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/blue/loops/burning_loop_2.png
+  artifactKey: Guid(04a947d53cad8214ca4faaa3e46807f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/blue/loops/burning_loop_2.png using Guid(04a947d53cad8214ca4faaa3e46807f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2bbed987f4f54d7c7151855db3e116') in 0.042354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/orange/loops/burning_loop_2.png
+  artifactKey: Guid(4c09d36b36bfc564ab299baedc29bebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/orange/loops/burning_loop_2.png using Guid(4c09d36b36bfc564ab299baedc29bebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd6e5dd9a4bd7746267ba20f6ec4ded') in 0.031923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/white/loops/burning_loop_2.png
+  artifactKey: Guid(b25856bcd51f4ea45ba7bbd24e94ffd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/white/loops/burning_loop_2.png using Guid(b25856bcd51f4ea45ba7bbd24e94ffd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df32bdf56bce4f49dfff3ec75d3276c2') in 0.034734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/orange/loops/burning_loop_3.png
+  artifactKey: Guid(774636e13c601f048953485db6a4660a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/orange/loops/burning_loop_3.png using Guid(774636e13c601f048953485db6a4660a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3ff0c0d0ee92cce92f1439a10c9167') in 0.111941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_4.png
+  artifactKey: Guid(53da126e39136cd4389eef2d5659921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_4.png using Guid(53da126e39136cd4389eef2d5659921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3b39ef4f8ceceb2a2563168ac8490a') in 0.197894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_3.png
+  artifactKey: Guid(f6dce9ce17491044bae8edd0b51554f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/purple/loops/burning_loop_3.png using Guid(f6dce9ce17491044bae8edd0b51554f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149fde2ded10e8d1dc513af1c2209807') in 0.063149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/fire_fx_v1.0/white/end/burning_end_5.png
+  artifactKey: Guid(bd5fdfcf0841b094ab04f91c5d268685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fire_fx_v1.0/white/end/burning_end_5.png using Guid(bd5fdfcf0841b094ab04f91c5d268685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a770d1c965c8d048651763798eb220') in 0.014983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
