@@ -8,21 +8,28 @@ public class MyListener : MonoBehaviour
     float oldData = 0;
     float newData;
     bool cameraForward = false;
+    ArduinoDataClass arduinoData = new ArduinoDataClass();
 
     // Use this for initialization
     void Start()
     {
 
     }
+
     //Update is called once per frame
     void Update()
     {
     }
-    // Invoked when a line of data is received from the serial device.
+
+    //Invoked when a line of data is received from the serial device.
     void OnMessageArrived(string msg)
     {
         //Debug.Log("Arduino Data: " + msg);
-        newData = float.Parse(msg);
+        //parseArduinoData("Dial:100,Switch:0");
+        parseArduinoData(msg);
+
+
+        newData = arduinoData.Dial;
         float cameraPos = 0;
 
 
@@ -30,15 +37,12 @@ public class MyListener : MonoBehaviour
         {
             //Debug.Log("upadated Old " + oldData);
             cameraForward = oldData > newData;
-            //changeHeight = oldData - newData;
             oldData = newData;
             cameraPos = Mathf.Abs(50 - newData);
             if (!cameraForward)
             {
                 cameraPos = (cameraPos * -1.00f);
             }
-
-
         }
 
         //Debug.Log("cameraForward " + cameraForward);
@@ -49,6 +53,23 @@ public class MyListener : MonoBehaviour
 
 
     }
+    //Data is a string in this format: "Dial:100,Switch:0"
+    void parseArduinoData(string data)
+    {
+        string[] ardData = data.Split(",");
+
+        arduinoData.Dial = float.Parse(ardData[0].Split(":")[1]);
+        arduinoData.Switch = float.Parse(ardData[1].Split(":")[1]);
+        Debug.Log("Dial: " + arduinoData.Dial);
+        Debug.Log("Switch: " + arduinoData.Switch);
+    }
+
+    private class ArduinoDataClass
+    {
+        public float Dial;
+        public float Switch;
+    }
+
     // Invoked when a connect/disconnect event occurs. The parameter 'success'
     // will be 'true' upon connection, and 'false' upon disconnection or
     // failure to connect.
