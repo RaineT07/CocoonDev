@@ -5,10 +5,13 @@ using UnityEngine;
 public class MyListener : MonoBehaviour
 {
     public GameObject CameraModifier;
-    float oldData = 0;
-    float newData;
+    float dialPercentPrevious = 0;
+
+    public float dialPercent;
+    public float switchData;
+
     bool cameraForward = false;
-    ArduinoDataClass arduinoData = new ArduinoDataClass();
+     ArduinoDataClass arduinoData = new ArduinoDataClass();
 
     // Use this for initialization
     void Start()
@@ -28,17 +31,18 @@ public class MyListener : MonoBehaviour
         //parseArduinoData("Dial:100,Switch:0");
         parseArduinoData(msg);
 
+        switchData = arduinoData.Switch;
 
-        newData = arduinoData.Dial;
+        dialPercent = arduinoData.Dial;
         float cameraPos = 0;
 
 
-        if (newData != oldData && (Mathf.Abs(oldData - newData) > 3))
+        if (dialPercent != dialPercentPrevious && (Mathf.Abs(dialPercentPrevious - dialPercent) > 3))
         {
             //Debug.Log("upadated Old " + oldData);
-            cameraForward = oldData > newData;
-            oldData = newData;
-            cameraPos = Mathf.Abs(50 - newData);
+            cameraForward = dialPercentPrevious > dialPercent;
+            dialPercentPrevious = dialPercent;
+            cameraPos = Mathf.Abs(50 - dialPercent);
             if (!cameraForward)
             {
                 cameraPos = (cameraPos * -1.00f);
@@ -46,7 +50,7 @@ public class MyListener : MonoBehaviour
         }
 
         //Debug.Log("cameraForward " + cameraForward);
-        Debug.Log("cameraPos " + cameraPos);
+        //Debug.Log("cameraPos " + cameraPos);
         CameraModifier.transform.position += new Vector3(0, 0, cameraPos * 0.5f);
 
 
@@ -60,11 +64,11 @@ public class MyListener : MonoBehaviour
 
         arduinoData.Dial = float.Parse(ardData[0].Split(":")[1]);
         arduinoData.Switch = float.Parse(ardData[1].Split(":")[1]);
-        Debug.Log("Dial: " + arduinoData.Dial);
-        Debug.Log("Switch: " + arduinoData.Switch);
+        //Debug.Log("Dial: " + arduinoData.Dial);
+        //Debug.Log("Switch: " + arduinoData.Switch);
     }
 
-    private class ArduinoDataClass
+    public class ArduinoDataClass
     {
         public float Dial;
         public float Switch;
