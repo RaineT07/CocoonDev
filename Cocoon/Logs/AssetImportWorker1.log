@@ -15,7 +15,7 @@ C:/Users/godof/OneDrive/Documents/CocoonDev/Cocoon
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51250
+52777
 Successfully changed project path to: C:/Users/godof/OneDrive/Documents/CocoonDev/Cocoon
 C:/Users/godof/OneDrive/Documents/CocoonDev/Cocoon
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/godof/OneDrive/Documents/CocoonDev/Cocoon
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19476] Host "[IP] 129.21.81.237 [Port] 0 [Flags] 2 [Guid] 396860295 [EditorId] 396860295 [Version] 1048832 [Id] WindowsEditor(7,Olivia-G15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [45292] Host "[IP] 129.21.81.237 [Port] 0 [Flags] 2 [Guid] 4013724935 [EditorId] 4013724935 [Version] 1048832 [Id] WindowsEditor(7,Olivia-G15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19476] Host "[IP] 129.21.81.237 [Port] 0 [Flags] 2 [Guid] 396860295 [EditorId] 396860295 [Version] 1048832 [Id] WindowsEditor(7,Olivia-G15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [45292] Host "[IP] 129.21.81.237 [Port] 0 [Flags] 2 [Guid] 4013724935 [EditorId] 4013724935 [Version] 1048832 [Id] WindowsEditor(7,Olivia-G15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 57.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 23.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -61,52 +61,52 @@ Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x9a60)
-    Vendor:   Intel
-    VRAM:     8055 MB
-    Driver:   31.0.101.4575
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2879
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.026340 seconds.
-- Loaded All Assemblies, in  0.982 seconds
+Registered in 0.011987 seconds.
+- Loaded All Assemblies, in  0.390 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.845 seconds
-Domain Reload Profiling: 1823ms
-	BeginReloadAssembly (314ms)
+- Finished resetting the current domain, in  0.295 seconds
+Domain Reload Profiling: 682ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (96ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (171ms)
-	LoadAllAssembliesAndSetupDomain (369ms)
-		LoadAssemblies (307ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (90ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (347ms)
-			TypeCache.Refresh (345ms)
-				TypeCache.ScanAssembly (312ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (141ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (847ms)
+	FinalizeReload (296ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (608ms)
+		SetupLoadedEditorAssemblies (224ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (26ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (356ms)
-			ProcessInitializeOnLoadMethodAttributes (187ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,57 +117,57 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\godof\OneDrive\Documents\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\godof\OneDrive\Documents\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.646 seconds
-Refreshing native plugins compatible for Editor in 26.54 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.989 seconds
+Refreshing native plugins compatible for Editor in 14.84 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.397 seconds
-Domain Reload Profiling: 4026ms
-	BeginReloadAssembly (315ms)
+- Finished resetting the current domain, in  0.787 seconds
+Domain Reload Profiling: 1770ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (85ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (2124ms)
-		LoadAssemblies (1400ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (747ms)
+		LoadAssemblies (414ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (841ms)
-			TypeCache.Refresh (775ms)
-				TypeCache.ScanAssembly (742ms)
-			ScanForSourceGeneratedMonoScriptInfo (55ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1398ms)
+		AnalyzeDomain (389ms)
+			TypeCache.Refresh (360ms)
+				TypeCache.ScanAssembly (343ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (788ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1156ms)
+		SetupLoadedEditorAssemblies (641ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (313ms)
-			ProcessInitializeOnLoadAttributes (607ms)
-			ProcessInitializeOnLoadMethodAttributes (194ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Failed to load shader (instanceID 10090, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 10092, GUID 493b79ea9c9be44ed8b702014d3ac49c)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 25.38 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 11.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1205 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 58 unused Assets / (72.2 KB). Loaded Objects now: 1646.
 Memory consumption went from 89.1 MB to 89.0 MB.
-Total: 14.003100 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.080500 ms MarkObjects: 13.473200 ms  DeleteObjects: 0.248600 ms)
+Total: 6.223200 ms (FindLiveObjects: 0.148700 ms CreateObjectMapping: 0.028600 ms MarkObjects: 5.891500 ms  DeleteObjects: 0.153200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,15 +182,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 239065.781853 seconds.
+  path: Assets/scripts/SceneSet.cs
+  artifactKey: Guid(5eb48c17084d5be4b964406b81506a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/SceneSet.cs using Guid(5eb48c17084d5be4b964406b81506a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d8220870ff6591c14f3f5eef07d2e5') in 0.003785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.531295 seconds.
+  path: Assets/Prefabs/SceneSet.prefab
+  artifactKey: Guid(5cf7e65ec1b6db74a87c3b7481db109b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SceneSet.prefab using Guid(5cf7e65ec1b6db74a87c3b7481db109b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bad9760c64b9ba31538b708f5a31923') in 0.034658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.619340 seconds.
+  path: Assets/Sprites/ground/Oasis_v4_Foreground.png
+  artifactKey: Guid(4fc18b7d58450be419b3f67dac2976c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ground/Oasis_v4_Foreground.png using Guid(4fc18b7d58450be419b3f67dac2976c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb7ef4d2b8fe15b8bf94dc949e85473') in 0.064167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/ground/Tropic_Middleground.png
+  artifactKey: Guid(246487cb900e27447bd02c8749978755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ground/Tropic_Middleground.png using Guid(246487cb900e27447bd02c8749978755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15daf135705173f2d30bc3c666a3b8a3') in 0.021031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/ground/Oasis_v4_Middleground.png
+  artifactKey: Guid(25094ee9ac7a91943926a9caa880cea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ground/Oasis_v4_Middleground.png using Guid(25094ee9ac7a91943926a9caa880cea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f28b5e4e911cad6323ac74d5fe99de') in 0.013004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
 Received Prepare
 Failed to load shader (instanceID 10090, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 10092, GUID 493b79ea9c9be44ed8b702014d3ac49c)
-Refreshing native plugins compatible for Editor in 21.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 1646.
-Memory consumption went from 69.2 MB to 69.2 MB.
-Total: 11.052600 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.060000 ms MarkObjects: 10.654300 ms  DeleteObjects: 0.077700 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 1649.
+Memory consumption went from 69.1 MB to 69.1 MB.
+Total: 7.988800 ms (FindLiveObjects: 0.142600 ms CreateObjectMapping: 0.043200 ms MarkObjects: 7.787000 ms  DeleteObjects: 0.015000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -208,67 +248,161 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10931.247837 seconds.
-  path: Assets/scripts/MyListener.cs
-  artifactKey: Guid(b7293185d40cdc24a86f01d2ffbdf6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/MyListener.cs using Guid(b7293185d40cdc24a86f01d2ffbdf6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba66bd3d16e12c0d8bb0a6e0fea4f395') in 0.003800 seconds
+  Time since last request: 144.317267 seconds.
+  path: Assets/Sprites/ground/Materials/Oasis_v4_Foreground.mat
+  artifactKey: Guid(25b7f681518e9774db1aef49446a5148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ground/Materials/Oasis_v4_Foreground.mat using Guid(25b7f681518e9774db1aef49446a5148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c15d5c7b073224cd8cbea94eff52987') in 0.072199 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/ground/Materials/Oasis_v4_Middleground.mat
+  artifactKey: Guid(3ff63afe35970054a99297bffe9bec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ground/Materials/Oasis_v4_Middleground.mat using Guid(3ff63afe35970054a99297bffe9bec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ea6240e74e143069f78ed397beb31c') in 0.011998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 87.468737 seconds.
+  path: Assets/Sprites/ground/Materials/Tropic_Foreground.mat
+  artifactKey: Guid(7cc19d42604b3d043b5ac084206aabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ground/Materials/Tropic_Foreground.mat using Guid(7cc19d42604b3d043b5ac084206aabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5b2f854b8973f4823c2f9b0d4e97b2') in 0.014603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/ground/Materials/Tropic_Middleground.mat
+  artifactKey: Guid(89232386c54af7b4bab0f3f78b6621df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ground/Materials/Tropic_Middleground.mat using Guid(89232386c54af7b4bab0f3f78b6621df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbac201e766bbadcee6de9dc09dd733') in 0.023921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\godof\OneDrive\Documents\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\godof\OneDrive\Documents\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.188 seconds
-Refreshing native plugins compatible for Editor in 15.00 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.865 seconds
+Refreshing native plugins compatible for Editor in 9.91 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.000 seconds
-Domain Reload Profiling: 2180ms
-	BeginReloadAssembly (213ms)
+- Finished resetting the current domain, in  0.729 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (619ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (273ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Failed to load shader (instanceID 10090, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 10092, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 11.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (46.6 KB). Loaded Objects now: 1692.
+Memory consumption went from 92.7 MB to 92.7 MB.
+Total: 5.718500 ms (FindLiveObjects: 0.132100 ms CreateObjectMapping: 0.024200 ms MarkObjects: 5.487000 ms  DeleteObjects: 0.074400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\godof\OneDrive\Documents\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\godof\OneDrive\Documents\CocoonDev\Cocoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.864 seconds
+Refreshing native plugins compatible for Editor in 10.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.763 seconds
+Domain Reload Profiling: 1620ms
+	BeginReloadAssembly (174ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (860ms)
-		LoadAssemblies (579ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (578ms)
+		LoadAssemblies (361ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (360ms)
-			TypeCache.Refresh (350ms)
-				TypeCache.ScanAssembly (331ms)
-			ScanForSourceGeneratedMonoScriptInfo (3ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1001ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (263ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (764ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (700ms)
+		SetupLoadedEditorAssemblies (534ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (358ms)
-			ProcessInitializeOnLoadMethodAttributes (203ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Failed to load shader (instanceID 10090, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 10092, GUID 493b79ea9c9be44ed8b702014d3ac49c)
-Refreshing native plugins compatible for Editor in 22.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1199 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (46.6 KB). Loaded Objects now: 1649.
-Memory consumption went from 87.9 MB to 87.9 MB.
-Total: 9.906500 ms (FindLiveObjects: 0.188000 ms CreateObjectMapping: 0.053800 ms MarkObjects: 9.528600 ms  DeleteObjects: 0.128400 ms)
+Unloading 1200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (46.6 KB). Loaded Objects now: 1695.
+Memory consumption went from 93.0 MB to 92.9 MB.
+Total: 8.326200 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.036800 ms MarkObjects: 7.933900 ms  DeleteObjects: 0.112800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
