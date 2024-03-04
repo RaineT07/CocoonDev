@@ -37,7 +37,7 @@ public class MyListener : MonoBehaviour
         float cameraPos = 0;
 
 
-        if (dialPercent != dialPercentPrevious && (Mathf.Abs(dialPercentPrevious - dialPercent) > 3))
+        if (dialPercent != dialPercentPrevious && (Mathf.Abs(dialPercentPrevious - dialPercent) > 2))
         {
             //Debug.Log("upadated Old " + oldData);
             cameraForward = dialPercentPrevious > dialPercent;
