@@ -548,6 +548,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     - 2.1.0
     - 2.2.0
+    - 2.3.1
     compatible:
     - 2.0.5
     - 2.0.7
@@ -556,6 +557,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     - 2.1.0
     - 2.2.0
+    - 2.3.1
     recommended: 2.0.7
     deprecated: []
   dependencies: []
