@@ -17,6 +17,7 @@ public class SceneManager : MonoBehaviour
         for(int i=0; i<layers.Length; i++)
         {
             layers[i].GetComponent<Renderer>().material.mainTexture = sceneSet.textures[i];
+            layers[i].GetComponent<Renderer>().material.SetColor("_Color", Color.red);
         }
     }
 
