@@ -9,6 +9,8 @@ public class MyListener : MonoBehaviour
 
     public float dialPercent;
     public float switchData;
+    public float bttnData;
+    public float proxData;
 
     bool cameraForward = false;
      ArduinoDataClass arduinoData = new ArduinoDataClass();
@@ -34,6 +36,8 @@ public class MyListener : MonoBehaviour
         switchData = arduinoData.Switch;
 
         dialPercent = arduinoData.Dial;
+        bttnData = arduinoData.Bttn;
+        proxData = arduinoData.Prox;
         float cameraPos = 0;
 
 
@@ -64,6 +68,8 @@ public class MyListener : MonoBehaviour
 
         arduinoData.Dial = float.Parse(ardData[0].Split(":")[1]);
         arduinoData.Switch = float.Parse(ardData[1].Split(":")[1]);
+        arduinoData.Bttn = float.Parse(ardData[2].Split(":")[1]);
+        arduinoData.Prox = float.Parse(ardData[3].Split(":")[1]);
         //Debug.Log("Dial: " + arduinoData.Dial);
         //Debug.Log("Switch: " + arduinoData.Switch);
     }
@@ -72,6 +78,8 @@ public class MyListener : MonoBehaviour
     {
         public float Dial;
         public float Switch;
+        public float Bttn;
+        public float Prox;
     }
 
     // Invoked when a connect/disconnect event occurs. The parameter 'success'
