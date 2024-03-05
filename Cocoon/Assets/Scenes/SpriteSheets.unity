@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -400,7 +400,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412775001}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &412775003
 Camera:
   m_ObjectHideFlags: 0
@@ -478,8 +478,6 @@ GameObject:
   - component: {fileID: 446203734}
   - component: {fileID: 446203733}
   - component: {fileID: 446203732}
-  - component: {fileID: 446203737}
-  - component: {fileID: 446203736}
   - component: {fileID: 446203735}
   m_Layer: 0
   m_Name: butterfly-sprite_0
@@ -589,48 +587,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationName: Butterfly
---- !u!114 &446203736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 446203731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7293185d40cdc24a86f01d2ffbdf6ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CameraModifier: {fileID: 0}
-  dialPercent: 0
-  switchData: 0
-  bttnData: 0
-  proxData: 0
-  tropicCamera: {fileID: 0}
-  oasisCamera: {fileID: 0}
-  currCamera: 0
-  animations: []
---- !u!114 &446203737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 446203731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7293185d40cdc24a86f01d2ffbdf6ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CameraModifier: {fileID: 0}
-  dialPercent: 0
-  switchData: 0
-  bttnData: 0
-  proxData: 0
-  tropicCamera: {fileID: 0}
-  oasisCamera: {fileID: 0}
-  currCamera: 0
-  animations: []
 --- !u!1 &520533569
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,7 +961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304263421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -194, z: -16}
+  m_LocalPosition: {x: 0, y: -442, z: 99}
   m_LocalScale: {x: 300, y: 300, z: 300}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6097,7 +6053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: /dev/cu.usbmodem1101
+  portName: COM3
   baudRate: 9600
   messageListener: {fileID: 1733181164}
   reconnectionDelay: 1000
@@ -6127,7 +6083,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092595500}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &2092595502
 Camera:
   m_ObjectHideFlags: 0
@@ -6160,7 +6116,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 2000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -6187,7 +6143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092595500}
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 896}
+  m_LocalPosition: {x: 0, y: 0, z: 788}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

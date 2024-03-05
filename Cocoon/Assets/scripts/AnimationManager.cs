@@ -12,7 +12,9 @@ public class AnimationManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         animator = GetComponent<Animator>();
+       
         randomOffset = Random.Range(0f, 15f);
 
         animator.Play(animationName, 0, randomOffset);
@@ -27,10 +29,12 @@ public class AnimationManager : MonoBehaviour
 
     public void PauseAnimation()
     {
-        animator.speed = 0;
+        animator.SetFloat("animationSpeed", 0);
+       // animator.speed = 0;
     }
     public void StartAnimation()
     {
-        Debug.Log(animator.speed);
+        animator.SetFloat("animationSpeed", prevSpeed);
+        //Debug.Log("aniamtion Speed"+animator.speed);
     }
 }

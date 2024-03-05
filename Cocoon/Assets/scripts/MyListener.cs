@@ -19,16 +19,19 @@ public class MyListener : MonoBehaviour
     public bool currCamera = true; // true = oasis, false = tropic
     float prevBttnData;
 
+    bool buttonPressed = false;
+
     public GameObject[] animations;
 
 
     bool cameraForward = false;
-     ArduinoDataClass arduinoData = new ArduinoDataClass();
+    ArduinoDataClass arduinoData = new ArduinoDataClass();
 
     // Use this for initialization
     void Start()
     {
-        tropicCamera.enabled = false;
+        startCams();
+
 
     }
 
@@ -49,12 +52,7 @@ public class MyListener : MonoBehaviour
         proxData = arduinoData.Prox;
 
         bttnData = arduinoData.Bttn;
-        if (bttnData != prevBttnData)
-        {
-            prevBttnData = arduinoData.Bttn;
-        }
-        //bttnData = arduinoData.Bttn;
-
+     
 
         // Zoom Camera
         float cameraPos = 0;
@@ -71,7 +69,7 @@ public class MyListener : MonoBehaviour
         }
 
         // Toggle Animation
-        if(switchData == 0)
+        if (switchData == 0)
         {
             animations = GameObject.FindGameObjectsWithTag("Animation");
             foreach (GameObject a in animations)
@@ -91,31 +89,25 @@ public class MyListener : MonoBehaviour
         }
 
         // Switch Scene
-        if(bttnData == 1 && prevBttnData == 0)
+        if (bttnData != prevBttnData)
         {
-            tropicCamera.enabled = false;
-            oasisCamera.enabled = true;
-        } else if (bttnData == 0 && prevBttnData == 1)
-        {
-            oasisCamera.enabled = false;
-            tropicCamera.enabled = true;
-        }
-        //if (currCamera)
-        //{
-        //    tropicCamera.enabled = false;
-        //    oasisCamera.enabled = true;
-        //}
-        //else
-        //{
-        //    oasisCamera.enabled = false;
-        //    tropicCamera.enabled = true;
-        //}
+            prevBttnData = arduinoData.Bttn;
 
+            if (bttnData == 1 && !buttonPressed)
+            {
+                buttonPressed = true; 
+                currCamera = !currCamera; 
+            }
+            else if (bttnData == 0)
+            {
+                buttonPressed = false;
+            }
+        }
 
         //Debug.Log("cameraForward " + cameraForward);
         //Debug.Log("cameraPos " + cameraPos);
         CameraModifier.transform.position += new Vector3(0, 0, cameraPos * 0.5f);
-
+        camScene();
 
 
 
@@ -147,5 +139,27 @@ public class MyListener : MonoBehaviour
     void OnConnectionEvent(bool success)
     {
         Debug.Log(success ? "Device connected" : "Device disconnected");
+    }
+
+    public void startCams()
+    {
+        oasisCamera.enabled = true;
+        tropicCamera.enabled = false;
+
+        Debug.Log(tropicCamera.isActiveAndEnabled);
+
+    }
+    public void camScene()
+    {
+        if (currCamera)
+        {
+            tropicCamera.enabled = false;
+            oasisCamera.enabled = true;
+        }
+        else
+        {
+            tropicCamera.enabled = true;
+            oasisCamera.enabled = false;
+        }
     }
 }
