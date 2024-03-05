@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using AnimationManager;
 
 public class MyListener : MonoBehaviour
 {
@@ -12,12 +13,22 @@ public class MyListener : MonoBehaviour
     public float bttnData;
     public float proxData;
 
+    public Camera tropicCamera;
+    public Camera oasisCamera;
+
+    public bool currCamera = true; // true = oasis, false = tropic
+    float prevBttnData;
+
+    public GameObject[] animations;
+
+
     bool cameraForward = false;
      ArduinoDataClass arduinoData = new ArduinoDataClass();
 
     // Use this for initialization
     void Start()
     {
+        tropicCamera.enabled = false;
 
     }
 
@@ -34,13 +45,19 @@ public class MyListener : MonoBehaviour
         parseArduinoData(msg);
 
         switchData = arduinoData.Switch;
-
         dialPercent = arduinoData.Dial;
-        bttnData = arduinoData.Bttn;
         proxData = arduinoData.Prox;
+
+        bttnData = arduinoData.Bttn;
+        if (bttnData != prevBttnData)
+        {
+            prevBttnData = arduinoData.Bttn;
+        }
+        //bttnData = arduinoData.Bttn;
+
+
+        // Zoom Camera
         float cameraPos = 0;
-
-
         if (dialPercent != dialPercentPrevious && (Mathf.Abs(dialPercentPrevious - dialPercent) > 2))
         {
             //Debug.Log("upadated Old " + oldData);
@@ -52,6 +69,48 @@ public class MyListener : MonoBehaviour
                 cameraPos = (cameraPos * -1.00f);
             }
         }
+
+        // Toggle Animation
+        if(switchData == 0)
+        {
+            animations = GameObject.FindGameObjectsWithTag("Animation");
+            foreach (GameObject a in animations)
+            {
+                AnimationManager animationM = a.GetComponent<AnimationManager>();
+                animationM.PauseAnimation();
+            }
+        }
+        else
+        {
+            animations = GameObject.FindGameObjectsWithTag("Animation");
+            foreach (GameObject a in animations)
+            {
+                AnimationManager animationM = a.GetComponent<AnimationManager>();
+                animationM.StartAnimation();
+            }
+        }
+
+        // Switch Scene
+        if(bttnData == 1 && prevBttnData == 0)
+        {
+            tropicCamera.enabled = false;
+            oasisCamera.enabled = true;
+        } else if (bttnData == 0 && prevBttnData == 1)
+        {
+            oasisCamera.enabled = false;
+            tropicCamera.enabled = true;
+        }
+        //if (currCamera)
+        //{
+        //    tropicCamera.enabled = false;
+        //    oasisCamera.enabled = true;
+        //}
+        //else
+        //{
+        //    oasisCamera.enabled = false;
+        //    tropicCamera.enabled = true;
+        //}
+
 
         //Debug.Log("cameraForward " + cameraForward);
         //Debug.Log("cameraPos " + cameraPos);
