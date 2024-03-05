@@ -393,6 +393,7 @@
 "Assets/Ardity/Scripts/Threads/SerialThread.cs"
 "Assets/Ardity/Scripts/Threads/SerialThreadCustomDelimiter.cs"
 "Assets/Ardity/Scripts/Threads/SerialThreadLines.cs"
+"Assets/scripts/AnimationManager.cs"
 "Assets/scripts/CameraDisplayScript.cs"
 "Assets/scripts/MyListener.cs"
 "Assets/scripts/SceneManager.cs"
