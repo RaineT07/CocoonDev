@@ -5,29 +5,26 @@ using UnityEngine;
 
 public class MyListener : MonoBehaviour
 {
-    public GameObject CameraModifier;
+    //public GameObject CameraModifier;
 
+    // Arduino data vars
     public float quadrantData;
     public float dialPercent;
     public float switchData;
-    public float bttnData;
     public float proxData;
+    public float bttnData;
 
-    float dialPercentPrevious = 0;
-    float proxPrevious = 0;
-
+    // Camera references
     public Camera tropicCamera;
     public Camera oasisCamera;
     public Camera spaceCamera;
 
+    // Zoom variables
     float zoomMin = 0;
     float zoomMax = -100;
+    float proxDataMax = 217;
 
-    public bool currCamera = true; // true = oasis, false = tropic
-    float prevBttnData;
-
-    bool buttonPressed = false;
-
+    // Arrays of scene assets
     public GameObject[] animations;
     public GameObject[] backgrounds;
     public GameObject[] midgrounds;
@@ -47,12 +44,9 @@ public class MyListener : MonoBehaviour
     //Update is called once per frame
     void Update()
     {
-        //float cameraPos = 0;
-        //cameraPos = Remap(proxData,217,0,zoomMin, zoomMax); // map the data
-        //cameraPos = Clamp(cameraPos, zoomMin, zoomMax); // clamp the data
-        //CameraModifier.transform.position = new Vector3(CameraModifier.transform.position.x, CameraModifier.transform.position.y, cameraPos); // move camera z to new pos
-        zoomCameras();
         //toggleAnimation();
+        // these all go in OnMessageArrived() but for testing they need to be in update bc I don't have an arduino
+        zoomCameras();
         switchScene();
         updateHues();
     }
@@ -61,83 +55,32 @@ public class MyListener : MonoBehaviour
     void OnMessageArrived(string msg)
     {
         //Debug.Log("Arduino Data: " + msg);
-        //parseArduinoData("Dial:100,Switch:0");
         parseArduinoData(msg);
 
+        // Store arduino data
         switchData = arduinoData.Switch;
         dialPercent = arduinoData.Dial;
         proxData = arduinoData.Prox;
-
         bttnData = arduinoData.Bttn;
-
-
-        // Zoom Camera
-        //float cameraPos = 0;
-        //if (dialPercent != dialPercentPrevious && (Mathf.Abs(dialPercentPrevious - dialPercent) > 2))
-        //{
-        //    //Debug.Log("upadated Old " + oldData);
-        //    cameraForward = dialPercentPrevious > dialPercent;
-        //    dialPercentPrevious = dialPercent;
-        //    cameraPos = Mathf.Abs(50 - dialPercent);
-        //    if (!cameraForward)
-        //    {
-        //        cameraPos = (cameraPos * -1.00f);
-        //    }
-        //}
-
-        //// Toggle Animation
-        //if (switchData == 0)
-        //{
-        //    animations = GameObject.FindGameObjectsWithTag("Animation");
-        //    foreach (GameObject a in animations)
-        //    {
-        //        AnimationManager animationM = a.GetComponent<AnimationManager>();
-        //        animationM.PauseAnimation();
-        //    }
-        //}
-        //else
-        //{
-        //    animations = GameObject.FindGameObjectsWithTag("Animation");
-        //    foreach (GameObject a in animations)
-        //    {
-        //        AnimationManager animationM = a.GetComponent<AnimationManager>();
-        //        animationM.StartAnimation();
-        //    }
-        //}
-
-        //// Switch Scene
-        //if (bttnData != prevBttnData)
-        //{
-        //    prevBttnData = arduinoData.Bttn;
-
-        //    if (bttnData == 1 && !buttonPressed)
-        //    {
-        //        buttonPressed = true;
-        //        currCamera = !currCamera;
-        //    }
-        //    else if (bttnData == 0)
-        //    {
-        //        buttonPressed = false;
-        //    }
-        //}
-
-        //Debug.Log("cameraForward " + cameraForward);
-        //Debug.Log("cameraPos " + cameraPos);
-        //CameraModifier.transform.position += new Vector3(0, 0, cameraPos * 0.5f);
-        //camScene();
-
-
 
     }
 
+    // Table Functions:
+
+    // Selects a group of assets based on quadrant data
+    // Changes the hue of those assets based on dial data
     void updateHues()
     {
+        // get all assets
         backgrounds = GameObject.FindGameObjectsWithTag("Background");
         midgrounds = GameObject.FindGameObjectsWithTag("Midground");
         foregrounds = GameObject.FindGameObjectsWithTag("Foreground");
+
+        // map the dial val to make a hue
         float dialVal = Remap(dialPercent, 0, 100, 0, 1);
         Color newHue = Color.HSVToRGB(dialVal, 1, 1);
 
+        // loop through and set the hue
         if (quadrantData == 1)
         {
             foreach (GameObject b in backgrounds)
@@ -161,10 +104,13 @@ public class MyListener : MonoBehaviour
         }
 
     }
+
+    // Zoom all cameras based on proximity data
+    // 0 = zoomed in all the way, 217 = zoomed out all the way
     void zoomCameras()
     {
         float cameraPos = 0;
-        cameraPos = Remap(proxData, 217, 0, zoomMin, zoomMax); // map the data
+        cameraPos = Remap(proxData, proxDataMax, 0, zoomMin, zoomMax); // map the data
         cameraPos = Clamp(cameraPos, zoomMin, zoomMax); // clamp the data
 
         // move each camera to the new z position
@@ -173,6 +119,7 @@ public class MyListener : MonoBehaviour
         spaceCamera.transform.position = new Vector3(spaceCamera.transform.position.x, CameraModifier.transform.position.y, cameraPos);
     }
 
+    // Toggle animation of all assets with the tag animation based on boolean
     void toggleAnimation()
     {
         // Toggle Animation
@@ -196,7 +143,16 @@ public class MyListener : MonoBehaviour
         }
     }
 
-    //Data is a string in this format: "Dial:100,Switch:0"
+
+
+
+
+
+
+    // Utilities:
+
+    // Parses the arduino data and stores it in an object
+    // Data is a string in this format: "Dial:100,Switch:0"
     void parseArduinoData(string data)
     {
         string[] ardData = data.Split(",");
@@ -206,9 +162,10 @@ public class MyListener : MonoBehaviour
         arduinoData.Bttn = float.Parse(ardData[2].Split(":")[1]);
         arduinoData.Prox = float.Parse(ardData[3].Split(":")[1]);
         //Debug.Log("Dial: " + arduinoData.Dial);
-        //Debug.Log("Switch: " + arduinoData.Switch);
     }
 
+    // Maps data from one range to another
+    // https://forum.unity.com/threads/re-map-a-number-from-one-range-to-another.119437/
     public float Remap(float from, float fromMin, float fromMax, float toMin, float toMax)
     {
         var fromAbs = from - fromMin;
@@ -225,6 +182,7 @@ public class MyListener : MonoBehaviour
 
     }
 
+    // Clamps values to a min and max
     public float Clamp(float val, float min, float max)
     {
         if (val < max)
@@ -241,6 +199,7 @@ public class MyListener : MonoBehaviour
         }
     }
 
+    // Class to store arduino data
     public class ArduinoDataClass
     {
         public float Dial;
@@ -257,15 +216,15 @@ public class MyListener : MonoBehaviour
         Debug.Log(success ? "Device connected" : "Device disconnected");
     }
 
+    // set camera default state for testing
     public void startCams()
     {
         oasisCamera.enabled = true;
         tropicCamera.enabled = false;
         spaceCamera.enabled = false;
-
-        //Debug.Log(tropicCamera.isActiveAndEnabled);
-
     }
+
+    // control scene with "switch" data for testing
     public void switchScene()
     {
         if (switchData == 0)
