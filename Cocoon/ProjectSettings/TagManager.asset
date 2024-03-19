@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Animation
+  - Background
+  - Midground
+  - Foreground
   layers:
   - Default
   - TransparentFX
