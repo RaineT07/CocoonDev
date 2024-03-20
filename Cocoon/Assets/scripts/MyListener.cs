@@ -31,9 +31,18 @@ public class MyListener : MonoBehaviour
     public GameObject[] midgrounds;
     public GameObject[] foregrounds;
 
+    public GameObject grey1;
+    public GameObject grey2;
+    public GameObject grey3;
+
 
     bool cameraForward = false; // true = prev > curr, false = curr > prev
     ArduinoDataClass arduinoData = new ArduinoDataClass();
+
+    public float dialValChangeThreshold = 0.01f;
+
+    // Store the previous dialVal
+    private float previousDialVal;
 
     // Use this for initialization
     void Start()
@@ -50,6 +59,20 @@ public class MyListener : MonoBehaviour
         zoomCameras();
         switchScene();
         updateHues();
+
+        //only change greyscales hues when dial is changed, might be able to be moved to OnMessageArrived(), comment in setColorBasedOnDial more expalins why. Function can be renamedto updatehues if this is the method we want.
+        float dialVal = Remap(dialPercent, 0, 100, 0, 1);
+        float deltaDialVal = dialVal - previousDialVal;
+        if (Mathf.Abs(deltaDialVal) >= dialValChangeThreshold)
+        {
+            previousDialVal = dialVal;
+
+            setColorBasedOnDial(grey1, dialVal);
+            setColorBasedOnDial(grey2, dialVal);
+            setColorBasedOnDial(grey3, dialVal);
+
+
+        }
     }
 
     //Invoked when a line of data is received from the serial device.
@@ -104,6 +127,22 @@ public class MyListener : MonoBehaviour
             }
         }
 
+    }
+
+    void setColorBasedOnDial(GameObject obj, float dialVal)
+    {
+
+        Color currentColor = obj.GetComponent<SpriteRenderer>().color;
+
+        Color.RGBToHSV(currentColor, out float H, out float S, out float V);
+        H += dialVal; // when called through update, never stopped '+=' causing a fun little light show. 
+
+        while (H < 0) H += 1f;
+        while (H > 1) H -= 1f;
+
+  
+        Color newColor = Color.HSVToRGB(H, S, V);
+        obj.GetComponent<SpriteRenderer>().color = newColor;
     }
 
     // Zoom all cameras based on proximity data

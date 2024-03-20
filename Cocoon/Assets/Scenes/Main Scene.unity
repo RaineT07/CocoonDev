@@ -753,7 +753,7 @@ GameObject:
   - component: {fileID: 523314585}
   m_Layer: 0
   m_Name: Grey Background
-  m_TagString: Background
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -800,7 +800,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 17de031020a93f140b7ae2bd73076e95, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8584906, g: 0.27860448, b: 0.5594105, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -929,7 +929,7 @@ GameObject:
   - component: {fileID: 658564702}
   m_Layer: 0
   m_Name: Grey Foreground
-  m_TagString: Foreground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -976,7 +976,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9be419f3ace05754a8837a280870b9fa, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4509804, g: 0.6144821, b: 0.7529412, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6620,6 +6620,10 @@ MonoBehaviour:
   backgrounds: []
   midgrounds: []
   foregrounds: []
+  grey1: {fileID: 523314584}
+  grey2: {fileID: 1993511607}
+  grey3: {fileID: 658564701}
+  dialValChangeThreshold: 0.01
 --- !u!114 &1733181167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6733,7 +6737,7 @@ GameObject:
   - component: {fileID: 1993511608}
   m_Layer: 0
   m_Name: Grey Midground
-  m_TagString: Midground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6780,7 +6784,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8a9e896f7aa8fe84d88798e4f0ae0da9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.38137808, g: 0.7372549, b: 0.14117646, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
