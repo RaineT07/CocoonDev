@@ -401,7 +401,9 @@
 "Assets/Ardity/Scripts/Threads/SerialThreadLines.cs"
 "Assets/scripts/AnimationManager.cs"
 "Assets/scripts/ButterflyMovement.cs"
+"Assets/scripts/loadingscreenbar.cs"
 "Assets/scripts/MyListener.cs"
+"Assets/scripts/SceneChange.cs"
 "Assets/scripts/SpriteInstancing.cs"
 -langversion:9.0
 
