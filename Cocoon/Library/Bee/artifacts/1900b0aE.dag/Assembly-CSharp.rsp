@@ -407,6 +407,7 @@
 "Assets/scripts/SceneChange.cs"
 "Assets/scripts/SelfAnimationPause.cs"
 "Assets/scripts/SpriteInstancing.cs"
+"Assets/scripts/SpriteSwaping.cs"
 -langversion:9.0
 
 /deterministic
