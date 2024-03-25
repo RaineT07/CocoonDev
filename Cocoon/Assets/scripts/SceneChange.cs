@@ -15,13 +15,14 @@ public class SceneChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)) {
+        if(Input.GetKeyDown(KeyCode.Space) && SceneManager.GetActiveScene().name == "Bedroom") {
+            SceneManager.LoadScene(2);//loading screen
+        }
 
-            //Load scene
-            SceneManager.LoadScene(2);
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-
+        if (Input.GetKeyDown(KeyCode.Space) && SceneManager.GetActiveScene().name == "Main Scene")
+        {
+            SceneManager.LoadScene(0); //bedroom, might want to create an "endgame" bedroom scene.
+      
         }
 
     }
