@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -215,8 +215,8 @@ MonoBehaviour:
     y: 0
     width: 680.8
     height: 450.4
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -314,7 +314,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1256
+  m_LastSelectedObjectID: 27556
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -736,9 +736,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2331.6812, y: -269.0195, z: -704.7908}
+    m_Target: {x: 1934.8606, y: -0.55796987, z: -348.08588}
     speed: 2
-    m_Value: {x: 2331.6812, y: -269.0195, z: -704.7908}
+    m_Value: {x: 1934.8606, y: -0.55796987, z: -348.08588}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -784,13 +784,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06842955, y: 0.9312643, z: -0.26466733, w: 0.24065228}
+    m_Target: {x: 0.00004731349, y: 0.9999115, z: -0.0054076966, w: 0.003891928}
     speed: 2
-    m_Value: {x: 0.06843304, y: 0.9313117, z: -0.26468083, w: 0.24066454}
+    m_Value: {x: 0.000041476746, y: 0.9999848, z: -0.0039080833, w: 0.0038922527}
   m_Size:
-    m_Target: 671.5856
+    m_Target: 159.88736
     speed: 2
-    m_Value: 671.5856
+    m_Value: 167.42133
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -851,10 +851,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 846b0000
-      m_LastClickedID: 27524
-      m_ExpandedIDs: 20fbffff
+      scrollPos: {x: 0, y: 55.600006}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: bafaffffc06b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -914,27 +914,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: -2231182563678432928, guid: d033e624e0de9014dbd269f6e9e7ad9e, type: 2}
     - {fileID: -2532020901770883899, guid: 9d2a4026b6fdc2a4ea9a5e9024e7e514, type: 2}
     - {fileID: -1217369123947777829, guid: b09246308f77b2d4cbf9e7bab5a7cbd8, type: 2}
     - {fileID: -8416833525819806023, guid: 7f1a76233cce8af4b885ef047bf887d5, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
     - e00: 0.38610524
       e01: 0
       e02: 0
@@ -1142,7 +1125,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/SpriteSheets/Oasis
+    - Assets/scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1150,16 +1133,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites/SpriteSheets/Oasis
+  - Assets/scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\godof\OneDrive\Documents\CocoonDev\Cocoon
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 132.6}
-    m_SelectedIDs: c46e0000
-    m_LastClickedID: 28356
-    m_ExpandedIDs: 00000000686d00006a6d00006c6d0000c26e000000ca9a3b
+    scrollPos: {x: 0, y: 116.600006}
+    m_SelectedIDs: e06e0000
+    m_LastClickedID: 28384
+    m_ExpandedIDs: 00000000886d00008a6d00008c6d0000e26e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1187,7 +1170,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000686d00006a6d00006c6d0000
+    m_ExpandedIDs: 00000000886d00008a6d00008c6d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

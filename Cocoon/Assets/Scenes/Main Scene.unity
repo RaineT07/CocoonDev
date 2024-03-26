@@ -778,7 +778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369152843}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1853.9939, y: -41, z: -306.4}
+  m_LocalPosition: {x: 3519, y: -41, z: -306.4}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1060,7 +1060,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567128370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1754.5659, y: -21, z: -307.4}
+  m_LocalPosition: {x: 3419.572, y: -21, z: -307.4}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1258,7 +1258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608203170}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2336, y: -38.4, z: -233}
+  m_LocalPosition: {x: 4001.006, y: -38.4, z: -233}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1287,6 +1287,23 @@ MonoBehaviour:
   isSwapped: 0
   anim1: {fileID: 9100000, guid: b09246308f77b2d4cbf9e7bab5a7cbd8, type: 2}
   anim2: {fileID: 9100000, guid: 9d2a4026b6fdc2a4ea9a5e9024e7e514, type: 2}
+--- !u!114 &652999984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652999979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032c8821525857f4ab932629ef26f3a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpeed: 1
+  maxSpeed: 3
+  HorizontalAlignment: 0
+  VerticalAlignment: 0
+  sceneCamera: {fileID: 0}
 --- !u!1 &658564701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,7 +1712,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948951338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2495, y: 80, z: -416}
+  m_LocalPosition: {x: 4160.006, y: 80, z: -416}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1801,7 +1818,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089969847}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1838, y: 39, z: -221}
+  m_LocalPosition: {x: 3503.006, y: 39, z: -221}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7406,7 +7423,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986948308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2335, y: -110, z: -357}
+  m_LocalPosition: {x: 4000.006, y: -110, z: -357}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7596,7 +7613,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009560652}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1938.9486, y: 5, z: -265}
+  m_LocalPosition: {x: 3603.9546, y: 5, z: -265}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7998,11 +8015,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2626217844902276848, guid: c581820f183221b46b34e2a41179cc0a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -60
+      value: -63
       objectReference: {fileID: 0}
     - target: {fileID: 2626217844902276848, guid: c581820f183221b46b34e2a41179cc0a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -589
+      value: -499
       objectReference: {fileID: 0}
     - target: {fileID: 2626217844902276848, guid: c581820f183221b46b34e2a41179cc0a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8043,6 +8060,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6243874126906119970, guid: c581820f183221b46b34e2a41179cc0a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 652999980}
+    - targetCorrespondingSourceObject: {fileID: 6243874126906119970, guid: c581820f183221b46b34e2a41179cc0a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 652999984}
   m_SourcePrefab: {fileID: 100100000, guid: c581820f183221b46b34e2a41179cc0a, type: 3}
 --- !u!1001 &4147719169601566700
 PrefabInstance:
