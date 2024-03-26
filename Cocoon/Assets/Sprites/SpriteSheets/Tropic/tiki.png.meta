@@ -1,0 +1,1909 @@
+fileFormatVersion: 2
+guid: 880f7cbe78ee63045911ce86336df374
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiki_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3528
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00238b141feaa96469e4afcbfefc5c4b
+      internalID: 2079117888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_1
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 3528
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e323d20d191ba30428ecc50cb317191c
+      internalID: 1703519246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_2
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 3528
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c9d8173a90c1c4e92374870e74bc62
+      internalID: -441207162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_3
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3528
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca405493b220954993c31a3bd15bc70
+      internalID: -1433129893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_4
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 3528
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b700da64ea76b74aabd8bd2a640bc31
+      internalID: -536814135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_5
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 3528
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a05b794e071be45ac791c0b514bef5
+      internalID: 1607622419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_6
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 3528
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69315c0c2943e74e9391df6b29c4ad4
+      internalID: -241288419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_7
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 3528
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ec176eda0a9744984ee660f854e516
+      internalID: 1585086578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_8
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 3528
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b830771e898439540b1c2297b9bded0b
+      internalID: -118025660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3087
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363c9b64f6830124da6abe4f6da27c6a
+      internalID: -1200632969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_10
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 3087
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb5dc245301dce42a6a164ceee05f30
+      internalID: -1014881433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_11
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 3087
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d07f982d99d5043a5f97a487a0bedb
+      internalID: 1536554602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_12
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3087
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0371b848d6757f145b49b2d5e708d44f
+      internalID: -1968226398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_13
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 3087
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec993793e7e138c48875c0a503858b53
+      internalID: 196970576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_14
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 3087
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa6692d155f6c342909b3a3d373cdce
+      internalID: 1432483900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_15
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 3087
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18938c0d08d8e6341ac71a3a6ff445d7
+      internalID: 2023069086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_16
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 3087
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb93237e82e10b44a373958f4197274
+      internalID: 590997719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_17
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 3087
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931edb21a86a18d488b510632e73cb82
+      internalID: 1149356877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2646
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4482f0614e3082f44a1b8cd7064cb721
+      internalID: 78083588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_19
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 2646
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b96955ede2dbed45877b35f12179388
+      internalID: 832642385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_20
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 2646
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86869fb1e74331488187e6a8714aa63
+      internalID: -946247208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_21
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2646
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3da099f4e6256e48af5992b1176a4d9
+      internalID: -875976714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_22
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 2646
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b095383fbddcd244abc865aecdff68b
+      internalID: -1436802209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_23
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2646
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd33f61b94e752644872514c9c6e377e
+      internalID: -196392297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_24
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 2646
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd2590563726b844942f01c5f6232a6
+      internalID: 952455169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_25
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 2646
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec18da9292bfdf24ab254896a52a4c83
+      internalID: -178804977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_26
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 2646
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd6fd380a43e434397dc78ef3fde6d8
+      internalID: -943075174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2205
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77b9e2145d832a4b9af314f733f89cd
+      internalID: -1019333187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_28
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 2205
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804de3d990edafa4b85d8f7089ee8ea1
+      internalID: 939542326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_29
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 2205
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b6fa8d1c9ebb249b6827360903df1a
+      internalID: 1582200730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_30
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2205
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59181f80237e5d40a403b93cd97184b
+      internalID: 115311952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_31
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 2205
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57aeffeabf9ea04ab36f4d86291701b
+      internalID: 2008673580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_32
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2205
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fec16a9c204a140b4ba25b1f9ddfe3
+      internalID: 2009776201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_33
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 2205
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ee9008942c7af43bac746170b754de
+      internalID: -2033604945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_34
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 2205
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb9cdb769257954db138c0aa329a761
+      internalID: -1315058715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_35
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 2205
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10f8cc376504254cbefa94acbb0ff06
+      internalID: -791404092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1764
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6058754ab6087a9459b2e72f96295e16
+      internalID: 2066683917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_37
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1764
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fefbdb01d7d0043a49e518a51742c7
+      internalID: 972090327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_38
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1764
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cbe7ac12146e04ea6b86ef0bbae98a
+      internalID: 521121835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_39
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1764
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d262bae1c9cb1746a5f5f024d5ffa50
+      internalID: 1075778262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_40
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1764
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d47f5f9dea6d8448648eee0001b763
+      internalID: 2045038738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_41
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1764
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a624a6fbf936c459dc9899e38a3f20
+      internalID: 33051726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_42
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 1764
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836aff95d35a36f4699e4c8f370b838b
+      internalID: -2111885128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_43
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 1764
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179c5f3161de4e44f935d71cb7ed862e
+      internalID: 742981643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_44
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 1764
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230636db0c2368045ab70a6083b04108
+      internalID: 1020300931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1323
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e1967a3a4390a449af402cdf8dabb6
+      internalID: 918078089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_46
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1323
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4637f41e92329724dad755c10de00580
+      internalID: -30764940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_47
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1323
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35982bce8b885474f8e8846afc91ba57
+      internalID: -1582842989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_48
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1323
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3893e5400f473e741bb032c22492cc84
+      internalID: 822590800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_49
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1323
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff541ac3a35686408b3a06e768c6317
+      internalID: -473334088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_50
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1323
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6ca2f830465e74a8dfdec00901ea3c
+      internalID: -1701687757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_51
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 1323
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf68d2b99af37b74598dedaa686b77a6
+      internalID: 418458505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_52
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 1323
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d15c1d17054cf24f842c54016ac7608
+      internalID: 13520301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_53
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 1323
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c112cf8aa0e0e646b65c823bf923b8f
+      internalID: -920136385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa1787cff6c8904bb9c2b28ed466c76
+      internalID: 54379960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_55
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 882
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262130898588a3a4fbfd448e2b87788e
+      internalID: 1750321651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_56
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 882
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2240b4e7dc7a3a41b81d3b83df41ed6
+      internalID: 1321496518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_57
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 882
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f66187fe1089b48b1eb69778a6d18c
+      internalID: 1365321825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_58
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 882
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd55cb2ea82b8bd428c450c2f92ab05c
+      internalID: 756318307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_59
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 882
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4194ad831e5993f4dbd35cd62b74aa54
+      internalID: -1252991650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_60
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 882
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd377232b9c593448a8a57b53650d631
+      internalID: 622012559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_61
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 882
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d27e87fe4db6914e9f8b98dc5d4985c
+      internalID: -1947484637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_62
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 882
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92aafd3f749a0c848b7e70b1214f3965
+      internalID: 1493395960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61935d26a15a6ee489963b8a1a2e016e
+      internalID: -1389626083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_64
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 441
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44127fec726fc4e488357b6e66ec7830
+      internalID: -980371755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_65
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 441
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab1a9f357755374fb206d04330ba21f
+      internalID: -2146956642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_66
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 441
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13719ea15067d984e9fe49b489bfab24
+      internalID: 1123112918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_67
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 441
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0db26460ddc57243b49c542478c4a73
+      internalID: -1351927552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_68
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 441
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb74925feaa9133479b994d6fba81cbd
+      internalID: 938603177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_69
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 441
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e6252260d6cc048967d20c7ebc9229
+      internalID: 35505738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_70
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 441
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9becc0d689171408a0c28d571897e6
+      internalID: -152744790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_71
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 441
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00803531d4430c4f8bf33f472626a8e
+      internalID: 1489788159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72faea202c11a744885879c7aba5aa8d
+      internalID: 1926601907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_73
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 0
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57894e0f8cd83140b57eba35e0ab4e9
+      internalID: -486460663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_74
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018d413d3a579e54e89d78873f3e2002
+      internalID: 180203894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_75
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 0
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24ca8e098d172946b17be009d45762c
+      internalID: -78684249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_76
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c07af041abc7e74e9317aa0711a97b1
+      internalID: -1159241836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_77
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 0
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c66a3ebe4cb1d94aa5ac9ebdc5738cb
+      internalID: 1866100891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_78
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 0
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2e10ab19a667141b53e20dab3ef939
+      internalID: -1263840562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_79
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 0
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c330feb48e91c04da8966f84980f8b3
+      internalID: -871797588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiki_80
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 0
+        width: 441
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a00fab97a67abe4aa83fb47206b060f
+      internalID: 1997765964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tiki_0: 2079117888
+      tiki_1: 1703519246
+      tiki_10: -1014881433
+      tiki_11: 1536554602
+      tiki_12: -1968226398
+      tiki_13: 196970576
+      tiki_14: 1432483900
+      tiki_15: 2023069086
+      tiki_16: 590997719
+      tiki_17: 1149356877
+      tiki_18: 78083588
+      tiki_19: 832642385
+      tiki_2: -441207162
+      tiki_20: -946247208
+      tiki_21: -875976714
+      tiki_22: -1436802209
+      tiki_23: -196392297
+      tiki_24: 952455169
+      tiki_25: -178804977
+      tiki_26: -943075174
+      tiki_27: -1019333187
+      tiki_28: 939542326
+      tiki_29: 1582200730
+      tiki_3: -1433129893
+      tiki_30: 115311952
+      tiki_31: 2008673580
+      tiki_32: 2009776201
+      tiki_33: -2033604945
+      tiki_34: -1315058715
+      tiki_35: -791404092
+      tiki_36: 2066683917
+      tiki_37: 972090327
+      tiki_38: 521121835
+      tiki_39: 1075778262
+      tiki_4: -536814135
+      tiki_40: 2045038738
+      tiki_41: 33051726
+      tiki_42: -2111885128
+      tiki_43: 742981643
+      tiki_44: 1020300931
+      tiki_45: 918078089
+      tiki_46: -30764940
+      tiki_47: -1582842989
+      tiki_48: 822590800
+      tiki_49: -473334088
+      tiki_5: 1607622419
+      tiki_50: -1701687757
+      tiki_51: 418458505
+      tiki_52: 13520301
+      tiki_53: -920136385
+      tiki_54: 54379960
+      tiki_55: 1750321651
+      tiki_56: 1321496518
+      tiki_57: 1365321825
+      tiki_58: 756318307
+      tiki_59: -1252991650
+      tiki_6: -241288419
+      tiki_60: 622012559
+      tiki_61: -1947484637
+      tiki_62: 1493395960
+      tiki_63: -1389626083
+      tiki_64: -980371755
+      tiki_65: -2146956642
+      tiki_66: 1123112918
+      tiki_67: -1351927552
+      tiki_68: 938603177
+      tiki_69: 35505738
+      tiki_7: 1585086578
+      tiki_70: -152744790
+      tiki_71: 1489788159
+      tiki_72: 1926601907
+      tiki_73: -486460663
+      tiki_74: 180203894
+      tiki_75: -78684249
+      tiki_76: -1159241836
+      tiki_77: 1866100891
+      tiki_78: -1263840562
+      tiki_79: -871797588
+      tiki_8: -118025660
+      tiki_80: 1997765964
+      tiki_9: -1200632969
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

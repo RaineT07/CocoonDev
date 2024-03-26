@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: a3c3ebebd4fd06f4fb431e8cfe8c80c0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83e35c5fff052842a1e76ce240c763e
+      internalID: -1998488451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 4320
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d61e0bb4bc950e43af3469fb8f51565
+      internalID: -209886998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 4320
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193c9db1fff1fbc46a96681690269a72
+      internalID: 2608741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4320
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9506b7459978a43baf2b32810dc208
+      internalID: -1621774010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 4320
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c0f35b5e8c1de429dd7574d98625cc
+      internalID: 1687395383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4320
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa424500c27b0464b9925bc03716ac54
+      internalID: 2130126906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3456
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e028aa63de8c5ff4499a789a864a6436
+      internalID: -120823577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 3456
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c3e7025ea9a1144962831d9b1f19c2
+      internalID: 945958994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 3456
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1727f9944db9b5443b291e52f0860fae
+      internalID: 2052573601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 3456
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3b19589ed6687438900c9178f78f57
+      internalID: 1953654863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 3456
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8216cfd21d410f49828c2e3c3793e78
+      internalID: 157190668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3456
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311e497347fd90943892c537005a9656
+      internalID: -1495324972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2592
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa24ab96c1eeb564b9d783bd0acea67b
+      internalID: 1632570937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2592
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8842a5b74201ad459784e730d80fa71
+      internalID: -531276460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2592
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692329777075df84ba81bf5f6a941dc9
+      internalID: 328697520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2592
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71750e62cc39ff54d8074f3009458b8e
+      internalID: 1948372782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 2592
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296100b3cfdf31e4ca38f706bcf2ee4b
+      internalID: 1813317697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2592
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87be4a43e6b94b348a2378bc00055e56
+      internalID: -663445666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae589b229bc217a49bb8c9c38aa093f8
+      internalID: 1579778758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1728
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d9a1651b6b07649bd913a651279374
+      internalID: -1502151783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1728
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8cc78b6ec6b40478bc2c930c131681
+      internalID: 912290310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1728
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19bfc96b1e962744a8a6fb9b4458b3f
+      internalID: -2004896933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1728
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddafabff7594ea41ab9720f2b13b1e8
+      internalID: -470873773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1728
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bd4e541a0ee3b4db074c4e94b3121a
+      internalID: -308898394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8c6cd29f6dabd499ca27717cf456cc
+      internalID: 1210826437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 864
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d041be0872a54745b4653daa0848fe0
+      internalID: -1804022092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 864
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91ac37b0e73db442b374b0a8499b56f
+      internalID: -78447255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 864
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885d71cbde122f84c906beda3c3a8420
+      internalID: 1859780346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 864
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90ea04a78d318e48979905e4f11e8fa
+      internalID: 603997460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 864
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ce25f26575b924aa2d440d07140699
+      internalID: -1684690547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fb06a67a1e29443842111c4486249a
+      internalID: -1567200297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0dbe024f8eed64093e5c0d87ac60e7
+      internalID: 114240736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2859bf595abc5498d6c340d6c055d3
+      internalID: -18800558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6ecc99137cc274cb02b9799dd69efb
+      internalID: 569333058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d59b88b58c48a4f8f101eaecafba13
+      internalID: 1866657454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 864
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671c63a94159f7642817a14fe5df7e09
+      internalID: -464599874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Toucan_SpriteSheet_0: -1998488451
+      Toucan_SpriteSheet_1: -209886998
+      Toucan_SpriteSheet_10: 157190668
+      Toucan_SpriteSheet_11: -1495324972
+      Toucan_SpriteSheet_12: 1632570937
+      Toucan_SpriteSheet_13: -531276460
+      Toucan_SpriteSheet_14: 328697520
+      Toucan_SpriteSheet_15: 1948372782
+      Toucan_SpriteSheet_16: 1813317697
+      Toucan_SpriteSheet_17: -663445666
+      Toucan_SpriteSheet_18: 1579778758
+      Toucan_SpriteSheet_19: -1502151783
+      Toucan_SpriteSheet_2: 2608741
+      Toucan_SpriteSheet_20: 912290310
+      Toucan_SpriteSheet_21: -2004896933
+      Toucan_SpriteSheet_22: -470873773
+      Toucan_SpriteSheet_23: -308898394
+      Toucan_SpriteSheet_24: 1210826437
+      Toucan_SpriteSheet_25: -1804022092
+      Toucan_SpriteSheet_26: -78447255
+      Toucan_SpriteSheet_27: 1859780346
+      Toucan_SpriteSheet_28: 603997460
+      Toucan_SpriteSheet_29: -1684690547
+      Toucan_SpriteSheet_3: -1621774010
+      Toucan_SpriteSheet_30: -1567200297
+      Toucan_SpriteSheet_31: 114240736
+      Toucan_SpriteSheet_32: -18800558
+      Toucan_SpriteSheet_33: 569333058
+      Toucan_SpriteSheet_34: 1866657454
+      Toucan_SpriteSheet_35: -464599874
+      Toucan_SpriteSheet_4: 1687395383
+      Toucan_SpriteSheet_5: 2130126906
+      Toucan_SpriteSheet_6: -120823577
+      Toucan_SpriteSheet_7: 945958994
+      Toucan_SpriteSheet_8: 2052573601
+      Toucan_SpriteSheet_9: 1953654863
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

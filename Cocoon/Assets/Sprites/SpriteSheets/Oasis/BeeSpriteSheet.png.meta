@@ -1,0 +1,1535 @@
+fileFormatVersion: 2
+guid: fb71eeaa0136673449e9f30bd5d6ad46
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeeSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4410.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c2d3edfe4f8d1439270b4cb322fad0
+      internalID: -1867011754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 4410.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563f9adec08c9ae4891b1b64d87931df
+      internalID: 907485584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 4410.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43b1e8c052c49e4e9fc793a854c3005
+      internalID: 663784898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 4410.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f428528eda1f3e246ab9a16e565d9bd4
+      internalID: -219242923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 4410.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b090d81509f78a429fb9b6e56013c3f
+      internalID: -976839454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 4410.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921b99d4016df8443a67160a41c66735
+      internalID: -430997394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 4410.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df861c4393a0aee42bf87558c5a9669e
+      internalID: -1982689674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 4410.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b4e0404beae43428f4d07d66472689
+      internalID: -335021354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3780.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dc0ce13b83c634ab71f41e2197eb00
+      internalID: -852017538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 3780.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586da6e3d3b2b5b4fa3ca9812883a198
+      internalID: -1773182843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 3780.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d9ae101b98cb745b497ad4ab0c140b
+      internalID: 799327750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 3780.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc39001b56c08ef4c808a61d39c39944
+      internalID: -1523393595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3780.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224801894055bac49901986ff801c053
+      internalID: -789752772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3780.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2f1cac1f8720b46804302eaddacca7
+      internalID: -1755121482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 3780.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32232fc3ab210148bfda214b1e1f4b7
+      internalID: 58730399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 3780.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7d6cb8c5455634abd1e8d8724e0803
+      internalID: -70016981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9666eb392a07ec4c9dcf0c49768e79a
+      internalID: 160634046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 3150.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a0a7a7c36985949af39cdcdc9b3e40
+      internalID: 1739374414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 3150.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffc9e96cfb34604ea3eca966c4cd98b
+      internalID: -1717734772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 3150.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2387efce93d541e45ae1074e12a019fd
+      internalID: 1847144107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3150.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03764509f9dc36f4cb228abd86441246
+      internalID: -819016581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3150.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a3f21a80fa7764faac0d986c022ee7
+      internalID: -540813475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 3150.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d5c8c727a650d4389871f724daae2e
+      internalID: 906807610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 3150.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9431b179db8f7a4198543e8e2b03597
+      internalID: 1225356046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c94c63c2e250744f960c20aa7a63728
+      internalID: -304731332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2520.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895390e9df45a6540a47fd062d0dcd30
+      internalID: -2058525569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 2520.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72352dbbe159694c806a122c4530caa
+      internalID: 333481060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 2520.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80aa6489864fdf642927b57a4cf62951
+      internalID: -2099892818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2520.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b776814135cb73d48852f32f9458094b
+      internalID: 1770850221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2520.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37202cc2aa1d3bc48bd1528ff834b014
+      internalID: 1793788770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 2520.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2119641196a8ca34c86ee1ed6031c226
+      internalID: 1374188329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 2520.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307eacd3da838d445b39d9ca6e1151ea
+      internalID: -1893471315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f30add13d2c8ab40aa91341a32e045f
+      internalID: 486621762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1890.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e617b8dcece66340ae625a84db3cad5
+      internalID: 1912523221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1890.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc1cf633d329154ea9421ec291555da
+      internalID: 1907264988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1890.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7baba2f258a08448d2fa708581974d
+      internalID: 1856027242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1890.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733c9e6fdcfa4724ebe663df5cfda3fa
+      internalID: -211064203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1890.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f61845581134004aa354c3ad6f8d101
+      internalID: 224908887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1890.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10c381bfb2bd0741bdb40539339025e
+      internalID: 1641902561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 1890.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f03c473562e14459ae3e010782622c
+      internalID: -1931143494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1183148b365b045b38d7fe34e996ab
+      internalID: -1818418211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1260.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dffa1d160f9a748853fac0a66f451e
+      internalID: -1956282492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1260.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d697909fb13690045bca40da3d7245bc
+      internalID: -1176429440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1260.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6795509a0fd44f34e9d2ee04088d9208
+      internalID: 1975860360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1260.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fb8924f0b62124487fe28368446c32
+      internalID: -2011601349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1260.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab562633ed44d44088f86311c16af1a
+      internalID: 1214144506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1260.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e41e9ff554d3a42b2a15beb394d6f2
+      internalID: 358829723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 1260.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dc8da3f00c36e4b9b1c82f74b41de7
+      internalID: -2143144241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea695a999ecee754b884b5dd7f93052e
+      internalID: -1739209937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 630.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48ad848da1864140b928c05676be113
+      internalID: -1903161323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 630.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56a27d37600a274c995ac254aaffd40
+      internalID: 1925126966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 630.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641a568dac6fbe644aa7e66567967220
+      internalID: 1778788838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 630.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc27dbaadaa9634c9a3216be0e7af7b
+      internalID: -728752767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 630.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c01586b92872543b13f25c26451df3
+      internalID: 1429236062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 630.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092828740e76ad240bca305aee9dfb13
+      internalID: 830966958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 630.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0898a053593d5d4b9d2e609f79cb38b
+      internalID: -1224506060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cfb5e569293f5439ae5b6d86e28c49
+      internalID: -27255534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60276de245a40ac4984d741eacfed86d
+      internalID: -321267883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdbb4e1b8717a4418fb278589f565bc
+      internalID: 1278398690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d737fd329ddf449a6c37a8b44f55fd
+      internalID: -843365195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c7c441a1b1cad429a3a12e1352f194
+      internalID: 519090473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4797bbe1f006a0b43a21b0a5705f47cf
+      internalID: -1011323045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1340837f306138047982ad03c9acedee
+      internalID: 1514956705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeeSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 0.875
+        width: 630.125
+        height: 630.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24146696275f4f7409ee67d706ef8d37
+      internalID: 577559512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BeeSpriteSheet_0: -1867011754
+      BeeSpriteSheet_1: 907485584
+      BeeSpriteSheet_10: 799327750
+      BeeSpriteSheet_11: -1523393595
+      BeeSpriteSheet_12: -789752772
+      BeeSpriteSheet_13: -1755121482
+      BeeSpriteSheet_14: 58730399
+      BeeSpriteSheet_15: -70016981
+      BeeSpriteSheet_16: 160634046
+      BeeSpriteSheet_17: 1739374414
+      BeeSpriteSheet_18: -1717734772
+      BeeSpriteSheet_19: 1847144107
+      BeeSpriteSheet_2: 663784898
+      BeeSpriteSheet_20: -819016581
+      BeeSpriteSheet_21: -540813475
+      BeeSpriteSheet_22: 906807610
+      BeeSpriteSheet_23: 1225356046
+      BeeSpriteSheet_24: -304731332
+      BeeSpriteSheet_25: -2058525569
+      BeeSpriteSheet_26: 333481060
+      BeeSpriteSheet_27: -2099892818
+      BeeSpriteSheet_28: 1770850221
+      BeeSpriteSheet_29: 1793788770
+      BeeSpriteSheet_3: -219242923
+      BeeSpriteSheet_30: 1374188329
+      BeeSpriteSheet_31: -1893471315
+      BeeSpriteSheet_32: 486621762
+      BeeSpriteSheet_33: 1912523221
+      BeeSpriteSheet_34: 1907264988
+      BeeSpriteSheet_35: 1856027242
+      BeeSpriteSheet_36: -211064203
+      BeeSpriteSheet_37: 224908887
+      BeeSpriteSheet_38: 1641902561
+      BeeSpriteSheet_39: -1931143494
+      BeeSpriteSheet_4: -976839454
+      BeeSpriteSheet_40: -1818418211
+      BeeSpriteSheet_41: -1956282492
+      BeeSpriteSheet_42: -1176429440
+      BeeSpriteSheet_43: 1975860360
+      BeeSpriteSheet_44: -2011601349
+      BeeSpriteSheet_45: 1214144506
+      BeeSpriteSheet_46: 358829723
+      BeeSpriteSheet_47: -2143144241
+      BeeSpriteSheet_48: -1739209937
+      BeeSpriteSheet_49: -1903161323
+      BeeSpriteSheet_5: -430997394
+      BeeSpriteSheet_50: 1925126966
+      BeeSpriteSheet_51: 1778788838
+      BeeSpriteSheet_52: -728752767
+      BeeSpriteSheet_53: 1429236062
+      BeeSpriteSheet_54: 830966958
+      BeeSpriteSheet_55: -1224506060
+      BeeSpriteSheet_56: -27255534
+      BeeSpriteSheet_57: -321267883
+      BeeSpriteSheet_58: 1278398690
+      BeeSpriteSheet_59: -843365195
+      BeeSpriteSheet_6: -1982689674
+      BeeSpriteSheet_60: 519090473
+      BeeSpriteSheet_61: -1011323045
+      BeeSpriteSheet_62: 1514956705
+      BeeSpriteSheet_63: 577559512
+      BeeSpriteSheet_7: -335021354
+      BeeSpriteSheet_8: -852017538
+      BeeSpriteSheet_9: -1773182843
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

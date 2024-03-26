@@ -1,0 +1,1535 @@
+fileFormatVersion: 2
+guid: fe2b2f9f8c16af04db58de1334a8189c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b4ca69440b3e145a311a5d6c894eb4
+      internalID: 975501534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aad4b404fc4784895a1d20f059c9bc
+      internalID: 779815080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b923718242edf943a09de008956a0ad
+      internalID: 340438752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696fe4b23b8058f47b3ab9ca205582c3
+      internalID: -743535004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff92339eec871484fba90bd396a41fe7
+      internalID: 1895863815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8014d18274c35d04daad02fd2aad4d44
+      internalID: 1037161812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f47fcc8f6de084f917d885d522bc84
+      internalID: -140221300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834d49a7eb8c08c41a81af4c2b9c1fcf
+      internalID: 1622942833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e2399b9e42a134e8d6b706a28c6c25
+      internalID: -1426773918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4fa4034f0fdd64085721c68cb1cf66
+      internalID: 2035355355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04be9e2fd34c4fd4eb21ea06b1708824
+      internalID: 1981779872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d366407a91cbf4fa440506c4203ef4
+      internalID: 1985025671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12bae81cb4063e4a9a29e6a9c2886b2
+      internalID: 548906625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3359a77a0390f4d8614505a37fd091
+      internalID: -1922295929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18265c689688d54f97e3eb02a6a2ba2
+      internalID: 649350258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb2b66189e86b7469615b4386174ada
+      internalID: 1948332334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061844f5bd9681741b75d8621a771c45
+      internalID: -278629161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daa4b84ad313134881bb67704ff2b40
+      internalID: -1068791400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ee4e069bdc0940a8ebe1d5f04bff4
+      internalID: -777242679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccbec681dc7c294aa67234e7a92ae17
+      internalID: 1334300674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfaf93394d3a1442a86e664fcdfd5d3
+      internalID: 646810977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2576f03fa9aa34ebed68cc51bde442
+      internalID: 554078597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6970e1940e94e468e465b343be1c34
+      internalID: -31457881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6066d535af0cd4faf63327bf944c76
+      internalID: 1815740774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389f088f5c11f214d99c12c31b88fe77
+      internalID: -973698934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6dc1cd3e542b043b8a211a38b5102f
+      internalID: -298404445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9627f207f17037348a00bd2ff50db3b1
+      internalID: 1637851837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52c02a6dcd2ef74f84c52ea41db19cf
+      internalID: -103304069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb96b51749f98d64d98e97d4d1780a4b
+      internalID: 1840653619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827e00585a640eb42ad808ed2b8c44a1
+      internalID: -361087267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e55f0070cdc6714c9f601936e1a4291
+      internalID: 1177343265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329957d3123310d4d8c8e1d1b8ed7eda
+      internalID: -367730612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a6fd7c76b88e242980ab1715b9cbd7
+      internalID: -6875768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bca09f236c6b941802e65674d26a7a
+      internalID: 1769851871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d8c092299324c4f937ec60b7d173d1
+      internalID: 405501678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bdbaa4e9b60a94d8a6c8b668b2e916
+      internalID: 1324488481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3a58b72e537c743ac5ead1c8bb6d22
+      internalID: -2059431048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644c9f11eaff1aa41a96ac3377af2431
+      internalID: 622768378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b152ec87e98ae834ab958bc5cac48197
+      internalID: 949526311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09128f877b93242418126a51226f1dbe
+      internalID: 1664067664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1fac9f35056ee4fa40d2020011759b
+      internalID: 1284392604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a1d5d0646eff44ab7d4a5b3304ac9a
+      internalID: -1489204902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3fd06189a05604395d9f6cbca477ea
+      internalID: -1303294010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7215832bdf1994a9fca8c4490daca1
+      internalID: 666795652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f784f5a9ec01084fad16cd87b11b704
+      internalID: 1152662466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a275b7f18f07ff4ab0b4e7fdbc0060b
+      internalID: 491397401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c939eb0cab1a1140852aabc686307bc
+      internalID: -83881182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd37949d83f5dbc4f9df13328af5eeeb
+      internalID: -944578152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66efc0ed92437743b2b3a7e3b290f7f
+      internalID: 601717782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1c75aa4643c0141a902aeb63a15d9c
+      internalID: -920006632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67e11eb4e8a6fb4a904e72008246b89
+      internalID: -619014460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572d5beb9b13ccc47a56b5c1459c1109
+      internalID: 55720855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e803042c7ffdf754bab1273ea9ccd810
+      internalID: 173344052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3c8dc181aaaf245bfe2f33b0cf034a
+      internalID: -91173630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c527515736b1d5f4d88badf1c8f6b379
+      internalID: 393561018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadb7beaf42277b44938a1e3a307efd1
+      internalID: 720991666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c138380f6d1b9b4e98b857d51b0dae9
+      internalID: -1394869311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783ef91d936cec348bce485a5cdce7ce
+      internalID: -1624445281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5285c33fd97bb6f42973335f0968e03f
+      internalID: 1582833238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e791f3f796c600f46bc8ff9e12649de0
+      internalID: 1988145360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf97e6052ab0964b8848054a6c9aa5f
+      internalID: -921049866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dd05a00bdabe14f921ed5022200394
+      internalID: 994066310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3191a75a57e224ebaf815343702f92
+      internalID: -1406391137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstera_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89b6c9c88e9a754991bd59a89c180d2
+      internalID: 1713645756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Monstera_SpriteSheet_0: 975501534
+      Monstera_SpriteSheet_1: 779815080
+      Monstera_SpriteSheet_10: 1981779872
+      Monstera_SpriteSheet_11: 1985025671
+      Monstera_SpriteSheet_12: 548906625
+      Monstera_SpriteSheet_13: -1922295929
+      Monstera_SpriteSheet_14: 649350258
+      Monstera_SpriteSheet_15: 1948332334
+      Monstera_SpriteSheet_16: -278629161
+      Monstera_SpriteSheet_17: -1068791400
+      Monstera_SpriteSheet_18: -777242679
+      Monstera_SpriteSheet_19: 1334300674
+      Monstera_SpriteSheet_2: 340438752
+      Monstera_SpriteSheet_20: 646810977
+      Monstera_SpriteSheet_21: 554078597
+      Monstera_SpriteSheet_22: -31457881
+      Monstera_SpriteSheet_23: 1815740774
+      Monstera_SpriteSheet_24: -973698934
+      Monstera_SpriteSheet_25: -298404445
+      Monstera_SpriteSheet_26: 1637851837
+      Monstera_SpriteSheet_27: -103304069
+      Monstera_SpriteSheet_28: 1840653619
+      Monstera_SpriteSheet_29: -361087267
+      Monstera_SpriteSheet_3: -743535004
+      Monstera_SpriteSheet_30: 1177343265
+      Monstera_SpriteSheet_31: -367730612
+      Monstera_SpriteSheet_32: -6875768
+      Monstera_SpriteSheet_33: 1769851871
+      Monstera_SpriteSheet_34: 405501678
+      Monstera_SpriteSheet_35: 1324488481
+      Monstera_SpriteSheet_36: -2059431048
+      Monstera_SpriteSheet_37: 622768378
+      Monstera_SpriteSheet_38: 949526311
+      Monstera_SpriteSheet_39: 1664067664
+      Monstera_SpriteSheet_4: 1895863815
+      Monstera_SpriteSheet_40: 1284392604
+      Monstera_SpriteSheet_41: -1489204902
+      Monstera_SpriteSheet_42: -1303294010
+      Monstera_SpriteSheet_43: 666795652
+      Monstera_SpriteSheet_44: 1152662466
+      Monstera_SpriteSheet_45: 491397401
+      Monstera_SpriteSheet_46: -83881182
+      Monstera_SpriteSheet_47: -944578152
+      Monstera_SpriteSheet_48: 601717782
+      Monstera_SpriteSheet_49: -920006632
+      Monstera_SpriteSheet_5: 1037161812
+      Monstera_SpriteSheet_50: -619014460
+      Monstera_SpriteSheet_51: 55720855
+      Monstera_SpriteSheet_52: 173344052
+      Monstera_SpriteSheet_53: -91173630
+      Monstera_SpriteSheet_54: 393561018
+      Monstera_SpriteSheet_55: 720991666
+      Monstera_SpriteSheet_56: -1394869311
+      Monstera_SpriteSheet_57: -1624445281
+      Monstera_SpriteSheet_58: 1582833238
+      Monstera_SpriteSheet_59: 1988145360
+      Monstera_SpriteSheet_6: -140221300
+      Monstera_SpriteSheet_60: -921049866
+      Monstera_SpriteSheet_61: 994066310
+      Monstera_SpriteSheet_62: -1406391137
+      Monstera_SpriteSheet_63: 1713645756
+      Monstera_SpriteSheet_7: 1622942833
+      Monstera_SpriteSheet_8: -1426773918
+      Monstera_SpriteSheet_9: 2035355355
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

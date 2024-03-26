@@ -1,0 +1,2789 @@
+fileFormatVersion: 2
+guid: 0972e6c2f0acb7c4fb2c1d280e30e63b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VinesSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30412921d6901b84a8fb49e68b0efa20
+      internalID: -1893909616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4911149bf9bc5df40ac3084bec4a0c6d
+      internalID: -482059715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f4465869b96354e99ed7d61bb4442b
+      internalID: 324765135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ef3721ccb276047a05dde314a47efe
+      internalID: -1716246802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3697774ba649c3a409a30ec54e2c9139
+      internalID: -279767263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67423687709f5714089c13d2d3119e70
+      internalID: -1545281828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5d65fa97f8c5746983e493362de232
+      internalID: 1091079068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0290c412761b1af4791d897d92973f6b
+      internalID: 669331893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a372f527d26b6546ab453b8db7edb63
+      internalID: 69559865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0c851d12c38fc469358b849be24c36
+      internalID: -896126383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 4582.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e284abea8460cce40a7601c229db25f7
+      internalID: -1303809156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e6ef86f76861a4494efae736c6919e
+      internalID: -686454723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086abb419fe449c4c8c70e0f7f711ce8
+      internalID: -1191834782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482aa9fdc6d38e44e95b97e7d00b3868
+      internalID: 1548879395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbaafe677fed6346aece9c65d1e01dc
+      internalID: -1243215220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62974427417e714b9519065ca0acb5a
+      internalID: 1463927973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86da1bbbef57ff489af48461685f122
+      internalID: -2031319988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73ddc86e5a61534c8a93cf461adc60b
+      internalID: 1649169490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d58b11ae7e02ce46bab8c5ff6e0a379
+      internalID: -1726971884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba574c91f19db4d41b08917d866e56d9
+      internalID: -287511003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e901ccb0be9b4a4594a27746d419929
+      internalID: 1874208126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 4124.727
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ceef64eba78594287cb76094d1cd0e
+      internalID: -203729755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aa17c30577ab74ab1419d5b9d3375b
+      internalID: 161405826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835f9bc5378eea547af4766009d4c8a0
+      internalID: 999773304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4779342d7ba33984cae2d93a249a6e68
+      internalID: 1130476189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003734b0e28bf024e96851f08c58c5fb
+      internalID: -1288357920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58339aa73aa439f4899fa4c4aa6715ea
+      internalID: 916734160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c4af26b40a9e64793263615b113fc2
+      internalID: -1178321898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850c4dbb6f3974f49aa376be8ce6680a
+      internalID: -1415729829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5ec869bc8b1334696edd774d23dfcc
+      internalID: -1934444310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c20c290f7cacf443ad66046639b0b01
+      internalID: -498885730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b748627383face6478181a7ac571296e
+      internalID: -443845776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 3666.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcc095462e18a84ba8e4691e3bb1b23
+      internalID: -99163683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39001ab263901947911f8b2a0d727df
+      internalID: -1576322660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3079a475c7db2f644b2b5d2a8ebc391c
+      internalID: -906998201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e6714cf0fdac743b6713f58216f1e3
+      internalID: 1826734172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1757a657bb73852418e5092f7e4d6eec
+      internalID: -2055562652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccfcb3f8218cda4b841b626cf332d4b
+      internalID: -1225875279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382afc7d82c1ec64ea00a2c054077cb8
+      internalID: 1116531660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832da4331dba7d1479ce0f6f1fbd0ff6
+      internalID: -930087925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470a10e8d73829d4ba87400839bfc70f
+      internalID: 946489733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254bf486960d42c4d8ab6710e35bbc95
+      internalID: -275288740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9256b1dedc1cab4999caac448d0bd68
+      internalID: -982841357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 3208.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1867cf4991e0bc54c8bbae7ebb59c4f3
+      internalID: 1617365843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30c01ded43f02940beb150eb33e2664
+      internalID: 1167592476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928206b9b0431f74881a9c7d29d591c1
+      internalID: -1390790492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfd3b74219424f429a683a24e2fa10f
+      internalID: -1169736916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4830ae9eb6449e42acf63d04569c9d9
+      internalID: -816187605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e3a65191b93594582ad11875767cbe
+      internalID: 4309661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c318b2cffd58f45abfa92523b18f90
+      internalID: -619661069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164478918e7779a42b81e6bd40fa6474
+      internalID: 1032127699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab52414c5f0bf145b86e90814e0f565
+      internalID: -391783324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe379a1a2447e647b41ca5d22480ea5
+      internalID: 1261031750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1092a1e4b43b414ba32c8699916de7b
+      internalID: -1444828370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 2750.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cff2cd4cab631245a4cb851b6588efe
+      internalID: 1694193268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f8343c54efe04468385edb54e36758
+      internalID: 469114752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1ba6a3d782a33439e3d631419d81e4
+      internalID: 35728203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206697660f570b845b24cb3651543804
+      internalID: 1506293758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18ca174e802af54294cf2dcbe25bb26
+      internalID: -1117831804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6f2d204ef9417439ff66183b3d18d2
+      internalID: -1924742249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3404b7a9a64368f49addfab052468dfd
+      internalID: 1072035877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc60d752543c84d40a34ec4419c9df8d
+      internalID: 905754027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735d7e54e10235849916038976938d50
+      internalID: -595007793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e08e87615b4e94ba471591caa3d8e4
+      internalID: -90288015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34e151758d04834da62660be14c1393
+      internalID: 790209776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 2292.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25586f64257572e42ab99d47adf5eac6
+      internalID: -2006263384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb64a30fb76ae147b7cdba0041940c4
+      internalID: 1288491612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80aeee76d4d5bb4ab13c95228068c61
+      internalID: 96069809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d1ab75a6b232644bdfb057b1432004
+      internalID: -425516566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103eed55e95065b4888db0124f8b5fd0
+      internalID: 915155335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a048581f2bae9146845f9c7f0dd6355
+      internalID: 1016277668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5622cfdf661d4dc47a82070f7151a72a
+      internalID: 784354587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd4bd685ecad7340b61499260ccd7ad
+      internalID: -1967626706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce44dfd054543f4993ff69590267326
+      internalID: -374601386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c6b54fedec0e04fb8abbd751e13b63
+      internalID: -1866280794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3015d49c5a7979d4e8a235f03397c601
+      internalID: -1229443657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 1834.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd77934cd4f3324b8d351885992d3cf
+      internalID: 1683529104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62d37a2cc9432e489ded912534b104d
+      internalID: 131401968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cab74bce3c42ab4497c0ffea8ceb60a
+      internalID: 484668017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0c3502eaed9804f981ea19e110f58e
+      internalID: 1524937996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803d1c7094b106747a5a62b2dcd6a73a
+      internalID: -1256005169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdee8a896f7314044b903d8809e064a1
+      internalID: 666308093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d480accdc4194d9499aed539be00804e
+      internalID: -1621556877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4f795979499bc46bb5ee8926a0068f
+      internalID: 1846007316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0ea7cfc394e3d4f9f79cce3d2e0751
+      internalID: -1115249893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d22f2524225c64caa38c912a0bab2d
+      internalID: -878561984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7cbfdda41f4564a920d0696ff78deb
+      internalID: -30053851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 1376.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231066246e7fd4942ad5a0f3c5e0bddb
+      internalID: 684863258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af53a64c84b1a7545a1f28f74d60eec5
+      internalID: -907097985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80707c9d9669661498f057443e3437d0
+      internalID: -845135657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d2cff5e1c0e9244b31f958dc0f515c
+      internalID: 1142883593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fdd5a3e2a08ed4db89421335a5a06c
+      internalID: -882316266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eceb2da86142de4b9ad6bc6920ee507
+      internalID: 809732566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9891a292b69034f87cfa9a21ba0df4
+      internalID: -1983386338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cc774e766fa6242ba0a160e04277e0
+      internalID: -1306029836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0404f3b18c62d3e41be8e75396acd511
+      internalID: -2035693204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4afafbbaddbfe142af6a62e92c779c7
+      internalID: 261991448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65eb4e310f356ae4aa2e8216ab4826eb
+      internalID: -431759370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 918.7273
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722f7cb854ed90344bc1fe736030312b
+      internalID: 1695274348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ef935091a62da4291deeb20f382c41
+      internalID: 1333652097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4db89679b16e7478220ea869bce745
+      internalID: 353205642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ed2c6c4aa82e4409b5e055425be266
+      internalID: -797930154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058383af9da4dfb4b98882658de5809a
+      internalID: -2113460594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e46de90d5b8af44b9bc92a5ff4443cb
+      internalID: -538746455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd0d01ae3494f04789f38d5efbc70cd
+      internalID: 690077514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170091055484d234d9ce1787dce65ad7
+      internalID: -1327497844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020bfcc16083ef14688053161f2184c6
+      internalID: -318451911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed36d391a0904084fad1396ba6b54dc0
+      internalID: 377090877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041b1ed71059f384698470d13524f8cc
+      internalID: -1775156148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 460.72726
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e25f92c6599c146a83c4dd9e8faac3
+      internalID: -1335553809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843f92d744e96bd40bd560a436552a09
+      internalID: 1703876799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee5a27d62195d348a113a845936b4bc
+      internalID: -5227474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d294ae7cf3f0249ba2886d88358d8f
+      internalID: -338922418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3246dfc1a0a543c499b1ac51d57df7e2
+      internalID: -1938229395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ff3bf8850f65f4bae0321f868b552f
+      internalID: -1818210260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3989b4c6fde5c940b6747fb335e4a2e
+      internalID: 5961138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26051d0a4e4644a4eb7bc1bc06d41526
+      internalID: -786080328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9898a77077f2a41b4fbe20551e9fe3
+      internalID: 864464986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee5ef803644d224894be81357cdf3d2
+      internalID: -1989154745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3355b86988676a34a8e0400de86bc478
+      internalID: -1494348213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VinesSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 2.7272644
+        width: 458.27274
+        height: 458.27274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dce3ac9019ceff448e7bd8860ba6869
+      internalID: 1186320504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VinesSpriteSheet_0: -1893909616
+      VinesSpriteSheet_1: -482059715
+      VinesSpriteSheet_10: -1303809156
+      VinesSpriteSheet_100: 353205642
+      VinesSpriteSheet_101: -797930154
+      VinesSpriteSheet_102: -2113460594
+      VinesSpriteSheet_103: -538746455
+      VinesSpriteSheet_104: 690077514
+      VinesSpriteSheet_105: -1327497844
+      VinesSpriteSheet_106: -318451911
+      VinesSpriteSheet_107: 377090877
+      VinesSpriteSheet_108: -1775156148
+      VinesSpriteSheet_109: -1335553809
+      VinesSpriteSheet_11: -686454723
+      VinesSpriteSheet_110: 1703876799
+      VinesSpriteSheet_111: -5227474
+      VinesSpriteSheet_112: -338922418
+      VinesSpriteSheet_113: -1938229395
+      VinesSpriteSheet_114: -1818210260
+      VinesSpriteSheet_115: 5961138
+      VinesSpriteSheet_116: -786080328
+      VinesSpriteSheet_117: 864464986
+      VinesSpriteSheet_118: -1989154745
+      VinesSpriteSheet_119: -1494348213
+      VinesSpriteSheet_12: -1191834782
+      VinesSpriteSheet_120: 1186320504
+      VinesSpriteSheet_13: 1548879395
+      VinesSpriteSheet_14: -1243215220
+      VinesSpriteSheet_15: 1463927973
+      VinesSpriteSheet_16: -2031319988
+      VinesSpriteSheet_17: 1649169490
+      VinesSpriteSheet_18: -1726971884
+      VinesSpriteSheet_19: -287511003
+      VinesSpriteSheet_2: 324765135
+      VinesSpriteSheet_20: 1874208126
+      VinesSpriteSheet_21: -203729755
+      VinesSpriteSheet_22: 161405826
+      VinesSpriteSheet_23: 999773304
+      VinesSpriteSheet_24: 1130476189
+      VinesSpriteSheet_25: -1288357920
+      VinesSpriteSheet_26: 916734160
+      VinesSpriteSheet_27: -1178321898
+      VinesSpriteSheet_28: -1415729829
+      VinesSpriteSheet_29: -1934444310
+      VinesSpriteSheet_3: -1716246802
+      VinesSpriteSheet_30: -498885730
+      VinesSpriteSheet_31: -443845776
+      VinesSpriteSheet_32: -99163683
+      VinesSpriteSheet_33: -1576322660
+      VinesSpriteSheet_34: -906998201
+      VinesSpriteSheet_35: 1826734172
+      VinesSpriteSheet_36: -2055562652
+      VinesSpriteSheet_37: -1225875279
+      VinesSpriteSheet_38: 1116531660
+      VinesSpriteSheet_39: -930087925
+      VinesSpriteSheet_4: -279767263
+      VinesSpriteSheet_40: 946489733
+      VinesSpriteSheet_41: -275288740
+      VinesSpriteSheet_42: -982841357
+      VinesSpriteSheet_43: 1617365843
+      VinesSpriteSheet_44: 1167592476
+      VinesSpriteSheet_45: -1390790492
+      VinesSpriteSheet_46: -1169736916
+      VinesSpriteSheet_47: -816187605
+      VinesSpriteSheet_48: 4309661
+      VinesSpriteSheet_49: -619661069
+      VinesSpriteSheet_5: -1545281828
+      VinesSpriteSheet_50: 1032127699
+      VinesSpriteSheet_51: -391783324
+      VinesSpriteSheet_52: 1261031750
+      VinesSpriteSheet_53: -1444828370
+      VinesSpriteSheet_54: 1694193268
+      VinesSpriteSheet_55: 469114752
+      VinesSpriteSheet_56: 35728203
+      VinesSpriteSheet_57: 1506293758
+      VinesSpriteSheet_58: -1117831804
+      VinesSpriteSheet_59: -1924742249
+      VinesSpriteSheet_6: 1091079068
+      VinesSpriteSheet_60: 1072035877
+      VinesSpriteSheet_61: 905754027
+      VinesSpriteSheet_62: -595007793
+      VinesSpriteSheet_63: -90288015
+      VinesSpriteSheet_64: 790209776
+      VinesSpriteSheet_65: -2006263384
+      VinesSpriteSheet_66: 1288491612
+      VinesSpriteSheet_67: 96069809
+      VinesSpriteSheet_68: -425516566
+      VinesSpriteSheet_69: 915155335
+      VinesSpriteSheet_7: 669331893
+      VinesSpriteSheet_70: 1016277668
+      VinesSpriteSheet_71: 784354587
+      VinesSpriteSheet_72: -1967626706
+      VinesSpriteSheet_73: -374601386
+      VinesSpriteSheet_74: -1866280794
+      VinesSpriteSheet_75: -1229443657
+      VinesSpriteSheet_76: 1683529104
+      VinesSpriteSheet_77: 131401968
+      VinesSpriteSheet_78: 484668017
+      VinesSpriteSheet_79: 1524937996
+      VinesSpriteSheet_8: 69559865
+      VinesSpriteSheet_80: -1256005169
+      VinesSpriteSheet_81: 666308093
+      VinesSpriteSheet_82: -1621556877
+      VinesSpriteSheet_83: 1846007316
+      VinesSpriteSheet_84: -1115249893
+      VinesSpriteSheet_85: -878561984
+      VinesSpriteSheet_86: -30053851
+      VinesSpriteSheet_87: 684863258
+      VinesSpriteSheet_88: -907097985
+      VinesSpriteSheet_89: -845135657
+      VinesSpriteSheet_9: -896126383
+      VinesSpriteSheet_90: 1142883593
+      VinesSpriteSheet_91: -882316266
+      VinesSpriteSheet_92: 809732566
+      VinesSpriteSheet_93: -1983386338
+      VinesSpriteSheet_94: -1306029836
+      VinesSpriteSheet_95: -2035693204
+      VinesSpriteSheet_96: 261991448
+      VinesSpriteSheet_97: -431759370
+      VinesSpriteSheet_98: 1695274348
+      VinesSpriteSheet_99: 1333652097
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

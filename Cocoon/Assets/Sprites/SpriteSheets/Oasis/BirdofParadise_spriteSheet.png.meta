@@ -1,0 +1,1535 @@
+fileFormatVersion: 2
+guid: 6da880fd61923834a9239b1e4c7096c0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed91998f5b08d214f9e3280c51d7d988
+      internalID: 1541541821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5243746ca217bdc45bb593e214b20f3b
+      internalID: 594631155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14c1773604de7e4eaf451cd5581d40f
+      internalID: -1978380279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0d04784a1259a45aee8ba94c83c254
+      internalID: 825927078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5093934b24ff0849a1b98eb25afc55d
+      internalID: -138174578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f27dd17e9abb94ca60d0b93a662c88
+      internalID: 679258187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32af5a2ae0e26cf41b796e70a245158d
+      internalID: -878264162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f5b33cf95ece04a8355d74876a20a2
+      internalID: 318224979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b9233e5712ba04d86754553f6a366e
+      internalID: 1426733410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7444dfbfb38bc594d9b045cff725d404
+      internalID: -570764058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7081c1655ce8a4bbb9028a620e6730
+      internalID: -1267536057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0e61562185f8240b30af9efbf2dd4b
+      internalID: 266627532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71552bfb574d9854eaa5e5ff534f5928
+      internalID: -1472113155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee7fac2a01fc444c93042c8e41e47e1
+      internalID: 616054684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4f82797808db44aa699335ac3762a2
+      internalID: -1916650071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def2eec904669ae41b1d61c0c24769a9
+      internalID: 1162476568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1be37e47273d941aa5356ccccb6435
+      internalID: 301128207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c391328ce93cf0243b583462b659c31f
+      internalID: -992638994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce456b4364cc60443a697f6fdbd522ab
+      internalID: -546489696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f30ed58759e7c42b856028b5a6096e
+      internalID: -1286608066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521fc03131815de48b0e1e218d7a3710
+      internalID: -308528878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f13eba3dbcbea49a766ad03592e80d
+      internalID: -2047685643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e312a2f619dbe49a6e30c1c849b5e1
+      internalID: -1399050733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b48a313662ce34390ad296ddbe85e4
+      internalID: -1809782469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b504ec13521dfc841967c830ab7a8dfa
+      internalID: 1548719933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e5b872eef324348b0b1ce22056a238
+      internalID: 1716564419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc6668faaa8db347930670c87966448
+      internalID: -791402058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c9d1ce0fbedc54d962e1309bced33f
+      internalID: -333603209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e160518e8751934b8cefbf77a7d7577
+      internalID: -763220395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96081f35eebfdc841a74039fbe14e0b7
+      internalID: -2135223635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797a4e79e2326004c9a08e27c0c601e3
+      internalID: 1540935477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9593be36403dcd64a8d8e4b6422f9412
+      internalID: -2133231361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33543b1661e464e49b719396579d072d
+      internalID: -1571915311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56aa4e703ac3d647ba6532ba0dc4b5d
+      internalID: 2096883391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5b0475d4d769e4794782a61e2bc0f3
+      internalID: 1042328130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd2812fc545b5d4eab034a37b3f4204
+      internalID: -2143618471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee531408b9b81b45a0d18d4794f1564
+      internalID: 2091645190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148bdca2f97a2784ca02913dcd2e04cc
+      internalID: 976213778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0252d841f657b7741ac87266804a00eb
+      internalID: 335843122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cfdafae9cbbc94a873bfc1816d5a0b
+      internalID: -1632651770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d201c36eb05ccff47ad2dbb8dbf515fd
+      internalID: 1929625956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ad4912ce0f9fa49a603e116adce34e
+      internalID: -200099024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae943ab71642c8f40a920378bb40e449
+      internalID: 2016009440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4808f435e5f5d844ba0f61545c0d3e2
+      internalID: 1626328138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ea1c741c58c574eb69ed22f7f39725
+      internalID: 1538021122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38131d7b61ad41468544bceea822a95
+      internalID: 1788452621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0400f86badcd3848ad985e942a7a6b1
+      internalID: -1928757469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fdaf39b5972af44ab03a4969051c0e
+      internalID: -1380238656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903e3527b8d059842979db716b1e7d09
+      internalID: 850029778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a21f56a9e067b49ba71dcef2928180
+      internalID: -1735792722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26edba39040cfa54a8f20013f19d4356
+      internalID: 505931655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834aa1cb6ad519b478f84753ad0ca6c1
+      internalID: -2066421449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b352c2abb2b84c9438d8cdb4864d1131
+      internalID: -1626627853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7c682df512ba146bb0b8671d37d924
+      internalID: 849462094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684c35e3df287824e937ae0e94f584f2
+      internalID: 1095215164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20e9cf3559f4044da931c172e33847d
+      internalID: -1853085163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f9ba5c0a111ae489920695a1956101
+      internalID: 1091947605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b73306f41bc172438b002dada406db1
+      internalID: -1191137141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a6b7cec32c46443abb23401316bde5
+      internalID: -1225282828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fe17d1b6b6a39489752bee820c9bb9
+      internalID: -2099790974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f55579b1c7e2b48a014d31a0480be9
+      internalID: -142530077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b04f22ee412d7740b7dd0659e71d267
+      internalID: -291982726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55cd1edb1c8b9e4ba3bdfbe08e82a0d
+      internalID: -326427194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdofParadise_spriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5c00c6c69681549a948a8a849f021a
+      internalID: 2035705548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BirdofParadise_spriteSheet_0: 1541541821
+      BirdofParadise_spriteSheet_1: 594631155
+      BirdofParadise_spriteSheet_10: -1267536057
+      BirdofParadise_spriteSheet_11: 266627532
+      BirdofParadise_spriteSheet_12: -1472113155
+      BirdofParadise_spriteSheet_13: 616054684
+      BirdofParadise_spriteSheet_14: -1916650071
+      BirdofParadise_spriteSheet_15: 1162476568
+      BirdofParadise_spriteSheet_16: 301128207
+      BirdofParadise_spriteSheet_17: -992638994
+      BirdofParadise_spriteSheet_18: -546489696
+      BirdofParadise_spriteSheet_19: -1286608066
+      BirdofParadise_spriteSheet_2: -1978380279
+      BirdofParadise_spriteSheet_20: -308528878
+      BirdofParadise_spriteSheet_21: -2047685643
+      BirdofParadise_spriteSheet_22: -1399050733
+      BirdofParadise_spriteSheet_23: -1809782469
+      BirdofParadise_spriteSheet_24: 1548719933
+      BirdofParadise_spriteSheet_25: 1716564419
+      BirdofParadise_spriteSheet_26: -791402058
+      BirdofParadise_spriteSheet_27: -333603209
+      BirdofParadise_spriteSheet_28: -763220395
+      BirdofParadise_spriteSheet_29: -2135223635
+      BirdofParadise_spriteSheet_3: 825927078
+      BirdofParadise_spriteSheet_30: 1540935477
+      BirdofParadise_spriteSheet_31: -2133231361
+      BirdofParadise_spriteSheet_32: -1571915311
+      BirdofParadise_spriteSheet_33: 2096883391
+      BirdofParadise_spriteSheet_34: 1042328130
+      BirdofParadise_spriteSheet_35: -2143618471
+      BirdofParadise_spriteSheet_36: 2091645190
+      BirdofParadise_spriteSheet_37: 976213778
+      BirdofParadise_spriteSheet_38: 335843122
+      BirdofParadise_spriteSheet_39: -1632651770
+      BirdofParadise_spriteSheet_4: -138174578
+      BirdofParadise_spriteSheet_40: 1929625956
+      BirdofParadise_spriteSheet_41: -200099024
+      BirdofParadise_spriteSheet_42: 2016009440
+      BirdofParadise_spriteSheet_43: 1626328138
+      BirdofParadise_spriteSheet_44: 1538021122
+      BirdofParadise_spriteSheet_45: 1788452621
+      BirdofParadise_spriteSheet_46: -1928757469
+      BirdofParadise_spriteSheet_47: -1380238656
+      BirdofParadise_spriteSheet_48: 850029778
+      BirdofParadise_spriteSheet_49: -1735792722
+      BirdofParadise_spriteSheet_5: 679258187
+      BirdofParadise_spriteSheet_50: 505931655
+      BirdofParadise_spriteSheet_51: -2066421449
+      BirdofParadise_spriteSheet_52: -1626627853
+      BirdofParadise_spriteSheet_53: 849462094
+      BirdofParadise_spriteSheet_54: 1095215164
+      BirdofParadise_spriteSheet_55: -1853085163
+      BirdofParadise_spriteSheet_56: 1091947605
+      BirdofParadise_spriteSheet_57: -1191137141
+      BirdofParadise_spriteSheet_58: -1225282828
+      BirdofParadise_spriteSheet_59: -2099790974
+      BirdofParadise_spriteSheet_6: -878264162
+      BirdofParadise_spriteSheet_60: -142530077
+      BirdofParadise_spriteSheet_61: -291982726
+      BirdofParadise_spriteSheet_62: -326427194
+      BirdofParadise_spriteSheet_63: 2035705548
+      BirdofParadise_spriteSheet_7: 318224979
+      BirdofParadise_spriteSheet_8: 1426733410
+      BirdofParadise_spriteSheet_9: -570764058
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

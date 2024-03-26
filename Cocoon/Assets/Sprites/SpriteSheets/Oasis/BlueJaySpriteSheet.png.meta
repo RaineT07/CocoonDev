@@ -1,0 +1,1909 @@
+fileFormatVersion: 2
+guid: 479336ce29c8d07418c7b27cb5167ffe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cb95b2be3b2614b871df70badac52e
+      internalID: -267426578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98847d323d100fa48b423d0eedf6719a
+      internalID: 2027052544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c009f8d90a9f64c88d51c385277607
+      internalID: 961743991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ab63f46dee6f4479ecf17c312d2627
+      internalID: 67411567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541c432ae51a10e4c8cbabc11e4426ac
+      internalID: -1547720398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80174dc2801c1fc4b97573b5fe6dbdf6
+      internalID: 806271824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dea105b8482f1749801b268fccc96a5
+      internalID: -880046370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1fd5118dcb41a42a9db5fcc9dbb23f
+      internalID: -790694756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93055435d1b71c4b86155a48d777c89
+      internalID: -845884472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a22e232c94d9d4bb948bdde3d24d3b
+      internalID: 975573750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393b18318d5c4814c90b3a3367a6c9a8
+      internalID: -1960314491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538d7079ad3b5e044b9f968d4fc580b8
+      internalID: -1890728085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e27f6e7ae12c844b4cb97dc3086e71
+      internalID: -1530222545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419f700d85847b243b321020706f3bd4
+      internalID: -910044396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8b44861986d494ea49638045d028bb
+      internalID: 298205896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b642a4e85bda55247bd04921c0fc4ba3
+      internalID: -1920312211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9cc6a506f4edb4987f8a5036d68fb5
+      internalID: -1306418463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbb2178104540d40a61730ae8c392c8
+      internalID: 557033906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c7bbe6293f6ad41b9e565188768c17
+      internalID: 82445911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb467f292d779340bd9269041af5c7a
+      internalID: 811947458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb93faaea8cd5a41a55da20be3ce425
+      internalID: -1362741469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8606767860dad2241a9b2c8197b66767
+      internalID: -91110254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253f75336e8349c43b41f6d0a75efb69
+      internalID: 283600345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2f805fa58eb214681c395fad57cd50
+      internalID: -235909422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b6bff9b4b289943b6458a53537404f
+      internalID: 742102355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1130e1b8391b339478137dc9a4d13d02
+      internalID: 1562289911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59035ff71b33c2e4c8b5796a48135078
+      internalID: 1656996920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8ac82827ac1ba40a57e0edd70b2583
+      internalID: 1693541203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c4b2c63fb51434a99220e4b85f426b
+      internalID: 258988239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce5054992d57c444b2e9c6019923133
+      internalID: 505640681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95055bee96dbe5f47b76c66f212642fa
+      internalID: 975198685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c282d8fb1859f45479496b3c25598ae5
+      internalID: 472684388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba42b842b420e454682fb181a510c4fa
+      internalID: -1879388368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb724b73b373a7b449189d7e7f9457f0
+      internalID: -1660782978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51f587c9b53d9749b3aee702e03007d
+      internalID: -314003478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfab09cdfb3bb148826abfee0e8189f
+      internalID: -165315352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3731c65274970b24f81c9b4ec2cbc59a
+      internalID: -776448897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e2f98c6616bb74aa4f1823437133ba
+      internalID: -1540984583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf31546779d191249a80d65d82beffa7
+      internalID: -898649339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624484bf1c3fe854b82013953f66c0bb
+      internalID: 666480315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410ee845c4ce6954486cd0bd0e41d0f5
+      internalID: 1443852508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e444849b0e995e45a4466cb615feac2
+      internalID: 147994068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a529c17693aed458da11c469120b6c
+      internalID: -1681103522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de62f28f3ce6daa4aa21550119ead5ba
+      internalID: 1641066201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2109710acad4e479ecd288a7f913ca
+      internalID: -840167902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93a38e31ecfdfd4cbeca788cfc0c4ad
+      internalID: 784169453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39690fd0a2d59bb479b6bd610282cd55
+      internalID: -328289162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84018a21dde6edd4d90036d6822b136f
+      internalID: -10803756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d4251ad9159604cbe915240b610146
+      internalID: 1374125065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcaff0e4b2161714297d4d397f7fe146
+      internalID: 231880121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9678d2478fa83474f8b11bd1016c838c
+      internalID: 1030749598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58a8b67e7acede4ab5a087f58160a4a
+      internalID: -1514505473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863e326e5061ac2479ef9e6082cd225a
+      internalID: -1111208754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9800ccca92c266e48a666c9f30a95d27
+      internalID: -1950229449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59a10f8d6ab9dd43abf264e96c4c627
+      internalID: 227885941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f8d077764fc6d40b501830df39b1e6
+      internalID: -1333776650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b89fa5218983d49b56253e3cd455fc
+      internalID: -2063888823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6dc5d6d3d48484b829cdb9285956dc
+      internalID: 2018608710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85e5705ad0e5254791f0f225746a606
+      internalID: -1573434629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419ee7f736331fd4197d275e7f00562b
+      internalID: -1036891435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c96747fa1e9d8e4bb013a482beddaf4
+      internalID: 140640140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dd396fe838431408016b11321dc0ac
+      internalID: -748112695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1c1a075d6df8d47b5c070d66e8ab57
+      internalID: 2030889299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db866cce43ca6545802a54bcecc7e27
+      internalID: -720031043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fef4ae255d7d114097a26479b7e125b
+      internalID: -586810137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ca05930877223488b66bf93d3298a1
+      internalID: -1696491764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda2e1d29df66094f87240524e1097ac
+      internalID: 1855343240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4426bc5c2f769f4bbf6c2d33ea2ef1c
+      internalID: -1222100372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e908ab3aba21fe1478bd763490fbfca1
+      internalID: -96594817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e072e1997a0d080488070413ac2222da
+      internalID: -910602597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab3a4fd9ec0fe5498e877e3f7299c96
+      internalID: -887436808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0a85f0555a240428be1877e5973ea1
+      internalID: -1330353567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ac2d3f8865b2549b885de5813a8051
+      internalID: 1038487853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0249dbeefea2d3428a4542ee00cb672
+      internalID: -1028963237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feef7414dc1fb724f90465bd27543d0f
+      internalID: 1748223367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68d7cf6d31a317438bd13e945cbdb37
+      internalID: 1341396885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb633575f47623442942cf1daf9c0ee7
+      internalID: 1474673163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee13934b1fb35841a21a4e4b9f5bf89
+      internalID: -183433360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3b4dc57cc7fd54391b5c4541066e97
+      internalID: -291579957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad24f5966ee150f47a53a7f4e3eb271d
+      internalID: 1827607897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueJaySpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd0eef6db5a93c4ab95ee0ed1f34417
+      internalID: 955826914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlueJaySpriteSheet_0: -267426578
+      BlueJaySpriteSheet_1: 2027052544
+      BlueJaySpriteSheet_10: -1960314491
+      BlueJaySpriteSheet_11: -1890728085
+      BlueJaySpriteSheet_12: -1530222545
+      BlueJaySpriteSheet_13: -910044396
+      BlueJaySpriteSheet_14: 298205896
+      BlueJaySpriteSheet_15: -1920312211
+      BlueJaySpriteSheet_16: -1306418463
+      BlueJaySpriteSheet_17: 557033906
+      BlueJaySpriteSheet_18: 82445911
+      BlueJaySpriteSheet_19: 811947458
+      BlueJaySpriteSheet_2: 961743991
+      BlueJaySpriteSheet_20: -1362741469
+      BlueJaySpriteSheet_21: -91110254
+      BlueJaySpriteSheet_22: 283600345
+      BlueJaySpriteSheet_23: -235909422
+      BlueJaySpriteSheet_24: 742102355
+      BlueJaySpriteSheet_25: 1562289911
+      BlueJaySpriteSheet_26: 1656996920
+      BlueJaySpriteSheet_27: 1693541203
+      BlueJaySpriteSheet_28: 258988239
+      BlueJaySpriteSheet_29: 505640681
+      BlueJaySpriteSheet_3: 67411567
+      BlueJaySpriteSheet_30: 975198685
+      BlueJaySpriteSheet_31: 472684388
+      BlueJaySpriteSheet_32: -1879388368
+      BlueJaySpriteSheet_33: -1660782978
+      BlueJaySpriteSheet_34: -314003478
+      BlueJaySpriteSheet_35: -165315352
+      BlueJaySpriteSheet_36: -776448897
+      BlueJaySpriteSheet_37: -1540984583
+      BlueJaySpriteSheet_38: -898649339
+      BlueJaySpriteSheet_39: 666480315
+      BlueJaySpriteSheet_4: -1547720398
+      BlueJaySpriteSheet_40: 1443852508
+      BlueJaySpriteSheet_41: 147994068
+      BlueJaySpriteSheet_42: -1681103522
+      BlueJaySpriteSheet_43: 1641066201
+      BlueJaySpriteSheet_44: -840167902
+      BlueJaySpriteSheet_45: 784169453
+      BlueJaySpriteSheet_46: -328289162
+      BlueJaySpriteSheet_47: -10803756
+      BlueJaySpriteSheet_48: 1374125065
+      BlueJaySpriteSheet_49: 231880121
+      BlueJaySpriteSheet_5: 806271824
+      BlueJaySpriteSheet_50: 1030749598
+      BlueJaySpriteSheet_51: -1514505473
+      BlueJaySpriteSheet_52: -1111208754
+      BlueJaySpriteSheet_53: -1950229449
+      BlueJaySpriteSheet_54: 227885941
+      BlueJaySpriteSheet_55: -1333776650
+      BlueJaySpriteSheet_56: -2063888823
+      BlueJaySpriteSheet_57: 2018608710
+      BlueJaySpriteSheet_58: -1573434629
+      BlueJaySpriteSheet_59: -1036891435
+      BlueJaySpriteSheet_6: -880046370
+      BlueJaySpriteSheet_60: 140640140
+      BlueJaySpriteSheet_61: -748112695
+      BlueJaySpriteSheet_62: 2030889299
+      BlueJaySpriteSheet_63: -720031043
+      BlueJaySpriteSheet_64: -586810137
+      BlueJaySpriteSheet_65: -1696491764
+      BlueJaySpriteSheet_66: 1855343240
+      BlueJaySpriteSheet_67: -1222100372
+      BlueJaySpriteSheet_68: -96594817
+      BlueJaySpriteSheet_69: -910602597
+      BlueJaySpriteSheet_7: -790694756
+      BlueJaySpriteSheet_70: -887436808
+      BlueJaySpriteSheet_71: -1330353567
+      BlueJaySpriteSheet_72: 1038487853
+      BlueJaySpriteSheet_73: -1028963237
+      BlueJaySpriteSheet_74: 1748223367
+      BlueJaySpriteSheet_75: 1341396885
+      BlueJaySpriteSheet_76: 1474673163
+      BlueJaySpriteSheet_77: -183433360
+      BlueJaySpriteSheet_78: -291579957
+      BlueJaySpriteSheet_79: 1827607897
+      BlueJaySpriteSheet_8: -845884472
+      BlueJaySpriteSheet_80: 955826914
+      BlueJaySpriteSheet_9: 975573750
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1909 @@
+fileFormatVersion: 2
+guid: 481b56792d486114fb831fc8ef7e6088
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e8275e40efa6d4ab946507cfdf4b71
+      internalID: -1628287532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82263217d7255c34aa15d368d0fbd830
+      internalID: -1138598254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80855ff15fd626b4faedf22821cf9d1d
+      internalID: -909240884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76500251692223d4bb43dcccf5037482
+      internalID: -893522027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417c674391c034c48a2a3aa1e8d7f244
+      internalID: 162912275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7699ff1c03c53d642bd38b16d1917203
+      internalID: 207769988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324a24bb98aa11740ba7b9a2578e05ba
+      internalID: 10353787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2613852afaf117543bb4640fdd890598
+      internalID: 2094859303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 4480.8887
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee3a1d518a6123419cbcd38abf63f06
+      internalID: -66205389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3879aa57d1a83548bead566039b98c0
+      internalID: 1387469452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6846edebee2192943aa41dd839a52b41
+      internalID: 761791028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f4e7833291ef74cbebdfc78538e299
+      internalID: -1762253845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c563d9cc3039b4da13e733e9ca658d
+      internalID: 57672134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96a7b67c5a92bc408f36e8cd43be8c7
+      internalID: -1671795289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866cfcbb20809b940b7b4f3383e8672d
+      internalID: 1839877362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3db13b1d24411049921884e59a37c1e
+      internalID: -1917814261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faafa4fd8b2fa8e4183ff9d6639a6e05
+      internalID: -1394419024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 3920.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4c0449a0edd8344941a1093cb4f8cd
+      internalID: 1703434774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3e64812d2dc95478968927da5a46e4
+      internalID: 1650374954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a0cb090122d3440afd45ca13d6dd5a
+      internalID: -1531475570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5b0ddc556509448a1ff26b88cab3dd
+      internalID: -199428795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7badcfbed948534ca8d2fa96d041a2a
+      internalID: 297664375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb35d43416cf824aac43b72d4c22b73
+      internalID: 842241469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180dd913aa6def746941252321af9b87
+      internalID: -1084481765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e78d20ee7b3be43b010d8906a163de
+      internalID: 88199952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7048159d922d360488df648df2f3ac31
+      internalID: -1722229259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 3360.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9b26f2a65d941429a300192f423d66
+      internalID: 1959849552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e099514069b324f48b6f90d3ef756aa4
+      internalID: 964049606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5077c55bee9ea42a3fcb65407c4e82
+      internalID: -1492838272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8759f5356c71a4aa03e2a205467172
+      internalID: 1673885388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932176c417a02c94b88c44653eeeada3
+      internalID: -128528864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe4d9b23aa999d4990316583794b3ca
+      internalID: 1145257675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3efa4fff77f6d4cba6e7464f5da482
+      internalID: -46995539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50a1fb7727296b4cbd329f21895b23b
+      internalID: 2003055731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e23a87d2384af4ca9552a5ffd1f822
+      internalID: 1351176492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 2800.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318f11186bb5fc7479ae9e97e2f2ee29
+      internalID: -329929156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bb0426bcca44f44a3d2532a00093e7
+      internalID: 2091529444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107eb2a5e6a4a7046b39575c614ad6ea
+      internalID: 2088329067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e230a9d72a1ae4ab0db9563b317280
+      internalID: -973221300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ceb82c8219c0dd46837b10436bef477
+      internalID: 1544928180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f324c20badee8b46b683ffffe1c3df1
+      internalID: -915298201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fd349cf0b7bd847b384dab40dc93ec
+      internalID: 242787841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f37335c91318242a749bbcdf587270
+      internalID: -1800314163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013996de597ecf542883dd57d70c43d7
+      internalID: -973006246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 2240.889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c991566021816ec4db510dc4cfc43ba7
+      internalID: -1315503133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7be496a58887249b17befb2fde860d
+      internalID: 782304124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3777273e9a2edff4292d7981a973ed91
+      internalID: -387654018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4b1055102f2184480b2a089534f439
+      internalID: -973495232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b64d646f5278845a762c81b8e315b7
+      internalID: 1793420610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7236de572aa21c545a427ac05741bce6
+      internalID: 1600989909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7af964d328fc3246a869cbaec1ae11a
+      internalID: -876613647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c3806cd22714442886a2fbaf9b883f
+      internalID: -138949575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d9eedfbd5aed447b9706c044d200da
+      internalID: -174117830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1680.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914e86fc27299d14dbed077da454662b
+      internalID: 611994292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c35a7bbb64b314499bd2976f2d7788a
+      internalID: -1791473929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7a7ebfcd2736949b6ce987f8b71770
+      internalID: -1352901558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3740f79886942449a542b30322e9d7
+      internalID: 161975884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dcd45819fd4a44f80d9c537a58a2da
+      internalID: -1044944670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88805f0f1433b5a41af1978e9d9c5bd4
+      internalID: 1404396285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1babaaf43e26db544be267cec20960dd
+      internalID: -554554074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5a13d6e7e428d42b23eb44d85408f5
+      internalID: -1407985879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d615371e3a3e9c9479fb45dc770f6497
+      internalID: -1961243322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1120.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f12c91c5b3eccb4a9629fbda099645d
+      internalID: -1965415973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f1b4b6e801ea04986637507049f2fe
+      internalID: -697545694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e39815b2c2223439175a1c28736560
+      internalID: 866998313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14dea64e15402e479806ffd7ebaee1e
+      internalID: -729696677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6db33cf2502f145bc2a27ea853bf63
+      internalID: -1144942486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642335195dc353b4d9efec89052ca5a4
+      internalID: 1153303754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9ee63a06a25f24f8c8cccdddf95525
+      internalID: 1612694611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7944891a7e613b34cbd7beda7091c1cd
+      internalID: 339786087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e3e735b87cab042887d5f78566fb50
+      internalID: -1077280721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 560.8889
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0b0338dac0e924fab61cf198ae37a2
+      internalID: 1728310777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a70bb67f8178884ebac6363195a3aa8
+      internalID: 1069357872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae3541d66c950441ac6bfb193bf5214
+      internalID: 658249744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d9116b1d5adfc4a8380bd213e8a34b
+      internalID: 1107106118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd1ca4cc8cb9f64eaabc5d191acb403
+      internalID: 421174844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2096060298892ac44a758bfbeec0dc75
+      internalID: 999123033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f996d6be57e5034689aab804557a3e7
+      internalID: 1755696314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020847ce76d7b164fb0bd221aaabc6f8
+      internalID: -1640993410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f94c55cf4006448a81bbc4a483f9f7
+      internalID: -1602430776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DandelionSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0.888916
+        width: 560.1111
+        height: 560.1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b4dd472688c1f4ea3476c8d4137ee6
+      internalID: 595224076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cf9c5f58510e232468e6eaa2c33f53a1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DandelionSpriteSheet_0: -1628287532
+      DandelionSpriteSheet_1: -1138598254
+      DandelionSpriteSheet_10: 761791028
+      DandelionSpriteSheet_11: -1762253845
+      DandelionSpriteSheet_12: 57672134
+      DandelionSpriteSheet_13: -1671795289
+      DandelionSpriteSheet_14: 1839877362
+      DandelionSpriteSheet_15: -1917814261
+      DandelionSpriteSheet_16: -1394419024
+      DandelionSpriteSheet_17: 1703434774
+      DandelionSpriteSheet_18: 1650374954
+      DandelionSpriteSheet_19: -1531475570
+      DandelionSpriteSheet_2: -909240884
+      DandelionSpriteSheet_20: -199428795
+      DandelionSpriteSheet_21: 297664375
+      DandelionSpriteSheet_22: 842241469
+      DandelionSpriteSheet_23: -1084481765
+      DandelionSpriteSheet_24: 88199952
+      DandelionSpriteSheet_25: -1722229259
+      DandelionSpriteSheet_26: 1959849552
+      DandelionSpriteSheet_27: 964049606
+      DandelionSpriteSheet_28: -1492838272
+      DandelionSpriteSheet_29: 1673885388
+      DandelionSpriteSheet_3: -893522027
+      DandelionSpriteSheet_30: -128528864
+      DandelionSpriteSheet_31: 1145257675
+      DandelionSpriteSheet_32: -46995539
+      DandelionSpriteSheet_33: 2003055731
+      DandelionSpriteSheet_34: 1351176492
+      DandelionSpriteSheet_35: -329929156
+      DandelionSpriteSheet_36: 2091529444
+      DandelionSpriteSheet_37: 2088329067
+      DandelionSpriteSheet_38: -973221300
+      DandelionSpriteSheet_39: 1544928180
+      DandelionSpriteSheet_4: 162912275
+      DandelionSpriteSheet_40: -915298201
+      DandelionSpriteSheet_41: 242787841
+      DandelionSpriteSheet_42: -1800314163
+      DandelionSpriteSheet_43: -973006246
+      DandelionSpriteSheet_44: -1315503133
+      DandelionSpriteSheet_45: 782304124
+      DandelionSpriteSheet_46: -387654018
+      DandelionSpriteSheet_47: -973495232
+      DandelionSpriteSheet_48: 1793420610
+      DandelionSpriteSheet_49: 1600989909
+      DandelionSpriteSheet_5: 207769988
+      DandelionSpriteSheet_50: -876613647
+      DandelionSpriteSheet_51: -138949575
+      DandelionSpriteSheet_52: -174117830
+      DandelionSpriteSheet_53: 611994292
+      DandelionSpriteSheet_54: -1791473929
+      DandelionSpriteSheet_55: -1352901558
+      DandelionSpriteSheet_56: 161975884
+      DandelionSpriteSheet_57: -1044944670
+      DandelionSpriteSheet_58: 1404396285
+      DandelionSpriteSheet_59: -554554074
+      DandelionSpriteSheet_6: 10353787
+      DandelionSpriteSheet_60: -1407985879
+      DandelionSpriteSheet_61: -1961243322
+      DandelionSpriteSheet_62: -1965415973
+      DandelionSpriteSheet_63: -697545694
+      DandelionSpriteSheet_64: 866998313
+      DandelionSpriteSheet_65: -729696677
+      DandelionSpriteSheet_66: -1144942486
+      DandelionSpriteSheet_67: 1153303754
+      DandelionSpriteSheet_68: 1612694611
+      DandelionSpriteSheet_69: 339786087
+      DandelionSpriteSheet_7: 2094859303
+      DandelionSpriteSheet_70: -1077280721
+      DandelionSpriteSheet_71: 1728310777
+      DandelionSpriteSheet_72: 1069357872
+      DandelionSpriteSheet_73: 658249744
+      DandelionSpriteSheet_74: 1107106118
+      DandelionSpriteSheet_75: 421174844
+      DandelionSpriteSheet_76: 999123033
+      DandelionSpriteSheet_77: 1755696314
+      DandelionSpriteSheet_78: -1640993410
+      DandelionSpriteSheet_79: -1602430776
+      DandelionSpriteSheet_8: -66205389
+      DandelionSpriteSheet_80: 595224076
+      DandelionSpriteSheet_9: 1387469452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
