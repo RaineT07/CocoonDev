@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,10 +113,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 11371.5
-        width: 1624.5
-        height: 1624.5
+        x: 194
+        y: 9738
+        width: 1319
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_1
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 11371.5
-        width: 1624.5
-        height: 1624.5
+        x: 194
+        y: 11362
+        width: 1319
+        height: 1634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_2
       rect:
         serializedVersion: 2
-        x: 3248
-        y: 11371.5
-        width: 1624.5
-        height: 1624.5
+        x: 1818
+        y: 9738
+        width: 1320
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_3
       rect:
         serializedVersion: 2
-        x: 4872
-        y: 11371.5
-        width: 1624.5
-        height: 1624.5
+        x: 1818
+        y: 11362
+        width: 1320
+        height: 1634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_4
       rect:
         serializedVersion: 2
-        x: 6496
-        y: 11371.5
-        width: 1624.5
-        height: 1624.5
+        x: 3443
+        y: 9738
+        width: 1319
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_5
       rect:
         serializedVersion: 2
-        x: 8120
-        y: 11371.5
-        width: 1624.5
-        height: 1624.5
+        x: 3443
+        y: 11362
+        width: 1319
+        height: 1634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_6
       rect:
         serializedVersion: 2
-        x: 9744
-        y: 11371.5
-        width: 1624.5
-        height: 1624.5
+        x: 5067
+        y: 9738
+        width: 1320
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_7
       rect:
         serializedVersion: 2
-        x: 11368
-        y: 11371.5
-        width: 1624.5
-        height: 1624.5
+        x: 5067
+        y: 11362
+        width: 1320
+        height: 1634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 9747.5
-        width: 1624.5
-        height: 1624.5
+        x: 6692
+        y: 9738
+        width: 1319
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_9
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 9747.5
-        width: 1624.5
-        height: 1624.5
+        x: 6692
+        y: 11362
+        width: 1319
+        height: 1634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_10
       rect:
         serializedVersion: 2
-        x: 3248
-        y: 9747.5
-        width: 1624.5
-        height: 1624.5
+        x: 8316
+        y: 9738
+        width: 1320
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_11
       rect:
         serializedVersion: 2
-        x: 4872
-        y: 9747.5
-        width: 1624.5
-        height: 1624.5
+        x: 8316
+        y: 11362
+        width: 1320
+        height: 1634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_12
       rect:
         serializedVersion: 2
-        x: 6496
-        y: 9747.5
-        width: 1624.5
-        height: 1624.5
+        x: 9941
+        y: 9738
+        width: 1319
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_13
       rect:
         serializedVersion: 2
-        x: 8120
-        y: 9747.5
-        width: 1624.5
-        height: 1624.5
+        x: 9941
+        y: 11362
+        width: 1319
+        height: 1634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_14
       rect:
         serializedVersion: 2
-        x: 9744
-        y: 9747.5
-        width: 1624.5
-        height: 1624.5
+        x: 11565
+        y: 9738
+        width: 1320
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_15
       rect:
         serializedVersion: 2
-        x: 11368
-        y: 9747.5
-        width: 1624.5
-        height: 1624.5
+        x: 11565
+        y: 11362
+        width: 1320
+        height: 1634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 8123.5
-        width: 1624.5
-        height: 1624.5
+        x: 194
+        y: 6489
+        width: 1319
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_17
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 8123.5
-        width: 1624.5
-        height: 1624.5
+        x: 194
+        y: 8113
+        width: 1319
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +491,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_18
       rect:
         serializedVersion: 2
-        x: 3248
-        y: 8123.5
-        width: 1624.5
-        height: 1624.5
+        x: 1818
+        y: 6489
+        width: 1320
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_19
       rect:
         serializedVersion: 2
-        x: 4872
-        y: 8123.5
-        width: 1624.5
-        height: 1624.5
+        x: 1818
+        y: 8113
+        width: 1320
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_20
       rect:
         serializedVersion: 2
-        x: 6496
-        y: 8123.5
-        width: 1624.5
-        height: 1624.5
+        x: 3443
+        y: 6489
+        width: 1319
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +554,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_21
       rect:
         serializedVersion: 2
-        x: 8120
-        y: 8123.5
-        width: 1624.5
-        height: 1624.5
+        x: 3443
+        y: 8113
+        width: 1319
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +575,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_22
       rect:
         serializedVersion: 2
-        x: 9744
-        y: 8123.5
-        width: 1624.5
-        height: 1624.5
+        x: 5067
+        y: 6489
+        width: 1320
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +596,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_23
       rect:
         serializedVersion: 2
-        x: 11368
-        y: 8123.5
-        width: 1624.5
-        height: 1624.5
+        x: 5067
+        y: 8113
+        width: 1320
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +617,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6499.5
-        width: 1624.5
-        height: 1624.5
+        x: 6692
+        y: 6489
+        width: 1319
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,10 +638,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_25
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 6499.5
-        width: 1624.5
-        height: 1624.5
+        x: 6692
+        y: 8113
+        width: 1319
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +659,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_26
       rect:
         serializedVersion: 2
-        x: 3248
-        y: 6499.5
-        width: 1624.5
-        height: 1624.5
+        x: 8316
+        y: 6489
+        width: 1320
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,10 +680,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_27
       rect:
         serializedVersion: 2
-        x: 4872
-        y: 6499.5
-        width: 1624.5
-        height: 1624.5
+        x: 8316
+        y: 8113
+        width: 1320
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +701,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_28
       rect:
         serializedVersion: 2
-        x: 6496
-        y: 6499.5
-        width: 1624.5
-        height: 1624.5
+        x: 9941
+        y: 6489
+        width: 1319
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +722,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_29
       rect:
         serializedVersion: 2
-        x: 8120
-        y: 6499.5
-        width: 1624.5
-        height: 1624.5
+        x: 9941
+        y: 8113
+        width: 1319
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -743,10 +743,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_30
       rect:
         serializedVersion: 2
-        x: 9744
-        y: 6499.5
-        width: 1624.5
-        height: 1624.5
+        x: 11565
+        y: 6489
+        width: 1320
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -764,10 +764,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_31
       rect:
         serializedVersion: 2
-        x: 11368
-        y: 6499.5
-        width: 1624.5
-        height: 1624.5
+        x: 11565
+        y: 8113
+        width: 1320
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -785,10 +785,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_32
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4875.5
-        width: 1624.5
-        height: 1624.5
+        x: 194
+        y: 3240
+        width: 1319
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -806,10 +806,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_33
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 4875.5
-        width: 1624.5
-        height: 1624.5
+        x: 194
+        y: 4864
+        width: 1319
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -827,10 +827,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_34
       rect:
         serializedVersion: 2
-        x: 3248
-        y: 4875.5
-        width: 1624.5
-        height: 1624.5
+        x: 1818
+        y: 3240
+        width: 1320
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -848,10 +848,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_35
       rect:
         serializedVersion: 2
-        x: 4872
-        y: 4875.5
-        width: 1624.5
-        height: 1624.5
+        x: 1818
+        y: 4864
+        width: 1320
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -869,10 +869,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_36
       rect:
         serializedVersion: 2
-        x: 6496
-        y: 4875.5
-        width: 1624.5
-        height: 1624.5
+        x: 3443
+        y: 3240
+        width: 1319
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,10 +890,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_37
       rect:
         serializedVersion: 2
-        x: 8120
-        y: 4875.5
-        width: 1624.5
-        height: 1624.5
+        x: 3443
+        y: 4864
+        width: 1319
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -911,10 +911,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_38
       rect:
         serializedVersion: 2
-        x: 9744
-        y: 4875.5
-        width: 1624.5
-        height: 1624.5
+        x: 5067
+        y: 4864
+        width: 1320
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -932,10 +932,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_39
       rect:
         serializedVersion: 2
-        x: 11368
-        y: 4875.5
-        width: 1624.5
-        height: 1624.5
+        x: 6692
+        y: 4864
+        width: 1319
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -953,10 +953,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_40
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3251.5
-        width: 1624.5
-        height: 1624.5
+        x: 8316
+        y: 4864
+        width: 1320
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,10 +974,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_41
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 3251.5
-        width: 1624.5
-        height: 1624.5
+        x: 9941
+        y: 4864
+        width: 1319
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -995,10 +995,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_42
       rect:
         serializedVersion: 2
-        x: 3248
-        y: 3251.5
-        width: 1624.5
-        height: 1624.5
+        x: 11565
+        y: 4864
+        width: 1320
+        height: 1631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1016,10 +1016,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_43
       rect:
         serializedVersion: 2
-        x: 4872
-        y: 3251.5
-        width: 1624.5
-        height: 1624.5
+        x: 5067
+        y: 3240
+        width: 1320
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1037,10 +1037,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_44
       rect:
         serializedVersion: 2
-        x: 6496
-        y: 3251.5
-        width: 1624.5
-        height: 1624.5
+        x: 6692
+        y: 3240
+        width: 1319
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1058,10 +1058,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_45
       rect:
         serializedVersion: 2
-        x: 8120
-        y: 3251.5
-        width: 1624.5
-        height: 1624.5
+        x: 8316
+        y: 3240
+        width: 1320
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1079,10 +1079,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_46
       rect:
         serializedVersion: 2
-        x: 9744
-        y: 3251.5
-        width: 1624.5
-        height: 1624.5
+        x: 9941
+        y: 3240
+        width: 1326
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1100,10 +1100,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_47
       rect:
         serializedVersion: 2
-        x: 11368
-        y: 3251.5
-        width: 1624.5
-        height: 1624.5
+        x: 11565
+        y: 3240
+        width: 1326
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1121,10 +1121,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1627.5
-        width: 1624.5
-        height: 1624.5
+        x: 187
+        y: 1615
+        width: 1326
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1142,10 +1142,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_49
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 1627.5
-        width: 1624.5
-        height: 1624.5
+        x: 1812
+        y: 1615
+        width: 1326
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,10 +1163,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_50
       rect:
         serializedVersion: 2
-        x: 3248
-        y: 1627.5
-        width: 1624.5
-        height: 1624.5
+        x: 3436
+        y: 1615
+        width: 1326
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1184,10 +1184,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_51
       rect:
         serializedVersion: 2
-        x: 4872
-        y: 1627.5
-        width: 1624.5
-        height: 1624.5
+        x: 5061
+        y: 1615
+        width: 1332
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1205,10 +1205,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_52
       rect:
         serializedVersion: 2
-        x: 6496
-        y: 1627.5
-        width: 1624.5
-        height: 1624.5
+        x: 6685
+        y: 1615
+        width: 1333
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1226,10 +1226,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_53
       rect:
         serializedVersion: 2
-        x: 8120
-        y: 1627.5
-        width: 1624.5
-        height: 1624.5
+        x: 8310
+        y: 1615
+        width: 1332
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1247,10 +1247,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_54
       rect:
         serializedVersion: 2
-        x: 9744
-        y: 1627.5
-        width: 1624.5
-        height: 1624.5
+        x: 9934
+        y: 1615
+        width: 1333
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1268,10 +1268,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_55
       rect:
         serializedVersion: 2
-        x: 11368
-        y: 1627.5
-        width: 1624.5
-        height: 1624.5
+        x: 11559
+        y: 1615
+        width: 1332
+        height: 1624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1289,10 +1289,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_56
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3.5
-        width: 1624.5
-        height: 1624.5
+        x: 181
+        y: 0
+        width: 1339
+        height: 1615
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1300,8 +1300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f9ba5c0a111ae489920695a1956101
-      internalID: 1091947605
+      spriteID: e2693fa07a79cef40ac6c1a14dfbd08d
+      internalID: 821845037
       vertices: []
       indices: 
       edges: []
@@ -1310,10 +1310,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_57
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 3.5
-        width: 1624.5
-        height: 1624.5
+        x: 1805
+        y: 0
+        width: 1339
+        height: 1615
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1321,8 +1321,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b73306f41bc172438b002dada406db1
-      internalID: -1191137141
+      spriteID: e305d90a89a91de4cb145e1d7fef31b9
+      internalID: 1547805605
       vertices: []
       indices: 
       edges: []
@@ -1331,10 +1331,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_58
       rect:
         serializedVersion: 2
-        x: 3248
-        y: 3.5
-        width: 1624.5
-        height: 1624.5
+        x: 3430
+        y: 0
+        width: 1339
+        height: 1615
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1342,8 +1342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61a6b7cec32c46443abb23401316bde5
-      internalID: -1225282828
+      spriteID: 5b18123ffd8c6ba4a97a5541bdc01a33
+      internalID: 1739037255
       vertices: []
       indices: 
       edges: []
@@ -1352,10 +1352,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_59
       rect:
         serializedVersion: 2
-        x: 4872
-        y: 3.5
-        width: 1624.5
-        height: 1624.5
+        x: 5054
+        y: 0
+        width: 1339
+        height: 1615
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1363,8 +1363,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3fe17d1b6b6a39489752bee820c9bb9
-      internalID: -2099790974
+      spriteID: aa326ac0f7ae9424bbd0f41693caea0c
+      internalID: 2022199843
       vertices: []
       indices: 
       edges: []
@@ -1373,10 +1373,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_60
       rect:
         serializedVersion: 2
-        x: 6496
-        y: 3.5
-        width: 1624.5
-        height: 1624.5
+        x: 6679
+        y: 0
+        width: 1339
+        height: 1615
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1384,8 +1384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2f55579b1c7e2b48a014d31a0480be9
-      internalID: -142530077
+      spriteID: e542916ee484e5c4da6b496b75fc8a4e
+      internalID: 1881406294
       vertices: []
       indices: 
       edges: []
@@ -1394,10 +1394,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_61
       rect:
         serializedVersion: 2
-        x: 8120
-        y: 3.5
-        width: 1624.5
-        height: 1624.5
+        x: 8303
+        y: 0
+        width: 1339
+        height: 1615
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1405,8 +1405,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b04f22ee412d7740b7dd0659e71d267
-      internalID: -291982726
+      spriteID: 931ed11be73834b429235545080c2203
+      internalID: 29882601
       vertices: []
       indices: 
       edges: []
@@ -1415,10 +1415,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_62
       rect:
         serializedVersion: 2
-        x: 9744
-        y: 3.5
-        width: 1624.5
-        height: 1624.5
+        x: 9928
+        y: 0
+        width: 1339
+        height: 1615
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1426,8 +1426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a55cd1edb1c8b9e4ba3bdfbe08e82a0d
-      internalID: -326427194
+      spriteID: 9b0e4d0d04a116947bacea7298823ec9
+      internalID: 1745822423
       vertices: []
       indices: 
       edges: []
@@ -1436,10 +1436,10 @@ TextureImporter:
       name: BirdofParadise_spriteSheet_63
       rect:
         serializedVersion: 2
-        x: 11368
-        y: 3.5
-        width: 1624.5
-        height: 1624.5
+        x: 11552
+        y: 0
+        width: 1339
+        height: 1615
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1447,8 +1447,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d5c00c6c69681549a948a8a849f021a
-      internalID: 2035705548
+      spriteID: 42b41c12ec87db5488734f6989688b8e
+      internalID: -1716833910
       vertices: []
       indices: 
       edges: []
@@ -1516,15 +1516,15 @@ TextureImporter:
       BirdofParadise_spriteSheet_53: 849462094
       BirdofParadise_spriteSheet_54: 1095215164
       BirdofParadise_spriteSheet_55: -1853085163
-      BirdofParadise_spriteSheet_56: 1091947605
-      BirdofParadise_spriteSheet_57: -1191137141
-      BirdofParadise_spriteSheet_58: -1225282828
-      BirdofParadise_spriteSheet_59: -2099790974
+      BirdofParadise_spriteSheet_56: 821845037
+      BirdofParadise_spriteSheet_57: 1547805605
+      BirdofParadise_spriteSheet_58: 1739037255
+      BirdofParadise_spriteSheet_59: 2022199843
       BirdofParadise_spriteSheet_6: -878264162
-      BirdofParadise_spriteSheet_60: -142530077
-      BirdofParadise_spriteSheet_61: -291982726
-      BirdofParadise_spriteSheet_62: -326427194
-      BirdofParadise_spriteSheet_63: 2035705548
+      BirdofParadise_spriteSheet_60: 1881406294
+      BirdofParadise_spriteSheet_61: 29882601
+      BirdofParadise_spriteSheet_62: 1745822423
+      BirdofParadise_spriteSheet_63: -1716833910
       BirdofParadise_spriteSheet_7: 318224979
       BirdofParadise_spriteSheet_8: 1426733410
       BirdofParadise_spriteSheet_9: -570764058
