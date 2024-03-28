@@ -20,17 +20,27 @@ public class SpriteMovement : MonoBehaviour
         Sin
     };
 
+    public enum TravelType
+    {
+       Horizontal,
+       Vertical,
+       Travel,
+       None
+    };
+
 
     private int currentTargetIndex = 0;
     private bool isFacingRight = false;
+    public SpriteRenderer spriteRenderer;
 
 
-  
+
     public enum xAlign { Left, Center, Right, Whole};
     public enum yAlign {Top, Center, Bottom, Whole};
 
     public xAlign HorizontalAlignment;
     public yAlign VerticalAlignment;
+    public TravelType travelType;
 
     public PathType pathType;
 
@@ -38,8 +48,10 @@ public class SpriteMovement : MonoBehaviour
 
     public int targets = 4;
     private Vector3[] targetPositions;// = new Vector3[targets]; // 4 target positions
-
+   // public bool isTraveling;
     float count = 0.0f;
+
+    
 
     void Start()
     {
@@ -49,10 +61,14 @@ public class SpriteMovement : MonoBehaviour
         targetPositions = new Vector3[targets];
         speed = Random.Range(minSpeed, maxSpeed);
 
-        for (int i = 0; i < targetPositions.Length; i++)
-        {
-            targetPositions[i] = GetRandomScreenPosition();
+        if(travelType==TravelType.Travel ) {
+            for (int i = 0; i < targetPositions.Length; i++)
+            {
+                targetPositions[i] = GetRandomScreenPosition();
+            }
         }
+
+        
         transform.position = targetPositions[currentTargetIndex];
 
 
@@ -132,6 +148,27 @@ public class SpriteMovement : MonoBehaviour
         p += ttt * p3; // t^3 * p3
 
         return p;
+    }
+
+    void SinLine() { }
+
+    void UpdateFacingDirection()
+    {
+        Vector3 currentDirection = (targetPositions[currentTargetIndex] - transform.position).normalized;
+        isFacingRight = currentDirection.x > 0;
+        spriteRenderer.flipX = isFacingRight; // Flip the sprite based on the current facing direction
+        //previousDirection = currentDirection;
+        Debug.Log(isFacingRight);
+    }
+
+    // Check the initial facing direction based on the first movement
+    void CheckInitialFacingDirection()
+    {
+        Vector3 currentDirection = (targetPositions[currentTargetIndex] - transform.position).normalized;
+        isFacingRight = currentDirection.x > 0;
+        spriteRenderer.flipX = isFacingRight; // Flip the sprite based on the initial facing direction
+       // previousDirection = currentDirection;
+        Debug.Log(isFacingRight);
     }
 
 

@@ -10,14 +10,14 @@ public class ButterflyMovement : MonoBehaviour
     public int targets = 4;
 
     private float speed;
-    private Vector3[] targetPositions;// = new Vector3[targets]; // 4 target positions
+    private Vector3[] targetPositions = new Vector3[4]; // 4 target positions
     private int currentTargetIndex = 0;
     private Vector3 previousDirection;
     private bool isFacingRight = false;
 
     void Start()
     {
-        targetPositions = new Vector3[targets];
+        //targetPositions = new Vector3[targets];
         // Randomize the speed of the butterfly
         speed = Random.Range(minSpeed, maxSpeed);
 

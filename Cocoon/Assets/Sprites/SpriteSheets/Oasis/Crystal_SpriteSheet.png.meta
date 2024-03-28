@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: d24434dbd0bb06546a5366920ffedc57
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae41979eb317fa4449aaeb6722a1feff
+      internalID: -1292905089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405bcf3a34916e5419c82d6d0be4abe8
+      internalID: -1978725150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16b7b8985cf71347afa3ef3669b2b91
+      internalID: 872488366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38a0f182afed6c40bcdb2582f0f412f
+      internalID: 1649054471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88797ecc5ecc5aa448d67586e95d06fb
+      internalID: 390106583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b56768353127540841db5022f3a288
+      internalID: -239954080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be0c2ab87a37474791488d5af1fb883
+      internalID: 1351464768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 11371.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b117818cc6a39d4889d3e4c428b99a3
+      internalID: 1110368733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d1d35b4c86aef47ad1a006d653ab34
+      internalID: 1792372970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7ce6b7aa204824a843ae620624b174
+      internalID: -638371134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcd7a2f18bf1a74583f55a949b11f7c
+      internalID: -1494589363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2411d4cafe5f33b479e4ad784eecea04
+      internalID: -1956692982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f7640fe4918e74f9bfac59f29aeda6
+      internalID: 527629410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bb7a2101ee947448fed12a74f3a31d
+      internalID: 936245014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbad61791b7ebb94eadad4d50b1fb736
+      internalID: -1837710828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 9747.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca34f621df06c841b278a914d40a687
+      internalID: -1090083817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3421d5c828cfe2a4ca6cfef891e8bbce
+      internalID: 1588712752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590d0c84b30d62d40ad5dce71b9aca64
+      internalID: 1778425643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5146456ccf4f3408b17eccf89e9816
+      internalID: 692356768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f078b8e0c8e2c4e802ca9045c87f84
+      internalID: 1444944923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d56cd649a8aead4c8e809ad71e42377
+      internalID: 1890903527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee818ade5bbbec4ababa8b27d803e26
+      internalID: -405989172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63e6bd0a02ae7449b1f049c44065205
+      internalID: -1799475848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 8123.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f714355661841e49ac5ea54a57d34be
+      internalID: 934989726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933691212b8447b46bf092029deb2c50
+      internalID: -1722851488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb0a4a01c026424e894b0f71cc75d46
+      internalID: -1018178199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83eec0d86f67ad4f8d46043787ab960
+      internalID: -2015899378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6f4697fea06fe44af6a7dea1441981
+      internalID: -126992726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764de1028fecd134cb5fb1e0c7613518
+      internalID: 166172771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f51399f825fef4f97c457518eea7e4
+      internalID: 1114440812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd362e888d7e994fb870705a83270e7
+      internalID: -1616359843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 6499.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307af42eba77c7a4ea60dbf1ac423e9b
+      internalID: -1347797696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7363a8a3cbb7c4d99d7d7d535ab6af
+      internalID: -458951811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ca4973f51788242acb5b674512fc23
+      internalID: 653790810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac61c2eaec4ff6c458a523b07eccde85
+      internalID: -1774562398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4791796377a1a944f9151a8590a2d1ba
+      internalID: 1381734209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b248ca1b268f342879bf6fe507cd1a
+      internalID: -1543867496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ffcea10140fa04aa658eef4dcdf9a1
+      internalID: -93617761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cbb305a2ba64c4995280f27cb5afb0
+      internalID: -664306795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 4875.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0463cdfc48d725345ab5ba5ad18924f0
+      internalID: 1819436416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43d8f92eb114ba4cbc5c7a554458b84
+      internalID: -333464459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aae753e4c35b54b8daa55c14657911
+      internalID: 2120356251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6699ed19addec44c8ab1a706b7caa7b
+      internalID: 1814836561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47d5481b485b3b44bde225c3f40720e
+      internalID: -443928801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a08d7afdeab8946adcdd29f3b79c1b
+      internalID: -1025076218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2a49632afb46b488de5a367878fae6
+      internalID: -212451317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbc4eb6943814744ac2170cabd185a4
+      internalID: -1724933767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 3251.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a271769a603d99149a0e5033dd56e9eb
+      internalID: -1993660924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3b57f7a4206d04a9143d358d840634
+      internalID: -973908983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0222cff486e15834eaeefd9fc2ac22e1
+      internalID: -293122334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ac8cf029818184198cd31f1c42a06a
+      internalID: 1137295331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e4487efa1806249b847e1b30674472
+      internalID: 1306382460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c2a2c5bd833aa40b00a822c8cf0ef6
+      internalID: 1073365762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 8120
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddde8bc2c6ca484097e0c37e26f4288
+      internalID: 270308052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 9744
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3818adf5261e8469ddcbe828b1c11f
+      internalID: -1424492186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 11368
+        y: 1627.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a010d8c2772f6b342befc197b4476533
+      internalID: -1997439316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5632c47c92b094ab574878c440d82b
+      internalID: -1805082214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db1c74b01ef03140aecacc0f2475d73
+      internalID: -2059090585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fedcbab14d4cb14a982afe016ee0414
+      internalID: 451555135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772972a798b0f5041a1f181312dc6ab9
+      internalID: 1386888158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 3.5
+        width: 1624.5
+        height: 1624.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e5cf7609a6f7348a483d8345823263
+      internalID: 875823058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Crystal_SpriteSheet_0: -1292905089
+      Crystal_SpriteSheet_1: -1978725150
+      Crystal_SpriteSheet_10: -1494589363
+      Crystal_SpriteSheet_11: -1956692982
+      Crystal_SpriteSheet_12: 527629410
+      Crystal_SpriteSheet_13: 936245014
+      Crystal_SpriteSheet_14: -1837710828
+      Crystal_SpriteSheet_15: -1090083817
+      Crystal_SpriteSheet_16: 1588712752
+      Crystal_SpriteSheet_17: 1778425643
+      Crystal_SpriteSheet_18: 692356768
+      Crystal_SpriteSheet_19: 1444944923
+      Crystal_SpriteSheet_2: 872488366
+      Crystal_SpriteSheet_20: 1890903527
+      Crystal_SpriteSheet_21: -405989172
+      Crystal_SpriteSheet_22: -1799475848
+      Crystal_SpriteSheet_23: 934989726
+      Crystal_SpriteSheet_24: -1722851488
+      Crystal_SpriteSheet_25: -1018178199
+      Crystal_SpriteSheet_26: -2015899378
+      Crystal_SpriteSheet_27: -126992726
+      Crystal_SpriteSheet_28: 166172771
+      Crystal_SpriteSheet_29: 1114440812
+      Crystal_SpriteSheet_3: 1649054471
+      Crystal_SpriteSheet_30: -1616359843
+      Crystal_SpriteSheet_31: -1347797696
+      Crystal_SpriteSheet_32: -458951811
+      Crystal_SpriteSheet_33: 653790810
+      Crystal_SpriteSheet_34: -1774562398
+      Crystal_SpriteSheet_35: 1381734209
+      Crystal_SpriteSheet_36: -1543867496
+      Crystal_SpriteSheet_37: -93617761
+      Crystal_SpriteSheet_38: -664306795
+      Crystal_SpriteSheet_39: 1819436416
+      Crystal_SpriteSheet_4: 390106583
+      Crystal_SpriteSheet_40: -333464459
+      Crystal_SpriteSheet_41: 2120356251
+      Crystal_SpriteSheet_42: 1814836561
+      Crystal_SpriteSheet_43: -443928801
+      Crystal_SpriteSheet_44: -1025076218
+      Crystal_SpriteSheet_45: -212451317
+      Crystal_SpriteSheet_46: -1724933767
+      Crystal_SpriteSheet_47: -1993660924
+      Crystal_SpriteSheet_48: -973908983
+      Crystal_SpriteSheet_49: -293122334
+      Crystal_SpriteSheet_5: -239954080
+      Crystal_SpriteSheet_50: 1137295331
+      Crystal_SpriteSheet_51: 1306382460
+      Crystal_SpriteSheet_52: 1073365762
+      Crystal_SpriteSheet_53: 270308052
+      Crystal_SpriteSheet_54: -1424492186
+      Crystal_SpriteSheet_55: -1997439316
+      Crystal_SpriteSheet_56: -1805082214
+      Crystal_SpriteSheet_57: -2059090585
+      Crystal_SpriteSheet_58: 451555135
+      Crystal_SpriteSheet_59: 1386888158
+      Crystal_SpriteSheet_6: 1351464768
+      Crystal_SpriteSheet_60: 875823058
+      Crystal_SpriteSheet_7: 1110368733
+      Crystal_SpriteSheet_8: 1792372970
+      Crystal_SpriteSheet_9: -638371134
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
